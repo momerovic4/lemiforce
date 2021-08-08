@@ -24,12 +24,13 @@ class PitanjeAdapter (
         holder.cbOdgovor.text = odgovori[position].toString()
     }
 
-    fun UpdateOdgovore(odgovori: MutableList<String>) {
+    fun updateOdgovore(odgovori: MutableList<String>) {
        this.odgovori = odgovori
         notifyDataSetChanged()
     }
     inner class PitanjeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val cbOdgovor: CheckBox = itemView.findViewById(R.id.cb)
+        fun isChecked() : Boolean = cbOdgovor.isChecked
     }
 }
 

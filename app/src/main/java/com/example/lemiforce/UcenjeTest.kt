@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ListView
+import androidx.core.view.children
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lemiforce.adapter.PitanjeAdapter
@@ -14,6 +16,7 @@ import com.example.lemiforce.model.Pitanje
 class UcenjeTest : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var odgovorAdapter : PitanjeAdapter
+    private lateinit var btnSimulacija : Button
     private var brojPitanja: Int = 1
     private var pitanje: Pitanje? = null
 
@@ -22,7 +25,7 @@ class UcenjeTest : AppCompatActivity() {
         setContentView(R.layout.ucenje_test)
 
         var odgovori = listOf<String>("Odgovor broj jedan","Odgovor broj dva koji je malo duzi nego inace pa da vidim kako ce ovo raditi","Jos jedan odgovor","E sad je ovaj odgovor drama dug, tako da ako ovo bude rega bilo, onda ce sve biti rega jer je ovaj haos dug, brand new Richard milli cost a milly shoutout to my boy pacci")
-
+        btnSimulacija = findViewById(R.id.btnSimulacija)
         recyclerView = findViewById(R.id.rwOdgovori)
 
         var manager = GridLayoutManager(this,1)
@@ -31,5 +34,12 @@ class UcenjeTest : AppCompatActivity() {
 
         odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>){}
         recyclerView.adapter = odgovorAdapter
+    }
+
+    fun pokupiOdgovore(view: View) {
+        for (child in recyclerView.children) {
+            if (odgovorAdapter.PitanjeViewHolder(child).isChecked())
+                println("CHECKIRAN ${recyclerView.getChildAdapterPosition(child)}")
+        }
     }
 }
