@@ -1,5 +1,7 @@
 package com.example.lemiforce
 
+import android.annotation.SuppressLint
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,6 +11,7 @@ import android.widget.Button
 import android.widget.ListView
 import android.widget.TextView
 import androidx.core.view.children
+import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lemiforce.adapter.PitanjeAdapter
@@ -38,16 +41,19 @@ class UcenjeTest : AppCompatActivity() {
         setUpPitanje()
     }
 
+    @SuppressLint("ResourceType")
     fun pokupiOdgovore(view: View) {
         var odgovreni = mutableListOf<Int>()
         for (child in recyclerView.children) {
             if (odgovorAdapter.PitanjeViewHolder(child).isChecked()){
-                println("CHECKIRAN ${recyclerView.getChildAdapterPosition(child)}")
-                odgovreni.add(recyclerView.getChildAdapterPosition(child))
+                val index = recyclerView.getChildAdapterPosition(child)
+                odgovreni.add(index)
+                child.background = Drawable.createFromXml(resources, resources.getXml(R.drawable.red))
             }
         }
-
-
+        for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
+            recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
+        }
     }
 
     fun setUpPitanje() {
