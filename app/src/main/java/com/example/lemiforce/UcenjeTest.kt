@@ -6,10 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 import androidx.core.view.children
 import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
@@ -54,6 +51,33 @@ class UcenjeTest : AppCompatActivity() {
         for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
             recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
         }
+        pitanja[brojPitanja].odgovreni = odgovreni
+        disableClickableAndEnabled()
+    }
+
+    fun disableClickableAndEnabled() {
+        for (child in recyclerView.children) {
+            odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = false
+        }
+        findViewById<Button>(R.id.btnSimulacija).isEnabled = false
+    }
+
+    fun enableClicableAndEnabled() {
+        for (child in recyclerView.children) {
+            odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = true
+        }
+        findViewById<Button>(R.id.btnSimulacija).isEnabled = true
+
+    }
+
+    fun setOdgovoreni(odgovori: List<Int>?){
+        if(odgovori != null){
+            for (child in recyclerView.children) {
+                val index = recyclerView.getChildAdapterPosition(child)
+                if(odgovori.contains(index))
+                odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isChecked = true
+            }
+        }
     }
 
     fun setUpPitanje() {
@@ -71,16 +95,24 @@ class UcenjeTest : AppCompatActivity() {
     }
 
     fun iducePitanje(view: View) {
-        if(brojPitanja != 19){
-            brojPitanja++
-            setUpPitanje()
+        if(pitanja[brojPitanja].odgovreni == null){
+            Toast.makeText(applicationContext,"Prvo provjerite odgovor",Toast.LENGTH_SHORT).show()
+        }else{
+            if(brojPitanja != 19){
+                brojPitanja++
+                setUpPitanje()
+                if(pitanja[brojPitanja].odgovreni == null) enableClicableAndEnabled()
+            }
         }
+
     }
 
     fun prosloPitanje(view: View){
         if(brojPitanja!=0){
             brojPitanja--
             setUpPitanje()
+            disableClickableAndEnabled()
+            setOdgovoreni(pitanja[brojPitanja].odgovreni)
         }
     }
 }
