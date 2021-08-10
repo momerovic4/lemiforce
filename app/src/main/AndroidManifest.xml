@@ -12,6 +12,7 @@
         <activity android:name=".UcenjeTest"></activity>
         <activity android:name=".OdabirKategorije" />
         <activity android:name=".OdabirTest" />
+        <activity android:name=".SimulacijaTest" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

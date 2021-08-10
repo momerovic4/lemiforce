@@ -52,12 +52,17 @@ class OdabirTest : AppCompatActivity() {
         }
 
         simulacijaBtn.setOnClickListener {
-            openTest()
+            openSimulation()
         }
     }
 
     fun openTest() {
         var intent = Intent(this,UcenjeTest::class.java)
+        startActivity(intent)
+    }
+
+    fun openSimulation() {
+        var intent = Intent(this,SimulacijaTest::class.java)
         startActivity(intent)
     }
 }
