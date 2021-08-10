@@ -14,7 +14,7 @@ class OdabirTest : AppCompatActivity() {
 
         var kategorija = intent.getStringExtra("KATEGORIJA")
         println("odabrano je: $kategorija")
-        var txtKategorije: View = findViewById(R.id.txtTextPitanja)
+        var txtKategorije: View = findViewById(R.id.txtPolozili)
         var imgKategorije: View = findViewById(R.id.imgKategorija)
 
         when (kategorija) {
@@ -44,8 +44,8 @@ class OdabirTest : AppCompatActivity() {
             }
         }
 
-        var ucenjeBtn: View = findViewById(R.id.btnUcenje)
-        var simulacijaBtn: View = findViewById(R.id.btnSimulacija)
+        var ucenjeBtn: View = findViewById(R.id.btnNoviTest)
+        var simulacijaBtn: View = findViewById(R.id.btnNazad)
 
         ucenjeBtn.setOnClickListener {
             openTest()

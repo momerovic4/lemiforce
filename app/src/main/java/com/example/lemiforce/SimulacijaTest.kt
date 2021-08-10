@@ -1,13 +1,12 @@
 package com.example.lemiforce
 
 import android.annotation.SuppressLint
-import android.graphics.drawable.Drawable
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.core.view.children
-import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lemiforce.adapter.PitanjeAdapter
@@ -23,12 +22,13 @@ class SimulacijaTest : AppCompatActivity() {
     private var pitanja: List<Pitanje> = viewmodel.getPitanja()
     private lateinit var txtPitanje: TextView
     private lateinit var txtBrojPitanja: TextView
+    private var brTacnih = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.simulacija_test)
 
-        txtPitanje = findViewById(R.id.txtTextPitanja)
+        txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         //btnSimulacija = findViewById(R.id.btnSimulacija)
         recyclerView = findViewById(R.id.rwOdgovori)
@@ -96,6 +96,7 @@ class SimulacijaTest : AppCompatActivity() {
             //todo prikazati rezultate
             zavrsenPokusaj = true
             setUpPitanje()
+            prikupiIPrikaziRezultat()
         }
         findViewById<Button>(R.id.btnProslo).isEnabled = true
     }
@@ -109,5 +110,17 @@ class SimulacijaTest : AppCompatActivity() {
             setUpPitanje()
             //disableClickableAndEnabled()
         }
+    }
+
+    fun prikupiIPrikaziRezultat() {
+        var tacnih = 0
+        for(pitanje in pitanja){
+            if(pitanje.odgovoreni!!.containsAll(pitanje.tacaniOdgovri) && pitanje.tacaniOdgovri.containsAll(pitanje.odgovoreni!!)) tacnih++
+        }
+
+        var intent = Intent(this,PrikazRezultata::class.java)
+        intent.putExtra("OSTVARENIBODOVI",(tacnih.toDouble()/pitanja.size.toDouble())*100)
+        intent.putExtra("BROJPITANJA",pitanja.size)
+        startActivity(intent)
     }
 }

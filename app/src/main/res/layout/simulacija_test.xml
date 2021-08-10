@@ -7,7 +7,7 @@
     tools:context=".SimulacijaTest">
 
     <TextView
-        android:id="@+id/txtTextPitanja"
+        android:id="@+id/txtPolozili"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -87,7 +87,7 @@
         app:layout_constraintBottom_toTopOf="@+id/rwOdgovori"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtTextPitanja"
+        app:layout_constraintTop_toBottomOf="@+id/txtPolozili"
         app:srcCompat="@drawable/znaktest" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

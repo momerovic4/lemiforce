@@ -28,9 +28,9 @@ class UcenjeTest : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ucenje_test)
 
-        txtPitanje = findViewById(R.id.txtTextPitanja)
+        txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
-        btnSimulacija = findViewById(R.id.btnSimulacija)
+        btnSimulacija = findViewById(R.id.btnNazad)
         recyclerView = findViewById(R.id.rwOdgovori)
 
         findViewById<Button>(R.id.btnProslo).isEnabled = false
@@ -59,14 +59,14 @@ class UcenjeTest : AppCompatActivity() {
         for (child in recyclerView.children) {
             odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = false
         }
-        findViewById<Button>(R.id.btnSimulacija).isEnabled = false
+        findViewById<Button>(R.id.btnNazad).isEnabled = false
     }
 
     fun enableClicableAndEnabled() {
         for (child in recyclerView.children) {
             odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = true
         }
-        findViewById<Button>(R.id.btnSimulacija).isEnabled = true
+        findViewById<Button>(R.id.btnNazad).isEnabled = true
 
     }
 
