@@ -1,16 +1,22 @@
 package com.example.lemiforce.adapter
 
+import android.annotation.SuppressLint
+import android.content.Context
+import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.example.lemiforce.R
 
 
 class PitanjeAdapter (
     var odgovori: MutableList<String>,
-    private val onItemClicked: (odgovor: String)->Unit
+    var odgovoreni: List<Int>?,
+    var tacni: List<Int>,
+    var context: Context
 ) : RecyclerView.Adapter<PitanjeAdapter.PitanjeViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PitanjeViewHolder {
@@ -20,7 +26,16 @@ class PitanjeAdapter (
     }
     override fun getItemCount(): Int = odgovori.size
 
+    @SuppressLint("ResourceType")
     override fun onBindViewHolder(holder: PitanjeViewHolder, position: Int) {
+        if(odgovoreni!=null) {
+
+            if(odgovoreni!!.contains(position))holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.red))
+            if(tacni.contains(position)) holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.green))
+
+            if(odgovoreni!!.contains(position)) holder.cbOdgovor.isChecked = true
+            holder.cbOdgovor.isClickable = false
+        }
         holder.cbOdgovor.text = odgovori[position].toString()
     }
 
@@ -29,7 +44,9 @@ class PitanjeAdapter (
         notifyDataSetChanged()
     }
     inner class PitanjeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+
         val cbOdgovor: CheckBox = itemView.findViewById(R.id.cb)
+        val cbCl : ConstraintLayout = itemView.findViewById(R.id.cbcl)
         fun isChecked() : Boolean = cbOdgovor.isChecked
     }
 }

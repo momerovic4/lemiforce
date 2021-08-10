@@ -5,7 +5,6 @@ import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.view.ViewGroup
 import android.widget.*
 import androidx.core.view.children
 import androidx.core.view.get
@@ -14,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lemiforce.adapter.PitanjeAdapter
 import com.example.lemiforce.model.Pitanje
 import com.example.lemiforce.viewmodel.ViewModel
-import org.w3c.dom.Text
 
 class UcenjeTest : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
@@ -35,6 +33,8 @@ class UcenjeTest : AppCompatActivity() {
         btnSimulacija = findViewById(R.id.btnSimulacija)
         recyclerView = findViewById(R.id.rwOdgovori)
 
+        findViewById<Button>(R.id.btnProslo).isEnabled = false
+
         setUpPitanje()
     }
 
@@ -51,7 +51,7 @@ class UcenjeTest : AppCompatActivity() {
         for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
             recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
         }
-        pitanja[brojPitanja].odgovreni = odgovreni
+        pitanja[brojPitanja].odgovoreni = odgovreni
         disableClickableAndEnabled()
     }
 
@@ -70,16 +70,6 @@ class UcenjeTest : AppCompatActivity() {
 
     }
 
-    fun setOdgovoreni(odgovori: List<Int>?){
-        if(odgovori != null){
-            for (child in recyclerView.children) {
-                val index = recyclerView.getChildAdapterPosition(child)
-                if(odgovori.contains(index))
-                odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isChecked = true
-            }
-        }
-    }
-
     fun setUpPitanje() {
         txtPitanje.text = pitanja.get(brojPitanja).text
         txtBrojPitanja.text = "${brojPitanja+1}."
@@ -90,29 +80,36 @@ class UcenjeTest : AppCompatActivity() {
         manager.reverseLayout = true
         recyclerView.layoutManager = manager
 
-        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>){}
+        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja.get(brojPitanja).odgovoreni,pitanja[brojPitanja].tacaniOdgovri,this)
         recyclerView.adapter = odgovorAdapter
     }
 
     fun iducePitanje(view: View) {
-        if(pitanja[brojPitanja].odgovreni == null){
+        if(pitanja[brojPitanja].odgovoreni == null){
             Toast.makeText(applicationContext,"Prvo provjerite odgovor",Toast.LENGTH_SHORT).show()
         }else{
-            if(brojPitanja != 19){
+            //TODO promijeniti brojeve na 20 pitanja
+            if(brojPitanja != 3){
+                if (brojPitanja == 2) findViewById<Button>(R.id.btnIduce).text = "Zavrisi pokusaj"
+                else findViewById<Button>(R.id.btnIduce).text = "iduce"
                 brojPitanja++
                 setUpPitanje()
-                if(pitanja[brojPitanja].odgovreni == null) enableClicableAndEnabled()
+                if(pitanja[brojPitanja].odgovoreni == null) enableClicableAndEnabled()
+            }else{
+                onBackPressed()
             }
+            findViewById<Button>(R.id.btnProslo).isEnabled = true
         }
-
     }
 
     fun prosloPitanje(view: View){
         if(brojPitanja!=0){
+            if (brojPitanja == 1) findViewById<Button>(R.id.btnProslo).isEnabled = false
+            else findViewById<Button>(R.id.btnProslo).isEnabled = true
+            findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja--
             setUpPitanje()
             disableClickableAndEnabled()
-            setOdgovoreni(pitanja[brojPitanja].odgovreni)
         }
     }
 }
