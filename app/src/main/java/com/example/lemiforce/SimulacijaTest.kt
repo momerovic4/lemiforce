@@ -97,7 +97,7 @@ class SimulacijaTest : AppCompatActivity() {
         }else{
             //todo prikazati rezultate
             zavrsenPokusaj = true
-            setUpPitanje()
+//            setUpPitanje()
             prikupiIPrikaziRezultat()
         }
         findViewById<Button>(R.id.btnProslo).isEnabled = true
