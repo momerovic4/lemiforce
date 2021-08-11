@@ -35,4 +35,14 @@ class PrikazRezultata: AppCompatActivity() {
         setResult(Activity.RESULT_OK, intent)
         finish()
     }
+
+    fun zapocniNovi(view: View) {
+        setResult(Activity.RESULT_OK, intent)
+        finish()
+    }
+
+    fun vratiNaIzbor(view: View) {
+        setResult(Activity.RESULT_CANCELED, intent)
+        finish()
+    }
 }

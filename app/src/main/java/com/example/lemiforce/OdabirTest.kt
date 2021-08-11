@@ -1,11 +1,14 @@
 package com.example.lemiforce
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.activity.result.contract.ActivityResultContracts
 
 class OdabirTest : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,13 +59,19 @@ class OdabirTest : AppCompatActivity() {
         }
     }
 
+    var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        if (result.resultCode == Activity.RESULT_CANCELED) {
+            finish()
+        }
+    }
+
     fun openTest() {
         var intent = Intent(this,UcenjeTest::class.java)
-        startActivity(intent)
+        intentLauncher.launch(intent)
     }
 
     fun openSimulation() {
         var intent = Intent(this,SimulacijaTest::class.java)
-        startActivity(intent)
+        intentLauncher.launch(intent)
     }
 }

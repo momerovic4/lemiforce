@@ -114,15 +114,20 @@ class SimulacijaTest : AppCompatActivity() {
     }
 
     var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-        println(result)
         if (result.resultCode == Activity.RESULT_OK) {
-            // There are no request codes
             val data: Intent? = result.data
-            println(data)
-            brojPitanja = data!!.getIntExtra("PRVOPITANJE",0)
-            setUpPitanje()
-            findViewById<Button>(R.id.btnProslo).isEnabled = false
-            findViewById<Button>(R.id.btnIduce).text = "iduce"
+            if(data!!.hasExtra("PRVOPITANJE")) {
+                brojPitanja = data!!.getIntExtra("PRVOPITANJE",0)
+                setUpPitanje()
+                findViewById<Button>(R.id.btnProslo).isEnabled = false
+                findViewById<Button>(R.id.btnIduce).text = "iduce"
+            } else {
+                setResult(Activity.RESULT_OK, intent)
+                finish()
+            }
+        } else {
+            setResult(Activity.RESULT_CANCELED, intent)
+            finish()
         }
     }
 
