@@ -30,10 +30,11 @@ class PitanjeAdapter (
     @SuppressLint("ResourceType")
     override fun onBindViewHolder(holder: PitanjeViewHolder, position: Int) {
         if(odgovoreni!=null) {
-
             if(!simulacija){
-                if(odgovoreni!!.contains(position))holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.red))
-                if(tacni.contains(position)) holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.green))
+                if(odgovoreni!!.contains(position))
+                    holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.red))
+                if(tacni.contains(position))
+                    holder.cbCl.background = Drawable.createFromXml(context.resources, context.resources.getXml(R.drawable.green))
                 holder.cbOdgovor.isClickable = false
             }
             if(odgovoreni!!.contains(position)) holder.cbOdgovor.isChecked = true
@@ -43,10 +44,9 @@ class PitanjeAdapter (
 
     fun updateOdgovore(odgovori: MutableList<String>) {
        this.odgovori = odgovori
-        notifyDataSetChanged()
+       notifyDataSetChanged()
     }
     inner class PitanjeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
         val cbOdgovor: CheckBox = itemView.findViewById(R.id.cb)
         val cbCl : ConstraintLayout = itemView.findViewById(R.id.cbcl)
         fun isChecked() : Boolean = cbOdgovor.isChecked

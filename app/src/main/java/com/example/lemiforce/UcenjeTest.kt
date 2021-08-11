@@ -40,18 +40,18 @@ class UcenjeTest : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     fun pokupiOdgovore(view: View) {
-        var odgovreni = mutableListOf<Int>()
+        var odgovoreni = mutableListOf<Int>()
         for (child in recyclerView.children) {
             if (odgovorAdapter.PitanjeViewHolder(child).isChecked()){
                 val index = recyclerView.getChildAdapterPosition(child)
-                odgovreni.add(index)
+                odgovoreni.add(index)
                 child.background = Drawable.createFromXml(resources, resources.getXml(R.drawable.red))
             }
         }
-        for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
+        for(tacno in pitanja[brojPitanja].tacniOdgovori) {
             recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
         }
-        pitanja[brojPitanja].odgovoreni = odgovreni
+        pitanja[brojPitanja].odgovoreni = odgovoreni
         disableClickableAndEnabled()
     }
 
@@ -80,7 +80,7 @@ class UcenjeTest : AppCompatActivity() {
         manager.reverseLayout = true
         recyclerView.layoutManager = manager
 
-        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja.get(brojPitanja).odgovoreni,pitanja[brojPitanja].tacaniOdgovri,this)
+        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja.get(brojPitanja).odgovoreni,pitanja[brojPitanja].tacniOdgovori,this)
         recyclerView.adapter = odgovorAdapter
     }
 

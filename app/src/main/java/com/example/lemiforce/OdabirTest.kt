@@ -16,7 +16,6 @@ class OdabirTest : AppCompatActivity() {
         setContentView(R.layout.odabir_testa)
 
         var kategorija = intent.getStringExtra("KATEGORIJA")
-        println("odabrano je: $kategorija")
         var txtKategorije: View = findViewById(R.id.txtPolozili)
         var imgKategorije: View = findViewById(R.id.imgKategorija)
 
@@ -46,17 +45,6 @@ class OdabirTest : AppCompatActivity() {
                 (imgKategorije as ImageView).setImageResource(R.drawable.prva_pomoc)
             }
         }
-
-        var ucenjeBtn: View = findViewById(R.id.btnNoviTest)
-        var simulacijaBtn: View = findViewById(R.id.btnNazad)
-
-        ucenjeBtn.setOnClickListener {
-            openTest()
-        }
-
-        simulacijaBtn.setOnClickListener {
-            openSimulation()
-        }
     }
 
     var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -65,12 +53,12 @@ class OdabirTest : AppCompatActivity() {
         }
     }
 
-    fun openTest() {
+    fun openTest(view: View) {
         var intent = Intent(this,UcenjeTest::class.java)
         intentLauncher.launch(intent)
     }
 
-    fun openSimulation() {
+    fun openSimulation(view: View) {
         var intent = Intent(this,SimulacijaTest::class.java)
         intentLauncher.launch(intent)
     }

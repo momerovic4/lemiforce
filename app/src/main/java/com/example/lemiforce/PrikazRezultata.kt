@@ -9,16 +9,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class PrikazRezultata: AppCompatActivity() {
-    private lateinit var btnPregled : Button
-    private lateinit var btnNoviTest : Button
-    private lateinit var btnNazad : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.prikaz_rezultata)
-        btnPregled = findViewById(R.id.btnPregled)
-        btnNoviTest = findViewById(R.id.btnNoviTest)
-        btnNazad = findViewById(R.id.btnNazad)
 
         var procenat = intent.getDoubleExtra("OSTVARENIBODOVI", 0.0)
         var brojPitanja = intent.getIntExtra("BROJPITANJA",40)

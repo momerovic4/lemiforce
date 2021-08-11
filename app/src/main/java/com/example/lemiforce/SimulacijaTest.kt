@@ -81,7 +81,7 @@ class SimulacijaTest : AppCompatActivity() {
         manager.reverseLayout = true
         recyclerView.layoutManager = manager
 
-        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja[brojPitanja].odgovoreni,pitanja[brojPitanja].tacaniOdgovri,this,!zavrsenPokusaj)
+        odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja[brojPitanja].odgovoreni,pitanja[brojPitanja].tacniOdgovori,this,!zavrsenPokusaj)
         recyclerView.adapter = odgovorAdapter
     }
 
@@ -134,7 +134,7 @@ class SimulacijaTest : AppCompatActivity() {
     fun prikupiIPrikaziRezultat() {
         var tacnih = 0
         for(pitanje in pitanja){
-            if(pitanje.odgovoreni!!.containsAll(pitanje.tacaniOdgovri) && pitanje.tacaniOdgovri.containsAll(pitanje.odgovoreni!!)) tacnih++
+            if(pitanje.odgovoreni!!.containsAll(pitanje.tacniOdgovori) && pitanje.tacniOdgovori.containsAll(pitanje.odgovoreni!!)) tacnih++
         }
         var intent = Intent(this,PrikazRezultata::class.java)
         intent.putExtra("OSTVARENIBODOVI",(tacnih.toDouble()/pitanja.size.toDouble())*100)

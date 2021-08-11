@@ -29,6 +29,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="52dp"
         android:background="@color/red2"
+        android:onClick="odaberiKategoriju"
         android:text="ODABERI KATEGORIJU"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

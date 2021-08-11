@@ -9,13 +9,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var floatButton: View = findViewById(R.id.btnOdaberiKategoriju)
-        floatButton.setOnClickListener {
-            odaberiKategoriju()
-        }
     }
 
-    fun odaberiKategoriju(){
+    fun odaberiKategoriju(view: View){
         var intent = Intent(this,OdabirKategorije::class.java)
         startActivity(intent)
     }
