@@ -1,11 +1,13 @@
 package com.example.lemiforce
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.view.children
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -40,18 +42,18 @@ class SimulacijaTest : AppCompatActivity() {
 
     @SuppressLint("ResourceType")
     fun pokupiOdgovore() {
-        var odgovreni = mutableListOf<Int>()
+        var odgovoreni = mutableListOf<Int>()
         for (child in recyclerView.children) {
             if (odgovorAdapter.PitanjeViewHolder(child).isChecked()){
                 val index = recyclerView.getChildAdapterPosition(child)
-                odgovreni.add(index)
+                odgovoreni.add(index)
 //                child.background = Drawable.createFromXml(resources, resources.getXml(R.drawable.red))
             }
         }
 //        for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
 //            recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
 //        }
-        pitanja[brojPitanja].odgovoreni = odgovreni
+        pitanja[brojPitanja].odgovoreni = odgovoreni
 //        disableClickableAndEnabled()
     }
 
@@ -103,12 +105,24 @@ class SimulacijaTest : AppCompatActivity() {
 
     fun prosloPitanje(view: View){
         if(brojPitanja!=0){
-            if (brojPitanja == 1) findViewById<Button>(R.id.btnProslo).isEnabled = false
-            else findViewById<Button>(R.id.btnProslo).isEnabled = true
+            findViewById<Button>(R.id.btnProslo).isEnabled = brojPitanja != 1
             findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja--
             setUpPitanje()
             //disableClickableAndEnabled()
+        }
+    }
+
+    var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+        println(result)
+        if (result.resultCode == Activity.RESULT_OK) {
+            // There are no request codes
+            val data: Intent? = result.data
+            println(data)
+            brojPitanja = data!!.getIntExtra("PRVOPITANJE",0)
+            setUpPitanje()
+            findViewById<Button>(R.id.btnProslo).isEnabled = false
+            findViewById<Button>(R.id.btnIduce).text = "iduce"
         }
     }
 
@@ -117,10 +131,9 @@ class SimulacijaTest : AppCompatActivity() {
         for(pitanje in pitanja){
             if(pitanje.odgovoreni!!.containsAll(pitanje.tacaniOdgovri) && pitanje.tacaniOdgovri.containsAll(pitanje.odgovoreni!!)) tacnih++
         }
-
         var intent = Intent(this,PrikazRezultata::class.java)
         intent.putExtra("OSTVARENIBODOVI",(tacnih.toDouble()/pitanja.size.toDouble())*100)
         intent.putExtra("BROJPITANJA",pitanja.size)
-        startActivity(intent)
+        intentLauncher.launch(intent)
     }
 }

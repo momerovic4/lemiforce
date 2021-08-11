@@ -91,6 +91,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:onClick="zapocniNovi"
         android:text="Novi test"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnNazad"
@@ -99,12 +100,13 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnVidiOdg"
+        android:id="@+id/btnPregled"
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:onClick="vratiNaPregled"
         android:text="Vidi odgovore"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnNoviTest"
@@ -119,6 +121,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="32dp"
+        android:onClick="vratiNaIzbor"
         android:text="Nazad na Pocetak"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

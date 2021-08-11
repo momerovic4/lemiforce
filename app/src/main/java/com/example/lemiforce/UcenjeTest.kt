@@ -90,7 +90,7 @@ class UcenjeTest : AppCompatActivity() {
         }else{
             //TODO promijeniti brojeve na 20 pitanja
             if(brojPitanja != 3){
-                if (brojPitanja == 2) findViewById<Button>(R.id.btnIduce).text = "Zavrisi pokusaj"
+                if (brojPitanja == 2) findViewById<Button>(R.id.btnIduce).text = "Zavrsi pokusaj"
                 else findViewById<Button>(R.id.btnIduce).text = "iduce"
                 brojPitanja++
                 setUpPitanje()
@@ -104,8 +104,7 @@ class UcenjeTest : AppCompatActivity() {
 
     fun prosloPitanje(view: View){
         if(brojPitanja!=0){
-            if (brojPitanja == 1) findViewById<Button>(R.id.btnProslo).isEnabled = false
-            else findViewById<Button>(R.id.btnProslo).isEnabled = true
+            findViewById<Button>(R.id.btnProslo).isEnabled = brojPitanja != 1
             findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja--
             setUpPitanje()
