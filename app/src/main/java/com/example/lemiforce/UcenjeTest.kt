@@ -88,9 +88,8 @@ class UcenjeTest : AppCompatActivity() {
         if(pitanja[brojPitanja].odgovoreni == null){
             Toast.makeText(applicationContext,"Prvo provjerite odgovor",Toast.LENGTH_SHORT).show()
         }else{
-            //TODO promijeniti brojeve na 20 pitanja
-            if(brojPitanja != 3){
-                if (brojPitanja == 2) findViewById<Button>(R.id.btnIduce).text = "Zavrsi pokusaj"
+            if(brojPitanja != pitanja.size){
+                if (brojPitanja == pitanja.size-1) findViewById<Button>(R.id.btnIduce).text = "Zavrsi pokusaj"
                 else findViewById<Button>(R.id.btnIduce).text = "iduce"
                 brojPitanja++
                 setUpPitanje()

@@ -23,22 +23,38 @@ class MainActivity : AppCompatActivity() {
         for (i in 0..listAnot.length()-1){
             var listobject = listAnot.getJSONObject(i).getJSONArray("object")
             var textPitanja = ""
-            var odgovori = listOf<String>()
+            var odgovori = mutableListOf<String>()
             var tacni = mutableListOf<Int>(1)
             var kategorija = ""
-            for (i in 0..listobject.length()-1){
-                var name = listobject.getJSONObject(i).getString("name")
+            var odgtxt = ""
+            for (j in 0..listobject.length()-1){
+                var name = listobject.getJSONObject(j).getString("name")
                 when (name) {
-                    "kategorije" -> {kategorija = listobject.getJSONObject(i).getString("ocr_text")}
-                    "tekst_pitanja" -> {textPitanja = listobject.getJSONObject(i).getString("ocr_text")}
-                    "odgovori" -> {odgovori = listobject.getJSONObject(i).getString("ocr_text").split(";")
-                    }
+                    "kategorije" -> {kategorija = listobject.getJSONObject(j).getString("ocr_text")}
+                    "tekst_pitanja" -> {textPitanja = listobject.getJSONObject(j).getString("ocr_text")}
+                    "odgovori" -> {odgtxt = listobject.getJSONObject(j).getString("ocr_text")}
                 }
             }
-            pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = kategorija))
+
+            textPitanja.trim().replace("\n"," ")
+            odgtxt.replace("\n"," ").trim()
+            odgovori = odgtxt.split(";") as MutableList<String>
+
+            var noviOdg = mutableListOf<String>()
+
+            for(odg in odgovori){
+                if(!odg.trim().equals("")){
+                    var novi = odg.replace("\n"," ").trim()
+                    println("Odgovor je:'"+novi+"'")
+                    noviOdg.add(novi)
+                }
+            }
+            pitanja.add(Pitanje(textPitanja,noviOdg,tacni,kategorija = kategorija))
         }
 
         PitanjaRepo.pitanja = pitanja
+
+        for (i in 0..10) print(pitanja[i].ponudjeniOdgovori)
     }
 
 

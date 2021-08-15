@@ -87,17 +87,14 @@ class SimulacijaTest : AppCompatActivity() {
 
     fun iducePitanje(view: View) {
         pokupiOdgovore()
-        //TODO promijeniti brojeve na 20 pitanja
-        if(brojPitanja != 3){
-            if (brojPitanja == 2) findViewById<Button>(R.id.btnIduce).text = "Predaj test"
+        if(brojPitanja != pitanja.size-1){
+            if (brojPitanja == pitanja.size-2) findViewById<Button>(R.id.btnIduce).text = "Predaj test"
             else findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja++
             setUpPitanje()
             if(pitanja[brojPitanja].odgovoreni == null) enableClicableAndEnabled()
         }else{
-            //todo prikazati rezultate
             zavrsenPokusaj = true
-//            setUpPitanje()
             prikupiIPrikaziRezultat()
         }
         findViewById<Button>(R.id.btnProslo).isEnabled = true

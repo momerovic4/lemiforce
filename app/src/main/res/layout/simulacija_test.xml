@@ -16,7 +16,7 @@
         android:text="Text nekog pitanja? I ovo pitanje je cak malo duze a ti odgovor izaberi?"
         android:textAlignment="viewStart"
         android:textColor="@color/design_default_color_on_secondary"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtBrojPitanja"
