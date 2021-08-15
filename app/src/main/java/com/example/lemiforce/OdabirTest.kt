@@ -11,11 +11,12 @@ import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 
 class OdabirTest : AppCompatActivity() {
+    private var kategorija : String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.odabir_testa)
 
-        var kategorija = intent.getStringExtra("KATEGORIJA")
+        kategorija = intent.getStringExtra("KATEGORIJA")
         var txtKategorije: View = findViewById(R.id.txtPolozili)
         var imgKategorije: View = findViewById(R.id.imgKategorija)
 
@@ -55,11 +56,13 @@ class OdabirTest : AppCompatActivity() {
 
     fun openTest(view: View) {
         var intent = Intent(this,UcenjeTest::class.java)
+        intent.putExtra("KATEGORIJA", kategorija!!.takeLast(1))
         intentLauncher.launch(intent)
     }
 
     fun openSimulation(view: View) {
         var intent = Intent(this,SimulacijaTest::class.java)
+        intent.putExtra("KATEGORIJA", kategorija!!.takeLast(1))
         intentLauncher.launch(intent)
     }
 }

@@ -21,7 +21,7 @@ class SimulacijaTest : AppCompatActivity() {
     private var zavrsenPokusaj: Boolean = false
     private val viewmodel = ViewModel()
     private var brojPitanja: Int = 0
-    private var pitanja: List<Pitanje> = viewmodel.getPitanja()
+    private lateinit var pitanja: List<Pitanje>
     private lateinit var txtPitanje: TextView
     private lateinit var txtBrojPitanja: TextView
     private var brTacnih = 0
@@ -32,7 +32,7 @@ class SimulacijaTest : AppCompatActivity() {
 
         txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
-        //btnSimulacija = findViewById(R.id.btnSimulacija)
+        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA"))
         recyclerView = findViewById(R.id.rwOdgovori)
 
         findViewById<Button>(R.id.btnProslo).isEnabled = false

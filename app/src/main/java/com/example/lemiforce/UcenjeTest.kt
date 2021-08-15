@@ -20,7 +20,7 @@ class UcenjeTest : AppCompatActivity() {
     private lateinit var btnSimulacija : Button
     private val viewmodel = ViewModel()
     private var brojPitanja: Int = 0
-    private var pitanja: List<Pitanje> = viewmodel.getPitanja()
+    private lateinit var pitanja: List<Pitanje>
     private lateinit var txtPitanje: TextView
     private lateinit var txtBrojPitanja: TextView
 
@@ -32,7 +32,7 @@ class UcenjeTest : AppCompatActivity() {
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         btnSimulacija = findViewById(R.id.btnNazad)
         recyclerView = findViewById(R.id.rwOdgovori)
-
+        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA"))
         findViewById<Button>(R.id.btnProslo).isEnabled = false
 
         setUpPitanje()
