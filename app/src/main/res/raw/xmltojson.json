@@ -1,0 +1,1904 @@
+{
+  "annotation": [
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/657278411.jpeg?expires=1644591220&amp;or=0&amp;s=92d93e553f9bb5563fc2dab2d159bb82",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 850,
+            "ymin": 144,
+            "xmax": 937,
+            "ymax": 160
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90658253
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 34,
+            "xmax": 874,
+            "ymax": 54
+          },
+          "ocr_text": "Organizovana kolona pješaka, kada se kreće po kolovozu, mora da se kreće:",
+          "score": 0.536203
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 81,
+            "xmax": 492,
+            "ymax": 138
+          },
+          "ocr_text": "uz desnu ivicu kolovoza u smjeru kretanja\nuz lijevu ivicu kolovoza u smjeru kretanja.",
+          "score": 0.6735252
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1757301805.jpeg?expires=1644591220&amp;or=0&amp;s=f521e26061ef9f1bb1089838800a9883",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 32,
+            "xmax": 616,
+            "ymax": 52
+          },
+          "ocr_text": "Pješak koji gura bicikl po kolovozu mora se kretati:",
+          "score": 0.54763174
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 99,
+            "ymin": 79,
+            "xmax": 498,
+            "ymax": 135
+          },
+          "ocr_text": "uz lijevu ivicu kolovoza u smjeru kretanja;\nuz desnu ivicu kolovoza u smjeru kretanja.",
+          "score": 0.94835126
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 851,
+            "ymin": 142,
+            "xmax": 938,
+            "ymax": 158
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90668523
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1281725870.jpeg?expires=1644591220&amp;or=0&amp;s=f8b7ac4bbe68d780ea778cedaf8ff6b6",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 99,
+            "ymin": 22,
+            "xmax": 939,
+            "ymax": 62
+          },
+          "ocr_text": "Na kojoj udaljenosti od prelaza puta preko željezničke pruge u nivou se postavlja\nznak „Andrejin krst“?",
+          "score": 0.8803999
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 100,
+            "ymin": 98,
+            "xmax": 861,
+            "ymax": 152
+          },
+          "ocr_text": "na udaljenosti od 15 m od najbliže šine;\nna udaljenosti koja ne može biti manja od 3 m niti veća od 10m od najbliže šine.",
+          "score": 0.9618348
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 853,
+            "ymin": 173,
+            "xmax": 940,
+            "ymax": 191
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9079118
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/640812758.jpeg?expires=1644591220&amp;or=0&amp;s=9f2bd3d4dcdb4dd6ad83a84559455bcf",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 13,
+            "xmax": 930,
+            "ymax": 60
+          },
+          "ocr_text": "Kako su dužni postupati pješaci ako im u susret dolazi vozilo sa pravom prvenstva \nprolaza?",
+          "score": 0.86146253
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 86,
+            "ymin": 90,
+            "xmax": 494,
+            "ymax": 146
+          },
+          "ocr_text": "omogućiti vozilu nesmetan prolaz;\nnastaviti se kretati jer pješak ima prednost.",
+          "score": 0.92035735
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 901,
+            "ymin": 162,
+            "xmax": 930,
+            "ymax": 177
+          },
+          "ocr_text": "A,B",
+          "score": 0.90845054
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1876208659.jpeg?expires=1644591220&amp;or=0&amp;s=5c7e64b015fa3402a59e939dcd84dea4",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 889,
+            "ymin": 180,
+            "xmax": 935,
+            "ymax": 199
+          },
+          "ocr_text": "B,C,T",
+          "score": 0.94160116
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 32,
+            "xmax": 746,
+            "ymax": 52
+          },
+          "ocr_text": "Nosivost je dozvoljena masa do koje vozilo smije da se optereti:",
+          "score": 0.7695144
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 90,
+            "xmax": 576,
+            "ymax": 175
+          },
+          "ocr_text": "prema vučnim osobinama vozila;\nprema deklaraciji proizvođača vozila;\nprema deklaraciji proizvođača tereta kojeg prevozi.",
+          "score": 0.92062336
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1202197465.jpeg?expires=1644591220&amp;or=0&amp;s=33f41eeb58c90daae7155879c3244537",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 94,
+            "ymin": 104,
+            "xmax": 933,
+            "ymax": 264
+          },
+          "ocr_text": "upravljati vozilom sa naročitom opreznošću;\nzaustaviti vozilo da bi propustio pješake koji prelaze ili stupaju na pješački prelaz, ili\nnedvosmisleno pokazuju namjeru da pređu preko pješačkog prelaza;\nprilagoditi brzinu vozila, tako da u slučaju potrebe može blagovremeno zaustaviti vozilo i\npropustiti pješake koji prelaze ili stupaju na pješački prelaz ili nedvosmisleno pokazuju\nnamjeru da pređu preko pješačkog prelaza.",
+          "score": 0.91031075
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 275,
+            "xmax": 933,
+            "ymax": 291
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90798455
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 15,
+            "xmax": 933,
+            "ymax": 87
+          },
+          "ocr_text": "Kako treba postupiti vozač kad prilazi vozilom obilježenom pješačkom prelazu na \nkome saobraćaj nije regulisan uređajima za davanje svjetlosnih saobraćajnih \nznakova ni znakovima ovlašćenog lica?",
+          "score": 0.9162629
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1259602698.jpeg?expires=1644591220&amp;or=0&amp;s=fe0fde6ee8f45eadfa012438ff6a975f",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 17,
+            "xmax": 939,
+            "ymax": 62
+          },
+          "ocr_text": "Kako treba postupiti vozač vozila koji nailazi na zaustavljen autobus na kolovozu\nsa dvije saobraćajne trake u koji ulaze ili izlaze djeca?",
+          "score": 0.8878195
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 99,
+            "ymin": 87,
+            "xmax": 588,
+            "ymax": 207
+          },
+          "ocr_text": "povećati brzinu kretanja vozila;\nobavezno zaustaviti vozilo;\nnastaviti kretanje vozilom sa naročitom opreznošću;\nkoristiti zvučni signal.",
+          "score": 0.94272184
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 853,
+            "ymin": 215,
+            "xmax": 938,
+            "ymax": 237
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9394989
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1383618241.jpeg?expires=1644591220&amp;or=0&amp;s=5b8daef9316580e94c33e91f37b96c7c",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 94,
+            "ymin": 21,
+            "xmax": 935,
+            "ymax": 66
+          },
+          "ocr_text": "Vozač koji namjerava da vozilom kojim upravlja izvrši radnju skretanja udesno na\nputu smije započeti takvu radnju samo: (više tačnih odgovora)",
+          "score": 0.71565306
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 87,
+            "ymin": 91,
+            "xmax": 934,
+            "ymax": 241
+          },
+          "ocr_text": "ako se prethodno uvjerio da to može učiniti bez opasnosti za druge učesnike u saobraćaju\nili imovinu;\nako vodi računa o položaju vozila;\nako vodi računa o pravcu i brzini kretanja vozila;\nako upravlja vozilom sa upaljenim dugim svjetlima.",
+          "score": 0.9560213
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 261,
+            "xmax": 935,
+            "ymax": 277
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90830183
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1855700430.jpeg?expires=1644591220&amp;or=0&amp;s=265b7521705b68b29b507afc7aac9307",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 92,
+            "ymin": 11,
+            "xmax": 933,
+            "ymax": 58
+          },
+          "ocr_text": "Ako saobraćajnim znakom nije drugačije određeno, na putu u naselju, vozač ne\nsmije upravljati vozilom brzinom većom od:",
+          "score": 0.6807196
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 92,
+            "ymin": 75,
+            "xmax": 172,
+            "ymax": 125
+          },
+          "ocr_text": "50 km/h;\n40 km/h.",
+          "score": 0.96117455
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 864,
+            "ymin": 142,
+            "xmax": 932,
+            "ymax": 158
+          },
+          "ocr_text": "A,B,C,D",
+          "score": 0.9164204
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1796683730.jpeg?expires=1644591220&amp;or=0&amp;s=d527f1ccf4651c8b355fe57993fa58eb",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 99,
+            "ymin": 31,
+            "xmax": 938,
+            "ymax": 58
+          },
+          "ocr_text": "Na raskrsnici ili u susretu sa drugim vozilom, vozač je dužan propustiti vozilo:",
+          "score": 0.7551095
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 95,
+            "xmax": 944,
+            "ymax": 222
+          },
+          "ocr_text": "koje dolazi sa njegove desne strane, osim ako saobraćajnim znakom na putu nije \ndrugačije određeno; \nkoje se kreće sporije; \nkoje dolazi sa njegove lijeve strane.",
+          "score": 0.8548772
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 852,
+            "ymin": 243,
+            "xmax": 939,
+            "ymax": 259
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9072995
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/819700853.jpeg?expires=1644591220&amp;or=0&amp;s=ba3863d88588898c6b22562c13dd7a78",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 22,
+            "xmax": 938,
+            "ymax": 67
+          },
+          "ocr_text": "Vozač je dužan da propusti sva vozila koja se kreću putem na koji se uključuje sa\nvozilom: (više tačnih odgovora)",
+          "score": 0.675215
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 92,
+            "xmax": 938,
+            "ymax": 232
+          },
+          "ocr_text": "ako je put na koji se uključuje označen saobraćajnim znakom kao put sa prvenstvom\nako se vozilom uključuje sa zemljanog puta na put sa kolovoznim zastorom;\nako se vozilom uključuje sa površine na kojoj se ne odvija saobraćaj;\nako po uključivanju skreće udesno.",
+          "score": 0.8382091
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 850,
+            "ymin": 249,
+            "xmax": 939,
+            "ymax": 268
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9394566
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/194826933.jpeg?expires=1644591220&amp;or=0&amp;s=b28ef4e082522cc0de1d82e21f5ba8d7",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 25,
+            "xmax": 878,
+            "ymax": 64
+          },
+          "ocr_text": "Vozač vozila kome je dat znak za preticanje sa njegove lijeve strane dužan je:\n(više tačnih odgovora)",
+          "score": 0.7080914
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 94,
+            "ymin": 102,
+            "xmax": 705,
+            "ymax": 201
+          },
+          "ocr_text": "pomjeriti vozilo ka desnoj ivici kolovoza;\nne povećavati brzinu kretanja vozila dok ga drugo vozilo pretiče;\nodgovoriti zvučnim znakom upozorenja;",
+          "score": 0.9571629
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 218,
+            "xmax": 934,
+            "ymax": 235
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9072202
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1934772784.jpeg?expires=1644591220&amp;or=0&amp;s=5d799fc99d45144a319b9b0ae482eb8d",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 22,
+            "xmax": 931,
+            "ymax": 67
+          },
+          "ocr_text": "Ako se pored kolovoza nalaze djeca koja ne obraćaju pažnju na kretanje vozila,\nvozač je dužan: (više tačnih odgovora)",
+          "score": 0.5619942
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 98,
+            "xmax": 466,
+            "ymax": 226
+          },
+          "ocr_text": "pomjeriti vozilo ka desnoj ivici kolovoza;\nsmanjiti brzinu kretanja vozila;\nupotrijebiti zvučni znak upozorenja;\npomjeriti vozilo prema sredini kolovoza.",
+          "score": 0.95327616
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 231,
+            "xmax": 931,
+            "ymax": 250
+          },
+          "ocr_text": "А, В, С,D,T",
+          "score": 0.9394146
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1762880869.jpeg?expires=1644591220&amp;or=0&amp;s=42567c26adbb49f4f261849eb31c1efc",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 161,
+            "xmax": 929,
+            "ymax": 180
+          },
+          "ocr_text": "А,В, С, D,T",
+          "score": 0.9387123
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 88,
+            "ymin": 9,
+            "xmax": 928,
+            "ymax": 48
+          },
+          "ocr_text": "Na javnom putu van naselja, u slučaju potrebe zaustavljanja ili parkiranja vozila\nvozač je dužan, zaustaviti ili parkirati vozilo van kolovoza:",
+          "score": 0.72709
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 88,
+            "ymin": 71,
+            "xmax": 444,
+            "ymax": 157
+          },
+          "ocr_text": "uvijek, kada za to postoji mogućnost;\nzavisno od vremenskih prilika;\nsamo u uslovima smanjene vidljivosti.",
+          "score": 0.8039904
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/605279537.jpeg?expires=1644591220&amp;or=0&amp;s=c715d7a6f440d12f601f51685329ef80",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 32,
+            "xmax": 743,
+            "ymax": 47
+          },
+          "ocr_text": "Kada je motorno vozilo na putu dozvoljeno vući pomoću užeta?",
+          "score": 0.83542204
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 87,
+            "xmax": 691,
+            "ymax": 179
+          },
+          "ocr_text": "kad su ispravni uređaji za upravljanje i uređaji za zaustavljanje;\nzavisno od vremenskih prilika;\nkad je ispravan samo uređaj za zaustavljanje.",
+          "score": 0.9141461
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 906,
+            "ymin": 188,
+            "xmax": 935,
+            "ymax": 204
+          },
+          "ocr_text": "B,C",
+          "score": 0.93192184
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1950085418.jpeg?expires=1644591220&amp;or=0&amp;s=aee192645f2705a6548e0938bc8ab60f",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 100,
+            "ymin": 90,
+            "xmax": 558,
+            "ymax": 236
+          },
+          "ocr_text": "izvršiti radnju skretanja smanjenom brzinom;\nobavezno se zaustaviti;\nne ugroziti pješake koji su već stupili na kolovoz;\nupravljati vozilom sa naročitom opreznošću.",
+          "score": 0.95060813
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 852,
+            "ymin": 242,
+            "xmax": 938,
+            "ymax": 261
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9393419
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 100,
+            "ymin": 18,
+            "xmax": 939,
+            "ymax": 63
+          },
+          "ocr_text": "Vozač koji vrši radnju skretanja vozilom na bočni put na čijem ulazu ne postoji\nobilježen pješački prelaz dužan je: (više tačnih odgovora)",
+          "score": 0.7708819
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1388248897.jpeg?expires=1644591220&amp;or=0&amp;s=44f9fd0955ad0b9200cb201983ac6884",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 850,
+            "ymin": 185,
+            "xmax": 938,
+            "ymax": 206
+          },
+          "ocr_text": "А, В, С,D, T",
+          "score": 0.93870974
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 18,
+            "xmax": 937,
+            "ymax": 59
+          },
+          "ocr_text": "Učesnici u saobraćaju pred prelazom puta preko željezničke pruge u istom nivou,\nako se uređaj za zatvaranje saobraćaja počeo spuštati dužni su:",
+          "score": 0.60391736
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 81,
+            "xmax": 381,
+            "ymax": 179
+          },
+          "ocr_text": "smanjiti brzinu kretanja vozila;\nzaustaviti se;\npožuriti sa prelaskom.",
+          "score": 0.8590875
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/243631349.jpeg?expires=1644591220&amp;or=0&amp;s=8238abc91132b6fa0a33326204c0741e",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 892,
+            "ymin": 178,
+            "xmax": 941,
+            "ymax": 194
+          },
+          "ocr_text": "B,C,D",
+          "score": 0.9341716
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 101,
+            "ymin": 23,
+            "xmax": 942,
+            "ymax": 62
+          },
+          "ocr_text": "Da li je dozvoljeno da se na autoput uključi motorno vozilo koje vuče drugo motorno\nvozilo koje zbog neispravnosti ne može da se kreće?",
+          "score": 0.619615
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 102,
+            "ymin": 89,
+            "xmax": 426,
+            "ymax": 169
+          },
+          "ocr_text": "ne; \nsamo u uslovima dobre vidljivosti; \nda.",
+          "score": 0.94387066
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/2043529359.jpeg?expires=1644591220&amp;or=0&amp;s=fb81302d5967b01cd776a03f1f929f72",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 23,
+            "xmax": 937,
+            "ymax": 72
+          },
+          "ocr_text": "Lice koje je učestvovalo u saobraćajnoj nezgodi u kojoj ima poginulih ili \npovrijeđenih lica ili je nastala veća materijalna šteta, dok se ne izvrši uviđaj:",
+          "score": 0.50213206
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 81,
+            "xmax": 868,
+            "ymax": 138
+          },
+          "ocr_text": "ne smije konzumirati alkohol; \nsmije konzumirati alkohol do količine od 0,3 g/kg.",
+          "score": 0.8049669
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 851,
+            "ymin": 145,
+            "xmax": 938,
+            "ymax": 161
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90693694
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/282991261.jpeg?expires=1644591220&amp;or=0&amp;s=207f191bb057390977e33ee0143e52d1",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 19,
+            "xmax": 936,
+            "ymax": 63
+          },
+          "ocr_text": "Poslije saobraćajne nezgode u kojoj je prouzrokovana samo manja materijalna\nšteta, vozači su dužni? (više tačnih odgovora)",
+          "score": 0.7172599
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 90,
+            "xmax": 780,
+            "ymax": 185
+          },
+          "ocr_text": "ukloniti vozila sa kolovoza i razmijeniti lične podatke;\nnastaviti kretanje vozilom sa naročitom opreznošću;\npopuniti i potpisati obrazac evropskog izvještaja o saobraćajnoj nezgodi.",
+          "score": 0.9330878
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 849,
+            "ymin": 196,
+            "xmax": 935,
+            "ymax": 216
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9388851
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/233300861.jpeg?expires=1644591220&amp;or=0&amp;s=436a83cd05c63635ef264bdd09ac55b8",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 88,
+            "xmax": 123,
+            "ymax": 133
+          },
+          "ocr_text": "ne;\nda.",
+          "score": 0.94366616
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 142,
+            "xmax": 934,
+            "ymax": 161
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9387973
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 22,
+            "xmax": 934,
+            "ymax": 62
+          },
+          "ocr_text": "Da li je vozač dužan da za vrijeme upravljanja motornim vozilom u saobraćaju\nkoristi pomagala koja su mu neophodna da bezbjedno upravlja vozilom?",
+          "score": 0.6018493
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/570798412.jpeg?expires=1644591220&amp;or=0&amp;s=4e72d672fe60209c795ada3d39aedd48",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 9,
+            "xmax": 936,
+            "ymax": 81
+          },
+          "ocr_text": "Lice vozački\nkategoriju/podkategoriju A1, A, B ili C1 ne smije dvije godine od dana izdavanja\nkoje je položilo\nvozačke dozvole da upravlja vozilom: (više tačnih odgovora)",
+          "score": 0.52725255
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 95,
+            "xmax": 501,
+            "ymax": 230
+          },
+          "ocr_text": "na putu sa mokrim kolovozom;\nna autoputu brzinom većom od 120 km/h;\nkoje nije obilježeno posebnim znakom;\nna brzom putu brzinom većom od 90 km/h.",
+          "score": 0.9668368
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 883,
+            "ymin": 245,
+            "xmax": 948,
+            "ymax": 264
+          },
+          "ocr_text": "А, В, С",
+          "score": 0.8536654
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1308289482.jpeg?expires=1644591220&amp;or=0&amp;s=b832dc793eb9a1df0bb83f5f28d109e8",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 94,
+            "ymin": 96,
+            "xmax": 528,
+            "ymax": 186
+          },
+          "ocr_text": "dužan je upotrijebiti zvučni znak upozorenja;\nnije dužan upotrijebiti zvučni znak upozorenja;\nnije regulisano propisom.",
+          "score": 0.9409952
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 842,
+            "ymin": 201,
+            "xmax": 939,
+            "ymax": 221
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9082785
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 19,
+            "xmax": 934,
+            "ymax": 64
+          },
+          "ocr_text": "Da li je vozač dužan kada se danju kreće putem van naselja, prije dolaska na prevoj\nna kome je otežano mimoilaženje upotrijebiti zvučni znak upozorenja?",
+          "score": 0.58284616
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/159932753.jpeg?expires=1644591220&amp;or=0&amp;s=7b95cb9af76b24d9773b7031e5b22200",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 92,
+            "ymin": 12,
+            "xmax": 931,
+            "ymax": 56
+          },
+          "ocr_text": "Da li je dozvoljeno isticanje međunarodne oznake druge države na vozilima\nregistrovanim u Bosni i Hercegovini?",
+          "score": 0.8941243
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 92,
+            "ymin": 76,
+            "xmax": 551,
+            "ymax": 185
+          },
+          "ocr_text": "da; \nne; \nne, ako napuštaju teritoriju Bosne i Hercegovine.",
+          "score": 0.7731006
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 845,
+            "ymin": 199,
+            "xmax": 931,
+            "ymax": 216
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9073079
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1710741954.jpeg?expires=1644591220&amp;or=0&amp;s=566f3287a32873f3ae53304ebb704df7",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 112,
+            "ymin": 15,
+            "xmax": 932,
+            "ymax": 63
+          },
+          "ocr_text": "U kom roku je vlasnik vozila dužan da odjavi vozilo ako je prodato, uništeno ili \notpisano?",
+          "score": 0.7328287
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 101,
+            "ymin": 93,
+            "xmax": 287,
+            "ymax": 185
+          },
+          "ocr_text": "u roku od 15 dana;\nu roku od 30 dana;\nu roku od 12 mjeseci.",
+          "score": 0.93870264
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 846,
+            "ymin": 191,
+            "xmax": 933,
+            "ymax": 208
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9073597
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/644672589.jpeg?expires=1644591220&amp;or=0&amp;s=7e4f73f6d4dfea11af9096279c08fb2a",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 181,
+            "xmax": 934,
+            "ymax": 197
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9074058
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 101,
+            "ymin": 27,
+            "xmax": 560,
+            "ymax": 53
+          },
+          "ocr_text": "Šta se podrazumjeva pod pojmom „kolovoz“?",
+          "score": 0.89934236
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 81,
+            "xmax": 771,
+            "ymax": 171
+          },
+          "ocr_text": "dio površine puta namijenjen prvenstveno za saobraćaj motornih vozila;\ndio bočne strane puta;\ndio puta namijenjen za kretanje pješaka.",
+          "score": 0.93944603
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/34192969.jpeg?expires=1644591220&amp;or=0&amp;s=0dfc13b99062ed3f034ec4e951ea17db",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 85,
+            "ymin": 16,
+            "xmax": 853,
+            "ymax": 59
+          },
+          "ocr_text": "Šta mora učiniti vozač kad prilazi vozilom obilježenom pješačkom prelazu?\n(više tačnih odgovora)",
+          "score": 0.7403802
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 86,
+            "xmax": 930,
+            "ymax": 234
+          },
+          "ocr_text": "upravljati vozilom sa naročitom opreznošću;\nobavezno zaustaviti vozilo;\nvoziti takvom brzinom da u slučaju potrebe može da zaustavi vozilo ispred pješačkog\nprelaza;\nprivremeno zaustaviti vozilo i sačekati odlazak djece.",
+          "score": 0.9177114
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 246,
+            "xmax": 931,
+            "ymax": 261
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90771264
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1829698933.jpeg?expires=1644591220&amp;or=0&amp;s=05ef53fcbae206c1a375dc3a92bd69e7",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 31,
+            "xmax": 873,
+            "ymax": 50
+          },
+          "ocr_text": "Na javnom putu i njegovom zaštitnom pojasu zabranjeno je: (više tačnih odgovora)",
+          "score": 0.8366575
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 96,
+            "xmax": 620,
+            "ymax": 189
+          },
+          "ocr_text": "prodavati proizvode;\nprodavati samo alkoholne proizvode;\npodizati spomenike i postavljati druga spomen-obilježja.",
+          "score": 0.90700847
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 847,
+            "ymin": 202,
+            "xmax": 932,
+            "ymax": 217
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90801394
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/237103610.jpeg?expires=1644591220&amp;or=0&amp;s=5aef11903bdf1968af5127a1f52d907e",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 843,
+            "ymin": 180,
+            "xmax": 930,
+            "ymax": 196
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9074615
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 87,
+            "ymin": 9,
+            "xmax": 929,
+            "ymax": 53
+          },
+          "ocr_text": "Da li je vozaču zabranjeno da za vrijeme upravljanja vozilom u saobraćaju na\njavnom putu koristi mobilni telefon?",
+          "score": 0.7972127
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 89,
+            "ymin": 82,
+            "xmax": 759,
+            "ymax": 169
+          },
+          "ocr_text": "da, osim u slučaju da je mobilni telefon prilagođen upotrebi u vozilu;\nne, ako je vozilo zaustavljeno radi postupanja po saobraćajnom znaku;\nne, ako je vozilo zaustavljeno po znaku i naredbi ovlašćenog lica.",
+          "score": 0.96716857
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/610366071.jpeg?expires=1644591220&amp;or=0&amp;s=431a725a10a33568c3e3db5e9afee805",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 18,
+            "xmax": 931,
+            "ymax": 64
+          },
+          "ocr_text": "Da li vozač smije da mijenja način upravljanja vozilom naglim smanjenjem brzine\nkretanja vozila:",
+          "score": 0.7684798
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 79,
+            "xmax": 483,
+            "ymax": 134
+          },
+          "ocr_text": "da; \nne, osim u slučaju neposredne opasnosti.",
+          "score": 0.9517424
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 141,
+            "xmax": 931,
+            "ymax": 157
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90588593
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/209166177.jpeg?expires=1644591220&amp;or=0&amp;s=75e8340261a54973e24d6972a5f6855d",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 28,
+            "xmax": 714,
+            "ymax": 48
+          },
+          "ocr_text": "Vozač ne smije smanjiti brzinu kretanja vozila kojim upravlja:",
+          "score": 0.7158566
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 80,
+            "xmax": 871,
+            "ymax": 134
+          },
+          "ocr_text": "ispod 20 km/h;\ndo te mjere da njegovo vozilo pričinjava smetnju normalnom odvijanju saobraćaja.",
+          "score": 0.9278128
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 849,
+            "ymin": 165,
+            "xmax": 935,
+            "ymax": 181
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9069497
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1641254035.jpeg?expires=1644591220&amp;or=0&amp;s=eeaeb7a6e3cee6786501801b3d049ede",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 16,
+            "xmax": 933,
+            "ymax": 61
+          },
+          "ocr_text": "Vozač vozila koje na raskrsnici skreće ulijevo, osim ako postavljenim saobraćajnim\nznakom nije drugačije određeno, dužan je propustiti vozilo koje:",
+          "score": 0.83763754
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 100,
+            "xmax": 780,
+            "ymax": 164
+          },
+          "ocr_text": "dolazi iz suprotnog smjera i na raskrsnici zadržava pravac svog kretanja;\ndolazi iz suprotnog smjera i na raskrsnici skreće ulijevo.",
+          "score": 0.87826204
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 174,
+            "xmax": 934,
+            "ymax": 191
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9069579
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1395664906.jpeg?expires=1644591220&amp;or=0&amp;s=ad8ff860cd09560ef57b696c4d9df1a6",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 90,
+            "xmax": 935,
+            "ymax": 270
+          },
+          "ocr_text": "najmanje jednu saobraćajnu traku i dvije ivične trake ili ivičnjake u ravni kolovoza, a ulice\ntrotoare s ivičnjacima;\nnajmanje dvije saobraćajne trake i dvije ivične trake ili ivičnjake u ravni kolovoza, a ulice\ntrotoare s ivičnjacima;\nnajmanje jednu saobraćajnu traku i jednu ivičnu traku ili ivičnjaku ravni kolovoza, a ulica\ntrotoar s ivičnjakom.",
+          "score": 0.85708046
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 849,
+            "ymin": 283,
+            "xmax": 935,
+            "ymax": 298
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90822524
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 26,
+            "xmax": 350,
+            "ymax": 46
+          },
+          "ocr_text": "Javni putevi moraju da imaju:",
+          "score": 0.88131356
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/470052982.jpeg?expires=1644591220&amp;or=0&amp;s=21bb2f545fbc4525701215bd61499184",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 94,
+            "ymin": 21,
+            "xmax": 850,
+            "ymax": 40
+          },
+          "ocr_text": "Kada je vozaču zabranjeno da započne radnju preticanja? (više tačnih odgovora)",
+          "score": 0.87363976
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 73,
+            "xmax": 763,
+            "ymax": 156
+          },
+          "ocr_text": "ako je vozač koji se kreće vozilom iza njega započeo radnju preticanja;\nako se ispred njega kreće kolona vozila;\nkada je kolovoz mokar.",
+          "score": 0.9292206
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 861,
+            "ymin": 167,
+            "xmax": 933,
+            "ymax": 186
+          },
+          "ocr_text": "А, В, С, D",
+          "score": 0.9325054
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/532390575.jpeg?expires=1644591220&amp;or=0&amp;s=06014e692e3692a1d326dc5e81619720",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 28,
+            "xmax": 789,
+            "ymax": 44
+          },
+          "ocr_text": "Motorno vozilo koje na putu vuče drugo neispravno motorno vozilo:",
+          "score": 0.7739897
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 79,
+            "xmax": 537,
+            "ymax": 127
+          },
+          "ocr_text": "ne smije se kretati brzinom većom od 30 km/h;\nne smije se kretati brzinom većom od 40 km/h.",
+          "score": 0.94837856
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 891,
+            "ymin": 139,
+            "xmax": 938,
+            "ymax": 155
+          },
+          "ocr_text": "B,C,T",
+          "score": 0.9410518
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1110981038.jpeg?expires=1644591220&amp;or=0&amp;s=546df0c5a439f9ab61320d5d2a0696ec",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 87,
+            "ymin": 14,
+            "xmax": 932,
+            "ymax": 56
+          },
+          "ocr_text": "Vozač je dužan kada se kreće putem van naselja, prije ulaska u nepreglednu krivinu:\n(više tačnih odgovora)",
+          "score": 0.7061596
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 58,
+            "ymin": 82,
+            "xmax": 606,
+            "ymax": 177
+          },
+          "ocr_text": "danju upotrijebiti zvučni znak upozorenja;\nnoću upotrijebiti svjetlosni znak upozorenja;\nuključiti uređaj za uključivanje svih pokazivača pravca.\nMI",
+          "score": 0.79595196
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 863,
+            "ymin": 186,
+            "xmax": 932,
+            "ymax": 207
+          },
+          "ocr_text": "А, В, С,D",
+          "score": 0.93240094
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1399858188.jpeg?expires=1644591220&amp;or=0&amp;s=874ae4384adebb89df14d63a0f5b92f3",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 30,
+            "xmax": 774,
+            "ymax": 50
+          },
+          "ocr_text": "Svjetla za maglu koja se nalaze na zadnjoj strani vozila moraju biti:",
+          "score": 0.8667435
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 119,
+            "xmax": 264,
+            "ymax": 210
+          },
+          "ocr_text": "narandžaste boje;\nžute ili bijele boje;\ncrvene boje.",
+          "score": 0.9083149
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 887,
+            "ymin": 230,
+            "xmax": 936,
+            "ymax": 245
+          },
+          "ocr_text": "B,C,D",
+          "score": 0.93344545
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1423221414.jpeg?expires=1644591220&amp;or=0&amp;s=68d057e79e73515b285c5226eb0f6ecb",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 849,
+            "ymin": 198,
+            "xmax": 935,
+            "ymax": 214
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90836203
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 17,
+            "xmax": 935,
+            "ymax": 60
+          },
+          "ocr_text": "Vozači vozila koja se kreću prelazom puta preko željezničke pruge u istom nivou\nkad svjetla na prelazu nisu upaljena dužni su to činiti:",
+          "score": 0.7077744
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 93,
+            "xmax": 479,
+            "ymax": 188
+          },
+          "ocr_text": "sa naročitom opreznošću;\nsa upaljenim dugim svjetlima;\nuz upotrebu zvučnog znaka upozorenja.",
+          "score": 0.9619534
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/124825868.jpeg?expires=1644591220&amp;or=0&amp;s=f5e159a9126b57160ed2ae24504c3165",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 21,
+            "xmax": 939,
+            "ymax": 66
+          },
+          "ocr_text": "Učesnik u saobraćajnoj nezgodi u kojoj je nastala veća materijalna šteta dužan je\nda: (više tačnih odgovora)",
+          "score": 0.7480397
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 96,
+            "xmax": 747,
+            "ymax": 202
+          },
+          "ocr_text": "bez zaustavljanja nastavi kretanje vozilom sa naročitom opreznošću;\nobavijesti najbližu policijsku stanicu o saobraćajnoj nezgodi;\nsačeka dolazak službenog lica koje obavlja uviđaj.",
+          "score": 0.9585325
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 852,
+            "ymin": 215,
+            "xmax": 939,
+            "ymax": 232
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.906924
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/547772555.jpeg?expires=1644591220&amp;or=0&amp;s=1c6222523169affd91b6b3d02ca873d5",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 22,
+            "xmax": 938,
+            "ymax": 68
+          },
+          "ocr_text": "Vozač koji se zatekne ili naiđe na mjesto saobraćajne nezgode dužan je da na \nzahtjev ovlašćenog lica:",
+          "score": 0.7400152
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 86,
+            "xmax": 883,
+            "ymax": 144
+          },
+          "ocr_text": "preveze lice povrijeđeno u saobraćajnoj nezgodi do najbliže zdravstvene ustanove; \npreveze lice povrijeđeno u saobraćajnoj nezgodi prema želji povrijeđenog.",
+          "score": 0.734121
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 851,
+            "ymin": 151,
+            "xmax": 938,
+            "ymax": 167
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9072211
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/755805887.jpeg?expires=1644591220&amp;or=0&amp;s=52ebb198d43ed7457b76268d352e1142",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 98,
+            "ymin": 113,
+            "xmax": 178,
+            "ymax": 214
+          },
+          "ocr_text": "0,5 g/kg;\n0,3 g/kg;\n0,0 g/kg.",
+          "score": 0.9592898
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 869,
+            "ymin": 221,
+            "xmax": 938,
+            "ymax": 243
+          },
+          "ocr_text": "А, В, С, Т",
+          "score": 0.91124576
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 97,
+            "ymin": 14,
+            "xmax": 937,
+            "ymax": 82
+          },
+          "ocr_text": "Vozač koji je mlađi od 21 godine starosti ili koji ima manje od tri godine vozačkog\niskustva smatraće se da je pod djelovanjem alkohola ako mu količina alkohola u\nkrvi iznosi: (više tačnih odgovora)",
+          "score": 0.8482482
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1739353438.jpeg?expires=1644591220&amp;or=0&amp;s=856cc85dd6c5c10ba3e8c33139f26055",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 103,
+            "ymin": 16,
+            "xmax": 943,
+            "ymax": 59
+          },
+          "ocr_text": "Za vrijeme upravljanja vozilom koje je označeno „probnim“ tablicama vozač mora\nimati kod sebe:",
+          "score": 0.7225151
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 102,
+            "ymin": 78,
+            "xmax": 902,
+            "ymax": 129
+          },
+          "ocr_text": "važeću potvrdu uz probne tablice, koju je dužan pokazati na zahtjev ovlašćenog lica;\ndokaz o uplati propisanih naknada za probne registarske tablice.",
+          "score": 0.8973639
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 856,
+            "ymin": 162,
+            "xmax": 943,
+            "ymax": 179
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90660954
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/563203337.jpeg?expires=1644591220&amp;or=0&amp;s=a97f8f6ee43be55007b82add9ad3ab33",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 27,
+            "xmax": 669,
+            "ymax": 52
+          },
+          "ocr_text": "Tehnički pregled motornih i priključnih vozila obavlja se:",
+          "score": 0.9262374
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 96,
+            "ymin": 74,
+            "xmax": 935,
+            "ymax": 147
+          },
+          "ocr_text": "radi provjere da li motorno ili priključno vozilo ima propisane uređaje i opremu i da li je u\nispravnom stanju;\nradi utvrđivanja vlasništva vozila.",
+          "score": 0.8347593
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 849,
+            "ymin": 158,
+            "xmax": 935,
+            "ymax": 174
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90821856
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1777267121.jpeg?expires=1644591220&amp;or=0&amp;s=fa41c2c7f8f33cb3e35155fe34cc1ebd",
+      "object": [
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 847,
+            "ymin": 192,
+            "xmax": 933,
+            "ymax": 211
+          },
+          "ocr_text": "А, В,С, D, T",
+          "score": 0.9385522
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 6,
+            "xmax": 935,
+            "ymax": 77
+          },
+          "ocr_text": "Vlasnik vozila, ako ne produži registraciju vozila u roku od 30 dana od dana isticanja \nvaženja potvrde o registraciji, dužan je da vrati registarske tablice nadležnom \norganu:",
+          "score": 0.58817595
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 95,
+            "ymin": 98,
+            "xmax": 285,
+            "ymax": 185
+          },
+          "ocr_text": "u roku od 10 dana; \nu roku od 8 dana; \nu roku 48 h.",
+          "score": 0.82824516
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/361891677.jpeg?expires=1644591220&amp;or=0&amp;s=22d594f5b43be1bde8d2d56eb174a397",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 21,
+            "xmax": 930,
+            "ymax": 65
+          },
+          "ocr_text": "Lice koje se zatekne ili naiđe na mjesto saobraćajne nezgode u kojoj ima\npovrijeđenih:",
+          "score": 0.6994058
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 91,
+            "xmax": 767,
+            "ymax": 141
+          },
+          "ocr_text": "dužno je da ukaže pomoć licima povrijeđenim u saobraćajnoj nezgodi;\nne smije pružati pomoć povrijeđenima do dolaska zdravstvenih radnika;",
+          "score": 0.904593
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 150,
+            "xmax": 931,
+            "ymax": 166
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90670806
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/621172799.jpeg?expires=1644591220&amp;or=0&amp;s=c4fb004a376e834423da24408b9b06f7",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 89,
+            "ymin": 30,
+            "xmax": 352,
+            "ymax": 50
+          },
+          "ocr_text": "Manja materijalna šteta je:",
+          "score": 0.88735604
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 88,
+            "ymin": 94,
+            "xmax": 928,
+            "ymax": 203
+          },
+          "ocr_text": "šteta koja je nastala u saobraćajnoj nezgodi na vozilima u kojoj su se vozači dogovorili o\nizmirenju međusobnih obaveza,bez obzira na visinu štete;\nšteta u saobraćajnoj nezgodi nastala na vozilu na kojem nisu oštećeni vitalni dijelovi i\nsklopovi i koje može samostalno da se kreće na putu.",
+          "score": 0.93852377
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 842,
+            "ymin": 209,
+            "xmax": 928,
+            "ymax": 226
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9076658
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/606500031.jpeg?expires=1644591220&amp;or=0&amp;s=f60d990a05a0ea6c1a27056a98731274",
+      "object": [
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 87,
+            "xmax": 930,
+            "ymax": 228
+          },
+          "ocr_text": "obilježeni uzdužni dio kolovoza na autoputevima i na određenim mjestima na putevima\nvišeg ranga, kao i u tunelima i galerijama, namijenjena za prinudno zaustavljanje vozila;\nuzdužni dio kolovoza namijenjen za vozila koja sporom vožnjom smanjuju odvijanje\nsaobraćaja;\ndio kolovoza namijenjen za isključivanje vozila iz saobraćaja na putu.",
+          "score": 0.9148086
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 240,
+            "xmax": 931,
+            "ymax": 256
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.90774614
+        },
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 27,
+            "xmax": 636,
+            "ymax": 47
+          },
+          "ocr_text": "Saobraćajna traka za prinudno zaustavljanje vozila je:",
+          "score": 0.6217594
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/1133493101.jpeg?expires=1644591220&amp;or=0&amp;s=56be5b87e4c6bcd34c32df26f590a16b",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 28,
+            "xmax": 452,
+            "ymax": 48
+          },
+          "ocr_text": "Saobraćajna traka za ubrzavanje je:",
+          "score": 0.8726133
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 93,
+            "ymin": 90,
+            "xmax": 833,
+            "ymax": 212
+          },
+          "ocr_text": "dio kolovoza namijenjen za vozila javnog gradskog prevoza;\ndio kolovoza namijenjen za uključivanje vozila u saobraćaj sa sporednog puta,\nodnosno drugih prilaznih puteva sa objekata pored puteva;\ndio kolovoza čija je širina dovoljna za nesmetan saobraćaj dva reda vozila.",
+          "score": 0.949931
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 848,
+            "ymin": 224,
+            "xmax": 934,
+            "ymax": 240
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9083994
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/216572934.jpeg?expires=1644591220&amp;or=0&amp;s=9f150760618e8fee7d88cb42f42630b2",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 26,
+            "xmax": 327,
+            "ymax": 41
+          },
+          "ocr_text": "Javni put izvan naselja čini:",
+          "score": 0.9227744
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 91,
+            "ymin": 77,
+            "xmax": 931,
+            "ymax": 248
+          },
+          "ocr_text": "zemljišni pojas s desne strane puta širine najmanje dva metra, računajući od krajnje tačke\npoprečnog profila puta;\nzemljišni pojass obje strane puta širine najmanje tri metra, računajući od krajnje tačke\npoprečnog profila puta;\nzemljišni pojas s obje strane puta širine najmanje jedan metar, računajući od krajnje tačke\npoprečnog profila puta",
+          "score": 0.8755086
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 256,
+            "xmax": 930,
+            "ymax": 275
+          },
+          "ocr_text": "А, В, С, D, T",
+          "score": 0.9344996
+        }
+      ]
+    },
+    {
+      "filename": "https://nnts.imgix.net/uploadedfiles/741ed1d9-474a-4c6b-81f4-db15e7e9f426/PredictionImages/207593581.jpeg?expires=1644591220&amp;or=0&amp;s=c22f9937a65c5890f00a54f35f97efbe",
+      "object": [
+        {
+          "name": "tekst_pitanja",
+          "bndbox": {
+            "xmin": 90,
+            "ymin": 20,
+            "xmax": 425,
+            "ymax": 40
+          },
+          "ocr_text": "Smanjena vidljivost postoji kada:",
+          "score": 0.879029
+        },
+        {
+          "name": "odgovori",
+          "bndbox": {
+            "xmin": 88,
+            "ymin": 72,
+            "xmax": 931,
+            "ymax": 307
+          },
+          "ocr_text": "zbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge\nučesnike u saobraćaju na udaljenosti od najmanje 200 m na putu izvan naselja, odnosno\nod najmanje 100 m u naselju;\nzbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge\nučesnike u saobraćaju na udaljenosti od najmanje 300 m na putu izvan naselja, odnosno\nod najmanje 200 m u naselju;\nzbog nepovoljnih atmosferskih ili drugih prilika vozač ne može jasno da uoči druge\nučesnike u saobraćaju na udaljenosti od najmanje 250 m na putu izvan naselja, odnosno\nod najmanje 150 m u naselju.",
+          "score": 0.9243464
+        },
+        {
+          "name": "kategorije",
+          "bndbox": {
+            "xmin": 844,
+            "ymin": 314,
+            "xmax": 931,
+            "ymax": 330
+          },
+          "ocr_text": "A,B,C,D,T",
+          "score": 0.9080619
+        }
+      ]
+    }
+  ]
+}
