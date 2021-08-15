@@ -5,6 +5,6 @@ import com.example.lemiforce.model.Pitanje
 
 class ViewModel {
     fun getPitanja() : List<Pitanje> {
-        return PitanjaRepo.getPitanja()
+        return PitanjaRepo.pitanja
     }
 }
