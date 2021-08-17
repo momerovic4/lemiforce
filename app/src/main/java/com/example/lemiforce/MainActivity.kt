@@ -22,8 +22,7 @@ class MainActivity : AppCompatActivity() {
             var textPitanja = ""
             var odgovori = listOf<String>()
             var splitani = listOf<Int>()
-            // index izmijeniti nakon ubacivanja svega
-            splitani = tacniOdg[i+110].split(',').map { it.trim().toInt() }
+            splitani = tacniOdg[i].split(',').map { it.trim().toInt() }
             val tacni = mutableListOf<Int>()
             splitani.forEach { broj -> tacni.add(broj-1) }
             var kategorija = ""
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun parseOdgovore(odgovori: String) : List<String> {
         var parsed = odgovori.split(';','\n').filter { s -> s.isNotBlank() && s.isNotEmpty() }
-        println(parsed)
         return parsed
     }
 

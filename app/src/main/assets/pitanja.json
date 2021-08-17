@@ -7630,6 +7630,17 @@
 			},
 			"ocr_text": "posada koju čine četiri vozača;\nposada koju čine dva vozača (vozač koji upravlja vozilom i vozač u pripravnosti).",
 			"score": "0.99597204"
+		},
+		{
+			"name": "kategorije",
+			"bndbox": {
+				"xmin": "963",
+				"ymin": "172",
+				"xmax": "996",
+				"ymax": "189"
+			},
+			"ocr_text": "D",
+			"score": "0.91868746"
 		}
 	],
 	[
@@ -13104,7 +13115,7 @@
 			"score": "0.9988833"
 		},
 		{
-			"name": "odgovori",
+			"name": "kategorije",
 			"bndbox": {
 				"xmin": "763",
 				"ymin": "178",
@@ -14045,7 +14056,7 @@
 			"score": "1"
 		},
 		{
-			"name": "odgovori",
+			"name": "kategorije",
 			"bndbox": {
 				"xmin": "605",
 				"ymin": "126",
@@ -14911,6 +14922,7 @@
 				"xmax": "208",
 				"ymax": "152"
 			},
+			"ocr_text": "0,0 g/kg;\n0,3 g/kg;\n0,5 g/kg.",
 			"score": "1"
 		},
 		{
