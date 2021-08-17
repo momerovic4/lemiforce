@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         var pitanja = mutableListOf<Pitanje>()
         val tacniOdg = this.assets.open("demo.txt").bufferedReader().use { it.readText() }.split('\n')
-        val jsonString = this.assets.open("data.json").bufferedReader().use { it.readText() }
+        val jsonString = this.assets.open("pitanja.json").bufferedReader().use { it.readText() }
         val jsonObjekti = JSONArray(jsonString)
         for (i in 0 until jsonObjekti.length()){
             val listobject = jsonObjekti.getJSONArray(i)
