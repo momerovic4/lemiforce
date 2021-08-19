@@ -38,9 +38,14 @@ class SimulacijaTest : AppCompatActivity() {
         txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         imgSlika = findViewById(R.id.imgSlika)
-        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
-        pitanja.addAll(viewmodel.getPitanjaZnakove(10))
-        pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
+        if(intent.getStringExtra("KATEGORIJA").equals("a")){
+            pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
+        }else{
+            //pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
+            pitanja = mutableListOf()
+            pitanja.addAll(viewmodel.getPitanjaZnakove(10))
+            pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
+        }
         recyclerView = findViewById(R.id.rwOdgovori)
 
         findViewById<Button>(R.id.btnProslo).isEnabled = false
@@ -153,7 +158,6 @@ class SimulacijaTest : AppCompatActivity() {
 
     @Override
     override fun onBackPressed() {
-        finish();
     }
 
     fun prikupiIPrikaziRezultat() {

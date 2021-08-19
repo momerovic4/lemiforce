@@ -35,9 +35,14 @@ class UcenjeTest : AppCompatActivity() {
         btnSimulacija = findViewById(R.id.btnNazad)
         recyclerView = findViewById(R.id.rwOdgovori)
         imgSlika = findViewById(R.id.imgSlika)
-        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
-        pitanja.addAll(viewmodel.getPitanjaZnakove(10))
-        pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
+        if(intent.getStringExtra("KATEGORIJA").equals("a")){
+            pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
+        }else{
+            //pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
+            pitanja = mutableListOf()
+            pitanja.addAll(viewmodel.getPitanjaZnakove(10))
+            pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
+        }
         findViewById<Button>(R.id.btnProslo).isEnabled = false
 
         setUpPitanje()
@@ -108,8 +113,8 @@ class UcenjeTest : AppCompatActivity() {
         if(pitanja[brojPitanja].odgovoreni == null){
             Toast.makeText(applicationContext,"Prvo provjerite odgovor",Toast.LENGTH_SHORT).show()
         }else{
-            if(brojPitanja != pitanja.size){
-                if (brojPitanja == pitanja.size-1) findViewById<Button>(R.id.btnIduce).text = "Zavrsi pokusaj"
+            if(brojPitanja != pitanja.size-1){
+                if (brojPitanja == pitanja.size-2) findViewById<Button>(R.id.btnIduce).text = "Zavrsi pokusaj"
                 else findViewById<Button>(R.id.btnIduce).text = "iduce"
                 brojPitanja++
                 setUpPitanje()

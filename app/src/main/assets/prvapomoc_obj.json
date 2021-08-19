@@ -1,0 +1,2205 @@
+[
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 108,
+    "xmax": 182,
+    "ymax": 150
+   },
+   "ocr_text": "Tačnu lokaciju, broj povrijeđenih osoba i vrstu povreda;Tačnu lokaciju, broj povrijeđenih osoba bez obzira na stepen povređivanja;Tačnu lokaciju bez opisa povreda"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 17,
+    "xmax": 471,
+    "ymax": 56
+   },
+   "ocr_text": "Šta sadrži poziv hitnoj medicinskoj pomoći? ",
+   "score": 0.94201016
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 22,
+    "xmax": 470,
+    "ymax": 60
+   },
+   "ocr_text": "Šta nije prvi red hitnosti? ",
+   "score": 0.8903417
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 111,
+    "xmax": 127,
+    "ymax": 184
+   },
+   "ocr_text": "Povreda kičme;Povreda glave praćena besvjesnim stanjem;Stanje praćeno gušenjem"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 22,
+    "xmax": 446,
+    "ymax": 58
+   },
+   "ocr_text": "Ko pruža prvu pomoć na licu mjesta? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 62,
+    "ymin": 108,
+    "xmax": 98,
+    "ymax": 153
+   },
+   "ocr_text": "Medicinsko osoblje koje odmah pozivamo;Slučajni prolaznik ili osoba koja se nađe na licu mjesta;Stručne službe na licu mjesta"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 73,
+    "ymin": 24,
+    "xmax": 474,
+    "ymax": 58
+   },
+   "ocr_text": "Koji su znaci teškog iskrvarenja (hemoragijskog šoka)?",
+   "score": 0.9757012
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 111,
+    "xmax": 452,
+    "ymax": 173
+   },
+   "ocr_text": "Izrazito bljedilo, ubrzano i površno disanje (kratak dah), teško opipljiv i ubrzan puls, koža orošena hladnim znojem, žeđanje, opća slabost, klonulost;Usporen puls i povišen krvni pritisak, slabost, uznemirenost;Vidi se krv na odjeći, duboko disanje, slabost"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 17,
+    "xmax": 453,
+    "ymax": 53
+   },
+   "ocr_text": "Šta najviše ugrožava život unesrećenog?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 105,
+    "xmax": 154,
+    "ymax": 171
+   },
+   "ocr_text": "Prestanak disanja, besvjesno stanje i jako krvarenje;Prijelom kičmenog stuba;Udarac u glavu tupim predmetom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 22,
+    "xmax": 467,
+    "ymax": 55
+   },
+   "ocr_text": "Šta je šok?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 104,
+    "xmax": 463,
+    "ymax": 189
+   },
+   "ocr_text": "Iznenadna stresna situacija;Teško stanje nastalo zbog gubitka krvi, tečnosti i jakog bola;Strah od posljedica nesreće"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 19,
+    "xmax": 450,
+    "ymax": 55
+   },
+   "ocr_text": "Šta je imobilizacija? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 106,
+    "xmax": 153,
+    "ymax": 179
+   },
+   "ocr_text": "Postavljanje povrijeđenog dijela tijela u nepokretan, stabilan položaj, izvan funkcije u određenom periodu;Postavljanje tijela u stanje pripravnosti i hitan transport;Postavljanje povrijeđenog na stomak i hitan transport"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 17,
+    "xmax": 466,
+    "ymax": 55
+   },
+   "ocr_text": "Koje je osnovno pravilo imobilizacije?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 106,
+    "xmax": 123,
+    "ymax": 175
+   },
+   "ocr_text": "Da se imobiliziraju dva susjedna zgloba;Da se imobilizira jedan povrijeđen zglob;Da se imobiliziraju svi zglobovi"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 58,
+    "ymin": 117,
+    "xmax": 78,
+    "ymax": 157
+   },
+   "ocr_text": "20 minuta;40 minuta;Do dolaska stručne pomoći"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 15,
+    "xmax": 461,
+    "ymax": 69
+   },
+   "ocr_text": "Koliko dugo se vrši oživljavanje?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 13,
+    "xmax": 466,
+    "ymax": 71
+   },
+   "ocr_text": "Kada ne treba započeti oživljavanje (kardiopulmonalnu reanimaciju - KPR)?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 120,
+    "xmax": 105,
+    "ymax": 162
+   },
+   "ocr_text": "Ako je sigurno prošlo više od 10 minuta od zastoja srca;Ako postoji otvorena rana na grudnom košu;Ako je opečena površina tijela veća od 60%"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 18,
+    "xmax": 464,
+    "ymax": 54
+   },
+   "ocr_text": "Kod oživljavanja (KPR) odnos disanja i vanjske masaže srca je: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 61,
+    "ymin": 105,
+    "xmax": 171,
+    "ymax": 144
+   },
+   "ocr_text": "5 upuhivanja i 5 masaža srca, tj. odnos 1:1;2 upuhivanja i 15 masaža srca, tj. odnos 2:15;30 masaža srca i 2 upuhivanja, tj. odnos 30:2"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 19,
+    "xmax": 471,
+    "ymax": 55
+   },
+   "ocr_text": "Kojom brzinom se vrši pritisak kod vanjske masaže srca?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 107,
+    "xmax": 128,
+    "ymax": 176
+   },
+   "ocr_text": "80 do 120 u minuti;100 do 120 u minuti;80 do 100 u minuti"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 62,
+    "ymin": 110,
+    "xmax": 204,
+    "ymax": 150
+   },
+   "ocr_text": "Povrijeđenog zakopati u zemlju da bi zemlja izvukla struju;Prekinuti strujni krug, izvući utikač, osigurač, isključiti sklopku, izolirajućim predmetom skloniti izvor električnog napajanja;Odmah započeti sa oživljavanjem"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 24,
+    "xmax": 466,
+    "ymax": 59
+   },
+   "ocr_text": "Šta prvo treba učiniti kod udara električne struje?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 19,
+    "xmax": 467,
+    "ymax": 55
+   },
+   "ocr_text": "Šta učiniti ukoliko situacija nije sigurna i ne možete pristupiti mjestu nesreće? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 53,
+    "ymin": 103,
+    "xmax": 156,
+    "ymax": 182
+   },
+   "ocr_text": "Hitno doći do povrijeđene osobe;Sanirati najhitnija stanja;Pozvati hitnu medicinsku pomoć i sačekati dolazak nadležnih"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 21,
+    "xmax": 467,
+    "ymax": 58
+   },
+   "ocr_text": "Šta smijemo učiniti kad manje strano tijelo upadne u oko (poput čestica prašine, truna i slično)? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 109,
+    "xmax": 126,
+    "ymax": 181
+   },
+   "ocr_text": "Strano tijelo ukloniti sterilnom gazom ili gornji kapak prevući preko trepavica kako bismo uklonili strano tijelo;Protrljati ili isprati oko kako bismo uklonili strano tijelo;Ne dirati ništa, zaviti oba oka i transportirati povrijeđenog do bolnice očnom ljekaru"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 23,
+    "xmax": 412,
+    "ymax": 58
+   },
+   "ocr_text": "Šta se podrazumijeva pod opekotinama prvog stepena?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 110,
+    "xmax": 126,
+    "ymax": 179
+   },
+   "ocr_text": "Opečena je koža, potkožno masno tkivo i mišići u predjelu opekotine;Zahvaćeni su površinski dijelovi kože, koža je crvena, bez mjehura, lako otečena, a postaje vrlo bolna nakon nekoliko sati;Zahvaćeni su dublji slojevi tkiva i kosti"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 21,
+    "xmax": 413,
+    "ymax": 56
+   },
+   "ocr_text": "Šta kod opekotina podrazumijeva pravilo 9? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 107,
+    "xmax": 127,
+    "ymax": 181
+   },
+   "ocr_text": "18% zahvaćenosti tijela - prednja strana grudnog koša i trbuha;9% genitalije;18% jedna ruka"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 26,
+    "xmax": 469,
+    "ymax": 62
+   },
+   "ocr_text": "Koji su neki od znakova predoziranja narkoticima?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 90,
+    "xmax": 127,
+    "ymax": 160
+   },
+   "ocr_text": "Proširene zjenice, besvjesno stanje;Pojačani refleksi i koncentracija;Koža koja se ljušti"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 26,
+    "xmax": 473,
+    "ymax": 62
+   },
+   "ocr_text": "Šta je AED?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 57,
+    "ymin": 86,
+    "xmax": 160,
+    "ymax": 182
+   },
+   "ocr_text": "Automatski eksterni defibrilator;Automatski ekstremni defibrilator;Automatski eksterni dozimetar"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 75,
+    "ymin": 20,
+    "xmax": 474,
+    "ymax": 52
+   },
+   "ocr_text": "Koji su znaci unutrašnjeg krvarenja?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 97,
+    "xmax": 328,
+    "ymax": 137
+   },
+   "ocr_text": "Usporeno disanje;Boja kože lica je crvena a disanje usporeno;Blijeda koža orošena znojem,usne i jezik suhi, ubrzano disanje, malaksalost i jak osjećaj žeđi"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 19,
+    "xmax": 454,
+    "ymax": 55
+   },
+   "ocr_text": "U kojem položaju se transportira osoba sa povredom natkoljenice?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 106,
+    "xmax": 131,
+    "ymax": 176
+   },
+   "ocr_text": "U sjedećem položaju sa prethodno izvršenom imobilizacijom;Nije bitan položaj, bitna je imobilizacija;U ležećem položaju sa prethodno izvršenom imobilizacijom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 74,
+    "ymin": 22,
+    "xmax": 419,
+    "ymax": 57
+   },
+   "ocr_text": "Kada se primjenjuje Hajmlihov hvat?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 108,
+    "xmax": 133,
+    "ymax": 179
+   },
+   "ocr_text": "Kod utapanja;Kod gušenja stranim tijelom;Kod gušenja ugljenmonoksidom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 27,
+    "xmax": 413,
+    "ymax": 63
+   },
+   "ocr_text": "Koji su neki od znakova moždanog udara?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 114,
+    "xmax": 127,
+    "ymax": 185
+   },
+   "ocr_text": "Teškoće sa vidom, problemi u govoru i gubitak ravnoteže;Iskašljavanje krvave pjene;Svrbež i peckanje kože"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 19,
+    "xmax": 468,
+    "ymax": 59
+   },
+   "ocr_text": "Prema kojim sljedećim simptomima i znacima prepoznajemo osobu koja je jako iskrvarila? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 111,
+    "xmax": 126,
+    "ymax": 184
+   },
+   "ocr_text": "Osoba je malo blijeda, modra u licu, nije raspoložena, više je nemirna, osjeća opću slabost i malaksalost;Osoba je modra u licu, uznemirena, konfuzna, puls je usporen ali se normalno lako napipa, diše duboko, osjeća slabost;Osoba ja izrazito blijeda, kože orošene hladnim i ljepljivim znojem, suhih usta, osjeća žeđ, opću slabost i malaksalost do klonulosti"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 108,
+    "xmax": 128,
+    "ymax": 180
+   },
+   "ocr_text": "Podvezivanje uda;Direktan pritisak na ranu;Autotransfuzija"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 17,
+    "xmax": 470,
+    "ymax": 57
+   },
+   "ocr_text": "Koja je pravilna metoda zaustavljanja krvarenja?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 21,
+    "xmax": 469,
+    "ymax": 57
+   },
+   "ocr_text": "Kako se provjerava gubitak svijesti?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 108,
+    "xmax": 128,
+    "ymax": 184
+   },
+   "ocr_text": "Pritiskom na glavu i čelo da osoba otvori oči i upitom šta se dogodilo;Glasnim dozivanjem (komunikacija govorom), hvatanjem za ramena, laganim protresanjem ramena bez pomicanja;Metodom gledam, slušam, osjećam"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 18,
+    "xmax": 469,
+    "ymax": 55
+   },
+   "ocr_text": "Koji su neki od znakova epileptičnih napada? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 106,
+    "xmax": 127,
+    "ymax": 178
+   },
+   "ocr_text": "Ubrzano disanje;Groznica i povišena tjelesna temperatura;Trzanje – grčenje ekstremiteta i/ili cijelog tijela praćeno besvjesnim stanjem, nekad i umokravanje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 73,
+    "ymin": 17,
+    "xmax": 455,
+    "ymax": 57
+   },
+   "ocr_text": "Zbog čega su opasne opekotine koje zahvataju veću površinu tijela?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 108,
+    "xmax": 132,
+    "ymax": 177
+   },
+   "ocr_text": "Zbog nastanka upale pluća;Zbog gubitka veće količine tečnosti i infekcije;Zbog gubitka veće količine krvi"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 19,
+    "xmax": 469,
+    "ymax": 51
+   },
+   "ocr_text": "Koji je postupak pružanja prve pomoći kod otvorenog prijeloma kosti bez krvarenja?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 107,
+    "xmax": 226,
+    "ymax": 147
+   },
+   "ocr_text": "Imobilizacija i hitan transport;Prekrivanje rane sterilnom gazom, imobilizacija, transport nije hitan;Prekrivanje rane sterilnom gazom, istezanje, hitan transport"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 24,
+    "xmax": 470,
+    "ymax": 56
+   },
+   "ocr_text": "U koji položaj postavljamo povrijeđenog kod povrede kostiju karlice?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 107,
+    "xmax": 227,
+    "ymax": 152
+   },
+   "ocr_text": "U položaj autotransfuzije;Ostavljamo povrijeđenog u zatečenom položaju;U bočni ili koma položaj"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 19,
+    "xmax": 469,
+    "ymax": 55
+   },
+   "ocr_text": "Koji je normalan broj otkucaja srca kod zdrave osobe? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 106,
+    "xmax": 127,
+    "ymax": 180
+   },
+   "ocr_text": "100 otkucaja u minuti;60 do 80 otkucaja u sekundi;60 do 80 otkucaja u minuti"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 17,
+    "xmax": 445,
+    "ymax": 57
+   },
+   "ocr_text": "Kako pružiti prvu pomoć kod iščašenja zgloba? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 56,
+    "ymin": 106,
+    "xmax": 152,
+    "ymax": 184
+   },
+   "ocr_text": "Iščašeni zglobučvrstiti, utegnuti zavojem, staviti na njega hladne obloge i podići ga;Dvije osobe će potezanjem povrijeđenog zgloba u suprotnom pravcu vratiti iščašeni zglob u ležište, imobilizirati ga i podići;Sa prednje strane imobilizirati dva susjedna zgloba"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 86,
+    "ymin": 23,
+    "xmax": 475,
+    "ymax": 59
+   },
+   "ocr_text": "U kojem položaju se transportira osoba u besvjesnom stanju?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 82,
+    "ymin": 112,
+    "xmax": 145,
+    "ymax": 185
+   },
+   "ocr_text": "U stabilnom polusjedećem položaju;U stabilnom ležećem položaju;U stabilnom bočnom položaju"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 85,
+    "ymin": 18,
+    "xmax": 475,
+    "ymax": 58
+   },
+   "ocr_text": "Koji je postupak pružanja prve pomoći kod zmijskog ujeda?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 82,
+    "ymin": 109,
+    "xmax": 145,
+    "ymax": 182
+   },
+   "ocr_text": "Pozvati hitnu medicinsku pomoć, strogo mirovanje unesrećenog;Staviti podvesku iznad mjesta ujeda i dobro stegnuti;Isisati otrov iz rane, osobu transportirati do zdravstvene ustanove"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 81,
+    "ymin": 23,
+    "xmax": 481,
+    "ymax": 59
+   },
+   "ocr_text": "Šta treba učiniti kod udara groma? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 78,
+    "ymin": 111,
+    "xmax": 140,
+    "ymax": 180
+   },
+   "ocr_text": "Zaštititi unesrećenog od groma;Zakopati unesrećenog da zemlja izvuče opasan elektricitet;Pozvati hitnu medicinsku pomoć, ako mjesto nije sigurno, unesrećenog izmjestiti na sigurno, procijeniti svijest, disanje i cirkulaciju te odmah započni KPR kod vitalno ugroženih"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 22,
+    "xmax": 469,
+    "ymax": 58
+   },
+   "ocr_text": "Koji je postupak kod trovanja ispušnim gasovima?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 110,
+    "xmax": 128,
+    "ymax": 183
+   },
+   "ocr_text": "Otvoriti vrata i prozore, unesrećenom omogućiti dotok svježeg zraka, potom pozvati pomoć;Započeti oživljavanje;Obavijestiti vatrogasce i hitnu pomoć i čekati dok oni ne stignu"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 108,
+    "xmax": 130,
+    "ymax": 177
+   },
+   "ocr_text": "Oko obilno ispirati čistom vodom i hitno transportirati povrijeđenog;Oko zaviti zavojem i povrijeđenog što prije odvesti do stručne pomoći;Isprati oko kapima za oči i hitno transportirati povrijeđenog"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 17,
+    "xmax": 471,
+    "ymax": 57
+   },
+   "ocr_text": "U čemu se sastoji prva pomoć kod hemijske povrede oka?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 23,
+    "xmax": 471,
+    "ymax": 59
+   },
+   "ocr_text": "Šta su opekotine trećeg stepena?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 112,
+    "xmax": 129,
+    "ymax": 182
+   },
+   "ocr_text": "One koje zahvataju površne slojeve kože i jako bole;One koje zahvataju kosti i stvaraju ugljenisanost;One koje izazivaju jaku bol sa sukrvicom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 18,
+    "xmax": 470,
+    "ymax": 57
+   },
+   "ocr_text": "Šta je traumatski pneumotoraks? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 108,
+    "xmax": 129,
+    "ymax": 180
+   },
+   "ocr_text": "Porast pritiska u plućima nakon traume koji teško ugrožava disanje;Hronična upala plućne maramice zbog pušenja i tuberkuloze;Traumatski pneumotoraks rezultat je tupe ili probojne traume koja oštećuje listove plućne maramice"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 21,
+    "xmax": 469,
+    "ymax": 59
+   },
+   "ocr_text": "Koji su znaci prestanka disanja?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 46,
+    "ymin": 110,
+    "xmax": 128,
+    "ymax": 179
+   },
+   "ocr_text": "Bljedilo usana;Unesrećeni je bez svijesti, ne može se vidjeti dizanje grudnog koša, čuti niti osjetiti izdahnuti zrak;Modrilo ruku i nogu"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 26,
+    "xmax": 470,
+    "ymax": 63
+   },
+   "ocr_text": "Koji su sigurni znaci smrti? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 115,
+    "xmax": 129,
+    "ymax": 184
+   },
+   "ocr_text": "Gubitak svijesti, prestanak disanja i gubitak pulsa;Gubitak svijesti, prestanak disanja i gubitak pulsa te plave usne;Mačje oko, mrtvačke modre mrlje (pjege), mrtvačka mlitavost i mrtvačka ukočenost"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 21,
+    "xmax": 469,
+    "ymax": 57
+   },
+   "ocr_text": "Koji je postupak pružanja prve pomoći kod ujeda krpelja?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 109,
+    "xmax": 127,
+    "ymax": 180
+   },
+   "ocr_text": "Mjesto ujeda natopiti alkoholom;Pincetom izvaditi krpelja, osobu uputiti u zdravstvenu ustanovu;Strogo mirovanje, stavljanje hladnih obloga"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 17,
+    "xmax": 468,
+    "ymax": 57
+   },
+   "ocr_text": "Kada upotrebljavamo kompresivni zavoj? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 108,
+    "xmax": 126,
+    "ymax": 181
+   },
+   "ocr_text": "Za zaustavljanje srednje jakog krvarenja;Za kompresiju prijeloma, pritisak na kost;Kod jakih krvarenja kod amputacija"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 22,
+    "xmax": 452,
+    "ymax": 59
+   },
+   "ocr_text": "Koje su metode provjere disanja?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 57,
+    "ymin": 106,
+    "xmax": 130,
+    "ymax": 180
+   },
+   "ocr_text": "Gledam, pipam, osjetim;Gledam, slušam, osluškujem;Gledam, slušam, osjećam"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 21,
+    "xmax": 465,
+    "ymax": 59
+   },
+   "ocr_text": "Koji su neki od znakova toplotne iscrpljenosti?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 110,
+    "xmax": 126,
+    "ymax": 183
+   },
+   "ocr_text": "Pretjerano znojenje, umor, mučnina;Glavobolja, osip po tijelu;Nekontrolirano mokrenje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 21,
+    "xmax": 449,
+    "ymax": 59
+   },
+   "ocr_text": "Telefonski broj policije je: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 111,
+    "xmax": 128,
+    "ymax": 181
+   },
+   "ocr_text": "135;122;125"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 22,
+    "xmax": 451,
+    "ymax": 60
+   },
+   "ocr_text": "Kod sumnje na ozljedu vratnog segmenta kičme prvu pomoć pružamo postavljanjem:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 112,
+    "xmax": 128,
+    "ymax": 179
+   },
+   "ocr_text": "improviziranog okovratnika;povrijeđenog u koma položaj;zavoja oko vrata"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 22,
+    "xmax": 415,
+    "ymax": 56
+   },
+   "ocr_text": "Kako zaustavljamo krvarenje iz nosa?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 109,
+    "xmax": 129,
+    "ymax": 176
+   },
+   "ocr_text": "Začepljivanjem nosa, zabacivanjem glave unazad i stavljanjem hladne obloge;Stiskanjem krila nosa između palca i kažiprsta i potiskivanjem brade na grudi;Stavljanjem hladnog obloga na glavu i vrat"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 118,
+    "xmax": 160,
+    "ymax": 183
+   },
+   "ocr_text": "Osip, pospanost, teškoće prilikom disanja;Nepravilnost u čulu dodira ili paralizu;Grčeve u stomaku"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 26,
+    "xmax": 471,
+    "ymax": 66
+   },
+   "ocr_text": "Šta primjećujemo kod sumnje na alergijsku reakciju?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 20,
+    "xmax": 471,
+    "ymax": 55
+   },
+   "ocr_text": "Šta treba učiniti pri nailasku na mjesto nesreće? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 107,
+    "xmax": 131,
+    "ymax": 177
+   },
+   "ocr_text": "Parkirati vozilo na sigurno mjesto uz upotrebu svjetlosne signalizacije, isključiti motor, postaviti znakove sigurnosti, pozvati hitnu pomoć i pristupiti pružanju prve pomoći;Hitno zvati prvu pomoć;Uključiti signalizaciju na automobilu i sačekati da naiđe drugo vozilo i hitna pomoć"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 20,
+    "xmax": 467,
+    "ymax": 60
+   },
+   "ocr_text": "Koja je prva pomoć kod nesvjestice? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 112,
+    "xmax": 125,
+    "ymax": 182
+   },
+   "ocr_text": "Pozvati hitnu pomoć da se ne izgubi dragocjeno vrijeme i ponuditi unesrećenom osvježavajuće piće;Postaviti unesrećenog u ležeći položaj s uzdignutim nogama, raskomotiti ga te postaviti u bočni položaj ukoliko povraća;Raskomotiti tijesnu odjeću, mirno i pribrano započeti oživljavanje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 14,
+    "xmax": 468,
+    "ymax": 52
+   },
+   "ocr_text": "Da li je pružanje prve pomoći u prometu za vozača moralna ili zakonska obaveza?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 64,
+    "ymin": 107,
+    "xmax": 232,
+    "ymax": 173
+   },
+   "ocr_text": "To je moralna obaveza i dobra volja vozača;Ne postoji jasno definirana obaveza, to su više humane preporuke;Pružanje prve pomoći u prometu je zakonska obaveza za svakog vozača"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 21,
+    "xmax": 472,
+    "ymax": 78
+   },
+   "ocr_text": "Koliko osoba vrši prenošenje osobe sa povredom kičme? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 124,
+    "xmax": 87,
+    "ymax": 162
+   },
+   "ocr_text": "Ne vrši se prenošenje;Prenošenje vrši 4-5 osoba;Prenošenje vrši 6-7 a nekad i više osoba"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 18,
+    "xmax": 473,
+    "ymax": 55
+   },
+   "ocr_text": "Šta treba učiniti ako krv probije sve slojeve kompresivnog zavoja i pojavi se na površini?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 78,
+    "xmax": 131,
+    "ymax": 155
+   },
+   "ocr_text": "Pojačati pritisak sa još jednim koturom zavoja;Ne treba ništa poduzimati;Samo prekriti sterilnom gazom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 78,
+    "ymin": 22,
+    "xmax": 423,
+    "ymax": 57
+   },
+   "ocr_text": "Kako se zbrinjavaju povrede nastale niskom temperaturom (smrzotine)?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 75,
+    "ymin": 108,
+    "xmax": 138,
+    "ymax": 180
+   },
+   "ocr_text": "Unesrećenog držati van prostorije i pozvati hitnu pomoć;Unesrećenog unijeti u toplu prostoriju i dati mu tople napitke;Unesrećenom skinuti odjeću, trljati ili masirati smrznute dijelove tijela i ponuditi mu toplu kupku"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 23,
+    "xmax": 473,
+    "ymax": 59
+   },
+   "ocr_text": "Koji se gas oslobađa pri sagorijevanju goriva, a koji u zatvorenom prostoru može izazvati smrt akutnim trovanjem? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 68,
+    "ymin": 84,
+    "xmax": 157,
+    "ymax": 148
+   },
+   "ocr_text": "Eurosuper 95, Super plus 98;Natrijum hlorid;Ugljenmonoksid"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 73,
+    "ymin": 20,
+    "xmax": 417,
+    "ymax": 55
+   },
+   "ocr_text": "Šta je trijaža?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 107,
+    "xmax": 133,
+    "ymax": 177
+   },
+   "ocr_text": "Određivanje prioriteta zbrinjavanja prema vrsti i težini povreda te razvrstavanje prema hitnosti transporta;Efikasno zbrinjavanje povreda;Određivanje pristupa povrijeđenim osobama"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 57,
+    "ymin": 94,
+    "xmax": 457,
+    "ymax": 194
+   },
+   "ocr_text": "122;123;124"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 77,
+    "ymin": 19,
+    "xmax": 477,
+    "ymax": 73
+   },
+   "ocr_text": "Telefonski broj službe hitne pomoći je: "
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 31,
+    "ymin": 18,
+    "xmax": 482,
+    "ymax": 54
+   },
+   "ocr_text": "Unesrećenog koji ima astmatični napad treba pitati ima li: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 28,
+    "ymin": 78,
+    "xmax": 457,
+    "ymax": 150
+   },
+   "ocr_text": "sprej-pumpicu-inhalator;nitroglicerin;leksaurin"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 82,
+    "ymin": 23,
+    "xmax": 481,
+    "ymax": 58
+   },
+   "ocr_text": "Da li se strano tijelo uklanja iz rane? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 29,
+    "ymin": 80,
+    "xmax": 330,
+    "ymax": 181
+   },
+   "ocr_text": "Predmet koji je napravio ozljedu i nalazi se u rani ne smijemo nikako uklanjati;Da, uvijek;Da, samo u slučaju veće infekcije"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 69,
+    "ymin": 26,
+    "xmax": 468,
+    "ymax": 59
+   },
+   "ocr_text": "Šta je srčani zastoj?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 82,
+    "xmax": 314,
+    "ymax": 149
+   },
+   "ocr_text": "Poremećaj dotoka krvi u srčani mišić, srčani udar;Prestanak rada srca i zaustavljanje cirkulacije;Zapadanje jezika i poremećaj srčanog ritma"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 70,
+    "ymin": 25,
+    "xmax": 470,
+    "ymax": 57
+   },
+   "ocr_text": "Koji su neki od znakova srčanog udara?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 70,
+    "xmax": 426,
+    "ymax": 207
+   },
+   "ocr_text": "Bol u prsima koja traje, širi se u vrat, vilicu, ruku, praćena znojenjem, gušenjem, mučninom, nekad povraćanjem, slabošću, tjeskobom i strahom;Bol u dnu stomaka koja se širi u ekstremitete;Tupa bol u gornjem dijelu stomaka"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 73,
+    "ymin": 26,
+    "xmax": 471,
+    "ymax": 61
+   },
+   "ocr_text": "Kako se pruža prva pomoć kod sunčanice i toplotnog udara?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 21,
+    "ymin": 70,
+    "xmax": 438,
+    "ymax": 143
+   },
+   "ocr_text": "Stavljanjem leda na glavu unesrećenog;Prenošenjem unesrećenog u hladan i prozračan prostor, oslobađanjem od viška odjeće, rashlađivanjem i davanjem hladnih napitaka;Stavljanjem tijela unesrećenog u bočni položaj"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 61,
+    "ymin": 21,
+    "xmax": 466,
+    "ymax": 57
+   },
+   "ocr_text": "Šta je hipoglikemija?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 14,
+    "ymin": 77,
+    "xmax": 466,
+    "ymax": 149
+   },
+   "ocr_text": "Nizak nivo glukoze (šećera) u krvi;Visok nivo glukoze (šećera) u krvi;Visok nivo hormona u krvi"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 23,
+    "xmax": 472,
+    "ymax": 60
+   },
+   "ocr_text": "Koje su opasnosti kod besvjesnog stanja (unesrećeni je bez svijesti, leži na leđima i diše)?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 78,
+    "xmax": 472,
+    "ymax": 189
+   },
+   "ocr_text": "Moguća oduzetost ruku i nogu;Gušenje jezikom, povraćenim sadržajem;Gubitak velike količine krvi"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 21,
+    "xmax": 472,
+    "ymax": 57
+   },
+   "ocr_text": "Šta je najvažnije kad dođemo na mjesto nesreće?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 71,
+    "xmax": 472,
+    "ymax": 221
+   },
+   "ocr_text": "Zaštititi prvo sebe i ostale;Pomoći unesrećenom bez obzira na sve;Pozvati hitnu pomoć"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 21,
+    "xmax": 472,
+    "ymax": 57
+   },
+   "ocr_text": "Šta se stavlja na otvorenu ranu?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 20,
+    "ymin": 78,
+    "xmax": 472,
+    "ymax": 190
+   },
+   "ocr_text": "Samo dezinfekciono sredstvo pa onda gaza;Sterilna gaza;Asepsol, rivanol, jod ili drugo sredstvo"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 75,
+    "ymin": 14,
+    "xmax": 468,
+    "ymax": 25
+   },
+   "ocr_text": "Šta je prva pomoć?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 55,
+    "ymin": 61,
+    "xmax": 475,
+    "ymax": 190
+   },
+   "ocr_text": "Pomoć koja se pruža u kolima hitne pomoći, prije ambulante ili bolnice;Pomoć koju pružaju zdravstveni radnici ;Pomoć koja se ukazuje na mjestu nesreće"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 71,
+    "ymin": 13,
+    "xmax": 472,
+    "ymax": 70
+   },
+   "ocr_text": "Šta je puls? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 86,
+    "xmax": 440,
+    "ymax": 185
+   },
+   "ocr_text": "Vitalni parametar cirkulacije;Odraz naizmjeničnog širenja i suženja vena;Pulsiranje vena na vratu"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 72,
+    "ymin": 20,
+    "xmax": 473,
+    "ymax": 56
+   },
+   "ocr_text": "U koji položaj postavljamo unesrećenog s povredom grudnog koša?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 53,
+    "ymin": 71,
+    "xmax": 473,
+    "ymax": 155
+   },
+   "ocr_text": "U polusjedeći položaj;U koma položaj;U ležeći položaj"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 13,
+    "xmax": 469,
+    "ymax": 71
+   },
+   "ocr_text": "Broj telefona vatrogasne službe je:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 14,
+    "ymin": 88,
+    "xmax": 205,
+    "ymax": 166
+   },
+   "ocr_text": "123;132;142"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 76,
+    "xmax": 358,
+    "ymax": 175
+   },
+   "ocr_text": "Kvara na kontrolnoj tabli i zamagljenja;Isparavanja plastike i slabljenja imuniteta;Toplotnog udara"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 18,
+    "xmax": 469,
+    "ymax": 53
+   },
+   "ocr_text": "Do čega može dovesti pregrijavanje kabine motornog vozila? "
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 19,
+    "ymin": 25,
+    "xmax": 470,
+    "ymax": 60
+   },
+   "ocr_text": "Šta su kontuzije?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 83,
+    "xmax": 397,
+    "ymax": 205
+   },
+   "ocr_text": "Nagnječenja mekih tkiva;Povrede glave;Otvorene frakture"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 21,
+    "xmax": 468,
+    "ymax": 57
+   },
+   "ocr_text": "Čovjek normalno diše:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 13,
+    "ymin": 66,
+    "xmax": 416,
+    "ymax": 180
+   },
+   "ocr_text": "14 do 16 puta u minuti;12 do 20 puta u minuti;16 do 20 puta u minuti"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 61,
+    "ymin": 20,
+    "xmax": 467,
+    "ymax": 55
+   },
+   "ocr_text": "Šta je potrebno zadovoljiti trijažom?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 49,
+    "ymin": 76,
+    "xmax": 238,
+    "ymax": 145
+   },
+   "ocr_text": "Red hitnosti ukazivanja pomoći;Sigurnosne mjere pružanja pomoći;Red hitnosti kod poziva u pomoć"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 58,
+    "ymin": 13,
+    "xmax": 470,
+    "ymax": 40
+   },
+   "ocr_text": "Krvarenja dijelimo prema: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 45,
+    "ymin": 54,
+    "xmax": 491,
+    "ymax": 207
+   },
+   "ocr_text": "izgledu;jačini i brzini;lokalitetu, vremenu nastanka i povrijeđenom krvnom sudu"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 54,
+    "ymin": 21,
+    "xmax": 515,
+    "ymax": 59
+   },
+   "ocr_text": "Šta je astma?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 20,
+    "ymin": 76,
+    "xmax": 478,
+    "ymax": 192
+   },
+   "ocr_text": "Poremećaj kod kojeg hronično zapaljenje bronhija uzrokuje oticanje i sužavanje dišnih puteva;Poremećaj kod kojeg osoba ima smanjen nivo šećera u krvi;Poremećaj kod kojeg se osoba guši i gubi svijest radi iskrvarenja"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 21,
+    "ymin": 8,
+    "xmax": 474,
+    "ymax": 108
+   },
+   "ocr_text": "Kod zbrinjavanja krvarenja zaštitne rukavice koristimo kako bismo: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 21,
+    "ymin": 120,
+    "xmax": 439,
+    "ymax": 234
+   },
+   "ocr_text": "zaustavili krvarenje;zaštitili sebe i spriječili infekciju rane;spriječili širenje zaraze i smanjili krvarenje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 19,
+    "ymin": 12,
+    "xmax": 473,
+    "ymax": 56
+   },
+   "ocr_text": "Drugi red hitnosti čine:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 52,
+    "ymin": 77,
+    "xmax": 380,
+    "ymax": 180
+   },
+   "ocr_text": "besvjesno stanje;krvarenja bez općih znakova iskrvarenja;manje smrzotine i opekotine"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 50,
+    "ymin": 11,
+    "xmax": 470,
+    "ymax": 54
+   },
+   "ocr_text": "Šta je zabranjeno kod razderotine?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 50,
+    "ymin": 58,
+    "xmax": 470,
+    "ymax": 173
+   },
+   "ocr_text": "Postaviti sterilne gaze;Trljati ranu da bi se isprala prljavština;Pritiskati ranu kako bismo zaustavili krvarenje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 67,
+    "ymin": 13,
+    "xmax": 468,
+    "ymax": 50
+   },
+   "ocr_text": "Ogrebotinu je važno:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 13,
+    "ymin": 59,
+    "xmax": 394,
+    "ymax": 135
+   },
+   "ocr_text": "ostaviti na čistom zraku;skinuti nečisti sloj kože;potpuno isprati vodom"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 18,
+    "xmax": 470,
+    "ymax": 53
+   },
+   "ocr_text": "Šta primjećujemo kod dehidracije?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 79,
+    "xmax": 467,
+    "ymax": 123
+   },
+   "ocr_text": "Blijedu i suhu kožu koja se lako nabire, slabost;Povišenu tjelesnu temperaturu i nepravilno disanje;Nesvjesticu i nepravilno disanje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 21,
+    "xmax": 469,
+    "ymax": 60
+   },
+   "ocr_text": "Hajmlihov zahvat ne smijemo primijeniti:"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 78,
+    "xmax": 469,
+    "ymax": 194
+   },
+   "ocr_text": "kod djece starije od 1 godine;kod trudnica ili gojaznih osoba;bez prisustva stručnih osoba"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 20,
+    "xmax": 470,
+    "ymax": 56
+   },
+   "ocr_text": "Kako diše osoba kod hiperventilacije?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 14,
+    "ymin": 80,
+    "xmax": 375,
+    "ymax": 152
+   },
+   "ocr_text": "Diše ubrzano;Diše plitko;Diše usporeno"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 19,
+    "ymin": 20,
+    "xmax": 471,
+    "ymax": 58
+   },
+   "ocr_text": "Šta čini treći red hitnosti?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 18,
+    "ymin": 78,
+    "xmax": 302,
+    "ymax": 149
+   },
+   "ocr_text": "Prividna smrt;Iščašenja i uganuća zglobova;Manje smrzotine i opekotine"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 19,
+    "ymin": 21,
+    "xmax": 465,
+    "ymax": 59
+   },
+   "ocr_text": "Trovanje alkoholom nastaje kada je nivo promila u krvi: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 9,
+    "ymin": 81,
+    "xmax": 386,
+    "ymax": 176
+   },
+   "ocr_text": "3 do 5;2 do 3;1 do 2"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 65,
+    "ymin": 23,
+    "xmax": 471,
+    "ymax": 54
+   },
+   "ocr_text": "Koliko u dubinu se potiskuje prsna kost kod reanimacije odraslih? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 53,
+    "ymin": 87,
+    "xmax": 115,
+    "ymax": 161
+   },
+   "ocr_text": "9 do 10 cm;4 do 5 cm;2 do 3 cm"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 62,
+    "ymin": 32,
+    "xmax": 459,
+    "ymax": 43
+   },
+   "ocr_text": "Trijaža može biti po: "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 17,
+    "ymin": 77,
+    "xmax": 398,
+    "ymax": 170
+   },
+   "ocr_text": "uzrastu (prvo djeca);ozljedama i prioritetu transporta;mjestu nesreće"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 20,
+    "ymin": 11,
+    "xmax": 472,
+    "ymax": 70
+   },
+   "ocr_text": "Šta se prvo zbrinjava od navedenog? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 51,
+    "ymin": 77,
+    "xmax": 472,
+    "ymax": 188
+   },
+   "ocr_text": "Epileptični napad;Sumnja na uganuće skočnog zgloba;Krvarenje iz nosa"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 19,
+    "ymin": 21,
+    "xmax": 465,
+    "ymax": 62
+   },
+   "ocr_text": "Kojim redoslijedom se vrši kardiopulmonalna reanimacija djece?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 27,
+    "ymin": 78,
+    "xmax": 471,
+    "ymax": 199
+   },
+   "ocr_text": "5 inicijalnih upuhivanja, a zatim vanjska masaža srca sa 2 upuhivanja;Vanjska masaža srca sa 2 upuhivanja, zatim 5 inicijalnih upuhivanja;2 upuhivanja, vanjska masaža srca, zatim 5 inicijalnih upuhivanja"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 54,
+    "ymin": 13,
+    "xmax": 469,
+    "ymax": 73
+   },
+   "ocr_text": "Kakvu boju kože ima osoba otrovana ugljenmonoksidom?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 23,
+    "ymin": 89,
+    "xmax": 392,
+    "ymax": 161
+   },
+   "ocr_text": "Blijedu;Jarko ružičastu;Plavičasto sivu"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 50,
+    "ymin": 105,
+    "xmax": 115,
+    "ymax": 178
+   },
+   "ocr_text": "Kod ozljede vratne kičme;Kod djece;Kod prisustva stranog tijela u jednjaku"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 23,
+    "ymin": 17,
+    "xmax": 470,
+    "ymax": 54
+   },
+   "ocr_text": "Kada se ne izvodi zabacivanje glave unazad? "
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 16,
+    "ymin": 18,
+    "xmax": 468,
+    "ymax": 54
+   },
+   "ocr_text": "Čime se karakterizira drugi stepen opekotina? "
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 15,
+    "ymin": 77,
+    "xmax": 174,
+    "ymax": 175
+   },
+   "ocr_text": "Jakim krvarenjem;Pojavom mjehura ispunjenih tekućinom;Gubitkom funkcije opečenog dijela tijela"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 14,
+    "ymin": 17,
+    "xmax": 463,
+    "ymax": 52
+   },
+   "ocr_text": "Koji su sigurni znaci prijeloma?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 14,
+    "ymin": 75,
+    "xmax": 309,
+    "ymax": 148
+   },
+   "ocr_text": "Krvarenje, otok;Crvenilo, neosjetljivost na bol, otvrdnuće tetive;Bol, deformacija i patološka gibljivost"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 79,
+    "ymin": 18,
+    "xmax": 480,
+    "ymax": 71
+   },
+   "ocr_text": "Koliko u dubinu se pritišće prsna kost kod reanimacije beba?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 89,
+    "xmax": 467,
+    "ymax": 158
+   },
+   "ocr_text": "Minimalno da se ne ozljede rebra i srce;1,5 do 2,5 cm;3 do 5 cm"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 94,
+    "xmax": 471,
+    "ymax": 184
+   },
+   "ocr_text": "Zabacivanjem glave (defleksija);Vađenjem stranog tijela;Pružanjem umjetnog disanja"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 77,
+    "ymin": 19,
+    "xmax": 472,
+    "ymax": 75
+   },
+   "ocr_text": "Kako osiguravamo prohodnost dišnih puteva?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 74,
+    "ymin": 18,
+    "xmax": 469,
+    "ymax": 74
+   },
+   "ocr_text": "Šta je cijanoza?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 62,
+    "ymin": 93,
+    "xmax": 469,
+    "ymax": 229
+   },
+   "ocr_text": "Žuta boja kože;Jarko crvena boja kože;Plavičasta prebojenost kože"
+  }
+ ],
+ [
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 15,
+    "ymin": 81,
+    "xmax": 469,
+    "ymax": 200
+   },
+   "ocr_text": "Dati kocku šećera, čokoladu, zaslađen napitak Kako pružiti prvu pomoć kod blaže hipoglikemije?;Dati inzulin;Osloboditi od odjeće koja steže i postaviti osobu u bočni položaj"
+  },
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 63,
+    "ymin": 21,
+    "xmax": 469,
+    "ymax": 57
+   },
+   "ocr_text": "Kako pružiti prvu pomoć kod blaže hipoglikemije?"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 66,
+    "ymin": 23,
+    "xmax": 442,
+    "ymax": 58
+   },
+   "ocr_text": "Zašto ujed insekta u ustima ili grlu može biti opasan po život?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 47,
+    "ymin": 79,
+    "xmax": 473,
+    "ymax": 198
+   },
+   "ocr_text": "Zato što ujed izaziva malaksalost;Zato što se otok širi na sve udove;Zato što otok može zaustaviti disanje"
+  }
+ ],
+ [
+  {
+   "name": "tekst_pitanja",
+   "bndbox": {
+    "xmin": 77,
+    "ymin": 22,
+    "xmax": 453,
+    "ymax": 60
+   },
+   "ocr_text": "Do čega dolazi zbog dehidratacije?"
+  },
+  {
+   "name": "odgovori",
+   "bndbox": {
+    "xmin": 60,
+    "ymin": 69,
+    "xmax": 439,
+    "ymax": 152
+   },
+   "ocr_text": "Do pojačanog znojenja;Do toplotnih mišićnih grčeva;Do sniženja tjelesne temperature"
+  }
+ ]
+ ]

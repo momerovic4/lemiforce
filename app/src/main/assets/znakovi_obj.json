@@ -1,2728 +1,2728 @@
 [
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 86,
-        "ymin": 13,
-        "xmax": 583,
-        "ymax": 35
-      },
-      "ocr_text": "Šta treba izbjegavati nailaskom na ovaj saobraćajni znak?",
-      "score": 0.9641256
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 111,
-        "xmax": 512,
-        "ymax": 181
-      },
-      "ocr_text": "vožnju prilagođenu uslovima koji vladaju na kolovozu;\r\nnagle pokrete točkom upravljača;\r\nnaglo kočenje i zaustavljanje.",
-      "score": 0.9857116
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 21,
-        "xmax": 579,
-        "ymax": 34
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.9748463
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 89,
-        "xmax": 587,
-        "ymax": 183
-      },
-      "ocr_text": "pripremiti se za savladavanje više uzastopnih krivina od kojih je\r\n\r\nprva udesno;\r\nučesnike u saobraćaju iza sebe upozoriti desnim pokazivačem\r\npravca;",
-      "score": 0.8882434
-    }
-  ],
-  [
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 636,
-        "ymin": 36,
-        "xmax": 775,
-        "ymax": 184
-      },
-      "ocr_text": "A",
-      "score": 0.8368472
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 114,
-        "xmax": 566,
-        "ymax": 154
-      },
-      "ocr_text": "na blizinu dijela puta gdje je uz kolovoz neutvrđena bankina;\r\nna blizinu dijela puta gdje je zaleđen kolovoz.",
-      "score": 0.9760426
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 19,
-        "xmax": 538,
-        "ymax": 32
-      },
-      "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
-      "score": 0.9509376
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 20,
-        "xmax": 572,
-        "ymax": 33
-      },
-      "ocr_text": "Kako ćete postupiti nailaskom na ovoj saobraćajni znak?",
-      "score": 0.9816607
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 116,
-        "xmax": 547,
-        "ymax": 186
-      },
-      "ocr_text": "nastaviti kretanje vozilom jer imam prvenstvo prolaza;\r\nsmanjiti brzinu kretanja vozila i po potrebi zaustaviti vozilo;\r\npropustiti vozila iz suprotnog smjera.",
-      "score": 0.9869793
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 18,
-        "xmax": 389,
-        "ymax": 35
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.9585618
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 85,
-        "xmax": 582,
-        "ymax": 173
-      },
-      "ocr_text": "zabrana saobraćaja za sva motorna vozila koja vuku priključno vozilo;\r\nzabrana saobraćaja za sva motorna vozila koja vuku laku\r\nprikolicu.",
-      "score": 0.69756645
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 117,
-        "xmax": 409,
-        "ymax": 158
-      },
-      "ocr_text": "elektronska naplata putarine;\r\nzabrana korištenja radio-aparata u vozilu.",
-      "score": 0.9826342
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 22,
-        "xmax": 384,
-        "ymax": 39
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.92974126
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 68,
-        "ymin": 115,
-        "xmax": 622,
-        "ymax": 163
-      },
-      "ocr_text": "niša za zaustavljanje vozila u slučaju opasnosti;\r\nprostor rezervisan za zaustavljanje vozila javnog gradskog prevoza.",
-      "score": 0.984247
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 23,
-        "xmax": 382,
-        "ymax": 40
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9052015
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 21,
-        "xmax": 378,
-        "ymax": 38
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9179766
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 116,
-        "xmax": 480,
-        "ymax": 162
-      },
-      "ocr_text": "radionica za popravku guma;\r\nmjesto gdje možete kontrolisati pritisak u gumama.",
-      "score": 0.9916334
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 17,
-        "xmax": 574,
-        "ymax": 30
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.96339005
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 112,
-        "xmax": 482,
-        "ymax": 183
-      },
-      "ocr_text": "povećati pažnju;\r\npružiti pomoć povrjeđenim u saobraćajnoj nezgodi;\r\npovećavati brzinu kretanja vozila.",
-      "score": 0.99200773
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 22,
-        "xmax": 535,
-        "ymax": 63
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.7564855
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 106,
-        "xmax": 574,
-        "ymax": 180
-      },
-      "ocr_text": "ulazak u područje u kojem postoji povećana opasnost od \r\nizbijanja nekontrolisanog požara; \r\nulazite u područje gdje je dozvoljeno izletnicima paljenje vatre.",
-      "score": 0.96646106
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 21,
-        "xmax": 577,
-        "ymax": 33
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.9632532
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 628,
-        "ymin": 32,
-        "xmax": 771,
-        "ymax": 187
-      },
-      "ocr_text": "A",
-      "score": 0.84187955
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 116,
-        "xmax": 530,
-        "ymax": 186
-      },
-      "ocr_text": "smanjiti brzinu kretanja vozila i povećavati pažnju;\r\npredvidjeti mogućnost nailaska na poledicu na kolovozu;\r\npovećavati brzinu kretanja vozila.",
-      "score": 0.98666173
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 19,
-        "xmax": 607,
-        "ymax": 57
-      },
-      "ocr_text": "Kojim vozilima je zabranjeno kretanje putem označenim ovim\r\nsaobraćajnim znakom?",
-      "score": 0.9768162
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 113,
-        "xmax": 320,
-        "ymax": 154
-      },
-      "ocr_text": "biciklima;\r\n\r\nautobusima i teretnim vozilima.",
-      "score": 0.97738945
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 116,
-        "xmax": 401,
-        "ymax": 158
-      },
-      "ocr_text": "biciklima, mopedima i lakim motociklima;\r\nmotociklima.",
-      "score": 0.98924506
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 21,
-        "xmax": 612,
-        "ymax": 60
-      },
-      "ocr_text": "Kojim vozilima je dozvoljeno kretanje putem označenim ovim\r\nsaobraćajnim znakom?",
-      "score": 0.9754182
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 19,
-        "xmax": 433,
-        "ymax": 37
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.97041905
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 86,
-        "xmax": 570,
-        "ymax": 174
-      },
-      "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije\r\niznad određene količine;\r\nzabrana saobraćaja za vozila koja prevoze eksploziv ili neke\r\nlako zapaljive materije.",
-      "score": 0.85651755
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 17,
-        "xmax": 385,
-        "ymax": 34
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.95979935
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 113,
-        "xmax": 392,
-        "ymax": 158
-      },
-      "ocr_text": "teren uređen za kampovanje u vozilima;\r\nzabranjeno kampovanje u vozilima.",
-      "score": 0.9759175
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 22,
-        "xmax": 392,
-        "ymax": 39
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.9635297
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 117,
-        "xmax": 459,
-        "ymax": 158
-      },
-      "ocr_text": "blizina mjesta na kojem se nalazi autopraonica;\r\nblizina mjesta gdje je zabranjeno pranje vozila.",
-      "score": 0.96530616
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 82,
-        "ymin": 22,
-        "xmax": 618,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima znak koji daje ovlašteno lice na raskrsnici?",
-      "score": 0.9547012
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 81,
-        "ymin": 117,
-        "xmax": 614,
-        "ymax": 181
-      },
-      "ocr_text": "dozvoljen prolaz vozilima koja dolaze sa bočnih strana ovlaštenog lica;\r\nobavezno zaustavljanje za sva vozila ispred raskrsnice;",
-      "score": 0.93121374
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 17,
-        "xmax": 495,
-        "ymax": 57
-      },
-      "ocr_text": "Dvostruka isprekidana linija služi za\r\nobilježavanje:",
-      "score": 0.80881876
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 49,
-        "ymin": 82,
-        "xmax": 491,
-        "ymax": 196
-      },
-      "ocr_text": "X saobraćajnih traka sa izmjenljivim smjerom\r\n\r\nkretanja na kojima je saobraćaj regulisan uređajima\r\nza davanje svjetlosnih saobraćajnih znakova;\r\nsaobraćajne trake koju mogu koristiti samo\r\nvozila s pravom prvenstva prolaza.",
-      "score": 0.9619562
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 28,
-        "xmax": 600,
-        "ymax": 65
-      },
-      "ocr_text": "Kada će vozač koji upravlja vozilom koje prevozi opasne\r\nmaterije koristiti ovaj znak?",
-      "score": 0.974298
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 122,
-        "xmax": 546,
-        "ymax": 167
-      },
-      "ocr_text": "kad vrši prevoz na temperaturi ispod o C;\r\n\r\nkad vrši prevoz opasnih materija na povišenoj temperaturi.",
-      "score": 0.9920889
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 20,
-        "xmax": 573,
-        "ymax": 32
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.95856464
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 115,
-        "xmax": 344,
-        "ymax": 159
-      },
-      "ocr_text": "obavezno voziti ulijevo;\r\nnastaviti kretanje vozilom pravom.",
-      "score": 0.96369386
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 20,
-        "xmax": 383,
-        "ymax": 37
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.9528811
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 116,
-        "xmax": 437,
-        "ymax": 160
-      },
-      "ocr_text": "ukrštanje puteva istog značaja;\r\nukrštanje sporednih puteva pod oštrim uglom.",
-      "score": 0.9845512
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 115,
-        "xmax": 183,
-        "ymax": 157
-      },
-      "ocr_text": "pokretni most;\r\nblizina obale.",
-      "score": 0.99386764
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 20,
-        "xmax": 385,
-        "ymax": 37
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.9645616
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 81,
-        "ymin": 121,
-        "xmax": 442,
-        "ymax": 191
-      },
-      "ocr_text": "zabrana saobraćaja u oba smjera;\r\nzabrana saobraćaja u smjeru kretanja vozila;\r\nda se saobraćaj odvija iz suprotnog smjera.",
-      "score": 0.96594936
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 27,
-        "ymin": 24,
-        "xmax": 443,
-        "ymax": 46
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96430427
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 18,
-        "xmax": 438,
-        "ymax": 35
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96422744
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 113,
-        "xmax": 492,
-        "ymax": 159
-      },
-      "ocr_text": "produžetak puta sa prvenstvom prolaza;\r\nzavršetak puta ili dijela puta sa prvenstvom prolaza.",
-      "score": 0.94801986
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 23,
-        "xmax": 571,
-        "ymax": 35
-      },
-      "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.97766054
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 85,
-        "xmax": 579,
-        "ymax": 180
-      },
-      "ocr_text": "uz povećanu pažnju nastaviti kretanje vozilom, jer imam pravo\r\nprvenstva prolaza u odnosu na vozila koja dolaze iz suprotnog\r\nsmjera;\r\nzaustaviti vozilo i propustiti vozila iz suprotnog smjera.",
-      "score": 0.9091315
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 22,
-        "xmax": 551,
-        "ymax": 67
-      },
-      "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni \r\nznak?",
-      "score": 0.9827566
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 118,
-        "xmax": 515,
-        "ymax": 165
-      },
-      "ocr_text": "smanjiti brzinu kretanja vozila do brzine hoda pješaka;\r\npovećati brzinu kretanja vozila.",
-      "score": 0.98795086
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 26,
-        "xmax": 645,
-        "ymax": 64
-      },
-      "ocr_text": "Kojim vozilima je dozvoljeno kretanje putem označenim ovim\r\nsaobraćajnim znakom?",
-      "score": 0.9788595
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 121,
-        "xmax": 434,
-        "ymax": 189
-      },
-      "ocr_text": "biciklu;\r\nputničkom vozilu, teretnom vozilu, autobusu;\r\nmotociklu.",
-      "score": 0.996291
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 24,
-        "xmax": 489,
-        "ymax": 41
-      },
-      "ocr_text": "Koja vozila se obilježavaju znakom kao na slici?",
-      "score": 0.9702847
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 118,
-        "xmax": 367,
-        "ymax": 164
-      },
-      "ocr_text": "vozila koja prevoze opasne materije;\r\n\r\nspora vozila;",
-      "score": 0.9920318
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 115,
-        "xmax": 451,
-        "ymax": 159
-      },
-      "ocr_text": "opasnost za koju nije predviđen poseban znak;\r\nopasnost kad se krećemo klizavim kolovozom.",
-      "score": 0.98366606
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 19,
-        "xmax": 436,
-        "ymax": 36
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9671993
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 120,
-        "xmax": 515,
-        "ymax": 180
-      },
-      "ocr_text": "pravovremeno prebaciti u niži stepen prenosa;\r\nprebaciti u viši stepen prenosa i što više kočiti nožnom\r\nkočnicom.",
-      "score": 0.96572685
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 22,
-        "xmax": 578,
-        "ymax": 34
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.96749955
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 25,
-        "xmax": 580,
-        "ymax": 37
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.9698514
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 118,
-        "xmax": 387,
-        "ymax": 190
-      },
-      "ocr_text": "smanjiti brzinu kretanja vozila;\r\npovećavati pažnju i očekivati bicikliste;\r\n\r\npovećati brzinu kretanja vozila.",
-      "score": 0.98835945
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 26,
-        "xmax": 615,
-        "ymax": 70
-      },
-      "ocr_text": "Kojim vozilima nije dozvoljeno kretanje putem označenim \r\novim saobraćajnim znakom?",
-      "score": 0.922832
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 88,
-        "xmax": 534,
-        "ymax": 177
-      },
-      "ocr_text": "vozila čije je osovinsko opterećenje veće od određenog \r\nna znaku; \r\nvozila čije je osovinsko opterećenje manje od određenog \r\nna znaku.",
-      "score": 0.98482937
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 18,
-        "xmax": 383,
-        "ymax": 36
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.95022845
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 86,
-        "xmax": 583,
-        "ymax": 174
-      },
-      "ocr_text": "zabrana saobraćaja za sva motorna vozila, osim motocikla\r\nbez prikolice i mopeda;\r\nzabrana saobraćaja za sva motorna vozila, osim motocikla bez\r\nprikolice.",
-      "score": 0.9200204
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 22,
-        "xmax": 389,
-        "ymax": 39
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.96879256
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 118,
-        "xmax": 399,
-        "ymax": 162
-      },
-      "ocr_text": "zabrana saobraćaja za bicikla;\r\nzabrana saobraćaja za bicikla i mopede.",
-      "score": 0.9738673
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 82,
-        "ymin": 117,
-        "xmax": 369,
-        "ymax": 161
-      },
-      "ocr_text": "obavezno obilaženje s lijeve strane;\r\nobavezan smjer.",
-      "score": 0.9919205
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 82,
-        "ymin": 21,
-        "xmax": 445,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9660153
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 82,
-        "ymin": 14,
-        "xmax": 404,
-        "ymax": 36
-      },
-      "ocr_text": "Šta zabranjuje ovaj saobraćajni znak?",
-      "score": 0.9779523
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 113,
-        "xmax": 236,
-        "ymax": 158
-      },
-      "ocr_text": "zaustavljanje vozila;\r\nparkiranje vozila.",
-      "score": 0.99546194
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 23,
-        "xmax": 464,
-        "ymax": 57
-      },
-      "ocr_text": "Koja vozila se obilježavaju oznakama kao na\r\n\r\nslici?",
-      "score": 0.96681607
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 117,
-        "xmax": 234,
-        "ymax": 158
-      },
-      "ocr_text": "teška vozila;\r\nvozila šira od 2,5 m.",
-      "score": 0.9961879
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 115,
-        "xmax": 469,
-        "ymax": 185
-      },
-      "ocr_text": "prvenstvo prolaza za vozila iz suprotnog smjera;\r\ndozvoljeni smjer;\r\nsaobraćaj u oba smjera.",
-      "score": 0.99314624
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 19,
-        "xmax": 388,
-        "ymax": 36
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9400397
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 113,
-        "xmax": 453,
-        "ymax": 157
-      },
-      "ocr_text": "moguće neravnine i izbočine na putu;\r\nopasnost od kamenja koje se odronjava na put.",
-      "score": 0.9850373
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 15,
-        "ymin": 15,
-        "xmax": 433,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96607435
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 17,
-        "xmax": 570,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.82273185
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 76,
-        "xmax": 555,
-        "ymax": 196
-      },
-      "ocr_text": "blizina prelaza puta preko željezničke pruge u nivou koja nije \r\nobezbijeđena branicima ili polubranicima; \r\nblizina prelaza puta preko željezničke pruge u nivou koja je \r\nobezbijeđena branicima ili polubranicima; \r\nnailazak na drveni most.",
-      "score": 0.9260491
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 23,
-        "xmax": 382,
-        "ymax": 40
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.92527187
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 119,
-        "xmax": 558,
-        "ymax": 185
-      },
-      "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije;\r\n\r\nzabrana saobraćaja za teretna vozila koja prevoze opasne\r\nmaterije",
-      "score": 0.90218526
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 20,
-        "xmax": 532,
-        "ymax": 48
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.8954185
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 77,
-        "xmax": 574,
-        "ymax": 171
-      },
-      "ocr_text": "zabrana saobraćaja za vozila koja prekoračuju određeno \r\ndvoosovinsko opterećenje; \r\nzabrana saobraćaja za vozila čije opterećenje po jednostrukoj \r\nosovini prelazi opterećenje označeno na znaku.",
-      "score": 0.97719496
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 24,
-        "xmax": 382,
-        "ymax": 41
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.93409467
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 119,
-        "xmax": 291,
-        "ymax": 164
-      },
-      "ocr_text": "pješačka staza;\r\nzona smirenog saobraćaja.",
-      "score": 0.99220014
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 20,
-        "xmax": 383,
-        "ymax": 37
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.8946336
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 116,
-        "xmax": 362,
-        "ymax": 160
-      },
-      "ocr_text": "put sa jednosmjernim saobraćajem;\r\nobavezan smjer.",
-      "score": 0.99292505
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 115,
-        "xmax": 316,
-        "ymax": 160
-      },
-      "ocr_text": "duga vozila;\r\nvozila čija širina prelazi 2,5 m.",
-      "score": 0.9891823
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 21,
-        "xmax": 501,
-        "ymax": 39
-      },
-      "ocr_text": "Koja vozila se obilježavaju oznakom kao na slici?",
-      "score": 0.9754951
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 22,
-        "xmax": 559,
-        "ymax": 41
-      },
-      "ocr_text": "Šta može imati za posljedicu nepoštovanje ovog znaka?",
-      "score": 0.8505153
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 620,
-        "ymin": 40,
-        "xmax": 795,
-        "ymax": 203
-      },
-      "ocr_text": "A",
-      "score": 0.82802916
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 121,
-        "xmax": 473,
-        "ymax": 191
-      },
-      "ocr_text": "moguće zanošenje i izlijetanje vozila sa kolovoza;\r\nveću kontrolu prilikom upravljanja vozilom;\r\nmoguće oštećenje ili lomljenje dijelova na vozilu.",
-      "score": 0.993944
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 18,
-        "xmax": 386,
-        "ymax": 35
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.96642506
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 113,
-        "xmax": 184,
-        "ymax": 154
-      },
-      "ocr_text": "pokretni most;\r\nblizina obale.",
-      "score": 0.99481
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 17,
-        "xmax": 387,
-        "ymax": 34
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.97060007
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 625,
-        "ymin": 25,
-        "xmax": 814,
-        "ymax": 208
-      },
-      "ocr_text": "A",
-      "score": 0.83246297
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 112,
-        "xmax": 208,
-        "ymax": 158
-      },
-      "ocr_text": "životinje na putu;\r\ndivljač na putu.",
-      "score": 0.9668572
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 19,
-        "xmax": 380,
-        "ymax": 36
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.97058
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 115,
-        "xmax": 556,
-        "ymax": 181
-      },
-      "ocr_text": "zabrana preticanja svih motornih vozila, osim motocikla bez\r\nprikolice i mopeda;\r\nzabrana preticanja svih motornih vozila, osim mopeda..",
-      "score": 0.8207474
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 20,
-        "xmax": 612,
-        "ymax": 54
-      },
-      "ocr_text": "Kojim vozilima nije dozvoljeno kretanje putem označenim\r\n\r\novim saobraćajnim znakom?",
-      "score": 0.971105
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 116,
-        "xmax": 597,
-        "ymax": 184
-      },
-      "ocr_text": "vozilima čija ukupna visina premašuje visinu označenu na znaku; \r\nvozilima čija ukupna visina ne premašuje visinu označenu na \r\nznaku.",
-      "score": 0.97624576
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 63,
-        "ymin": 22,
-        "xmax": 425,
-        "ymax": 39
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9674404
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 117,
-        "xmax": 227,
-        "ymax": 162
-      },
-      "ocr_text": "obavezni smjerovi;\r\ndozvoljeni smjerovi.",
-      "score": 0.9929899
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 19,
-        "xmax": 433,
-        "ymax": 36
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9705349
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 115,
-        "xmax": 500,
-        "ymax": 185
-      },
-      "ocr_text": "najmanja dozvoljena brzina;\r\nnajveća dozvoljena brzina;\r\nbrzina koja se preporučuje na određenom dijelu puta.",
-      "score": 0.9943714
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 17,
-        "xmax": 432,
-        "ymax": 34
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9716105
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 112,
-        "xmax": 524,
-        "ymax": 183
-      },
-      "ocr_text": "početak autoputa;\r\npočetak brzog puta;\r\npočetak puta rezervisanog za saobraćaj motornih vozila.",
-      "score": 0.97583437
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 116,
-        "xmax": 563,
-        "ymax": 184
-      },
-      "ocr_text": "povećati brzinu kretanja vozila;\r\nsmanjiti brzinu kretanja vozila;\r\nračunati na mogućnost udara bočnog vjetra sa desne strane.",
-      "score": 0.9932828
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 20,
-        "xmax": 570,
-        "ymax": 58
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni \r\nznak?",
-      "score": 0.98111457
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 115,
-        "xmax": 541,
-        "ymax": 207
-      },
-      "ocr_text": "obavezno zaustaviti vozilo;\r\nnailazak na raskrsnicu regulisanu svjetlosnom saobraćajnom\r\nsignalizacijom;\r\nnastaviti kretanje vozilom bez smanjenja brzine kretanja.",
-      "score": 0.98914313
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 19,
-        "xmax": 441,
-        "ymax": 36
-      },
-      "ocr_text": "Koje značenje imaj ovaj saobraćajni znak?",
-      "score": 0.98141956
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 636,
-        "ymin": 36,
-        "xmax": 767,
-        "ymax": 180
-      },
-      "ocr_text": "A",
-      "score": 0.79462475
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 110,
-        "xmax": 320,
-        "ymax": 181
-      },
-      "ocr_text": "povećati pažnju;\r\npovećati brzinu kretanja vozila;\r\nsmanjiti brzinu kretanja vozila.",
-      "score": 0.9891739
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 15,
-        "xmax": 574,
-        "ymax": 28
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.97085154
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 628,
-        "ymin": 30,
-        "xmax": 781,
-        "ymax": 192
-      },
-      "ocr_text": "A",
-      "score": 0.8259872
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 64,
-        "ymin": 21,
-        "xmax": 372,
-        "ymax": 40
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.93826425
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 116,
-        "xmax": 329,
-        "ymax": 164
-      },
-      "ocr_text": "zabrana polukružnog okretanja;\r\nobavezno polukružno okretanje.",
-      "score": 0.9933529
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 19,
-        "xmax": 375,
-        "ymax": 36
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9166498
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 115,
-        "xmax": 559,
-        "ymax": 155
-      },
-      "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije;\r\n\r\nzabrana saobraćaja za vozila cisterne.",
-      "score": 0.988142
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 24,
-        "xmax": 385,
-        "ymax": 41
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9211935
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 120,
-        "xmax": 596,
-        "ymax": 182
-      },
-      "ocr_text": "zabrana saobraćaja za sva motorna vozila koja vuku priključno vozilo;\r\nzabrana saobraćaja za teretno vozilo koje vuče priključno vozilo.",
-      "score": 0.968243
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 81,
-        "ymin": 25,
-        "xmax": 443,
-        "ymax": 42
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96492505
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 121,
-        "xmax": 337,
-        "ymax": 166
-      },
-      "ocr_text": "obavezan smjer;\r\nobavezno polukružno okretanje.",
-      "score": 0.9957818
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 21,
-        "xmax": 442,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96961546
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 112,
-        "xmax": 377,
-        "ymax": 185
-      },
-      "ocr_text": "staza kojom se moraju kretati bicikli;\r\nbiciklistička staza;\r\nzabrana kretanja za bicikle.",
-      "score": 0.98328644
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 81,
-        "ymin": 27,
-        "xmax": 390,
-        "ymax": 44
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9329717
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 632,
-        "ymin": 44,
-        "xmax": 775,
-        "ymax": 194
-      },
-      "ocr_text": "A",
-      "score": 0.7879705
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 82,
-        "ymin": 123,
-        "xmax": 456,
-        "ymax": 167
-      },
-      "ocr_text": "zabrana održavanja sportskih priredbi na putu;\r\nprevrtanje ili iskliznuće vozila sa kolovoza.",
-      "score": 0.98250496
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 19,
-        "xmax": 384,
-        "ymax": 37
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.9439637
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 114,
-        "xmax": 381,
-        "ymax": 159
-      },
-      "ocr_text": "obavezno zaustavljanje;\r\nnailazak na put s prvenstvom prolaza.",
-      "score": 0.978665
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 18,
-        "xmax": 383,
-        "ymax": 35
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.91734
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 114,
-        "xmax": 357,
-        "ymax": 159
-      },
-      "ocr_text": "najveće odstojanje između vozila;\r\nnajmanje odstojanje između vozila.",
-      "score": 0.9934802
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 120,
-        "xmax": 543,
-        "ymax": 164
-      },
-      "ocr_text": "zabrana saobraćaja za sva motorna vozila;\r\nzabrana saobraćaja za sva motorna vozila, osim mopeda.",
-      "score": 0.99405736
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 24,
-        "xmax": 384,
-        "ymax": 41
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je:",
-      "score": 0.92848194
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 113,
-        "xmax": 420,
-        "ymax": 185
-      },
-      "ocr_text": "brzina koja je preporučena;\r\nnajmanja dopuštena brzina kretanja vozila;\r\n\r\nograničenje brzine.",
-      "score": 0.99449587
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 18,
-        "xmax": 438,
-        "ymax": 35
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.97260326
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 19,
-        "xmax": 432,
-        "ymax": 36
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.97096294
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 115,
-        "xmax": 569,
-        "ymax": 200
-      },
-      "ocr_text": "zabranu saobraćaja za vozila koja na točkovima koriste lance;\r\noznačava početak dijela puta na kome motorna vozila, osim\r\nmotocikla moraju imati propisanu zimsku opremu u zimskim\r\nuslovima.",
-      "score": 0.9658199
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 20,
-        "xmax": 435,
-        "ymax": 37
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9699941
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 116,
-        "xmax": 480,
-        "ymax": 160
-      },
-      "ocr_text": "obavezno se prestrojiti u desnu saobraćajnu traku;\r\nnajava završetka preticanja.",
-      "score": 0.97069895
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 18,
-        "xmax": 598,
-        "ymax": 51
-      },
-      "ocr_text": "Koja motorna vozila je dozvoljeno preticati na putu\r\n\r\noznačenim ovim saobraćajnim znakom?",
-      "score": 0.9797857
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 112,
-        "xmax": 320,
-        "ymax": 157
-      },
-      "ocr_text": "motocikl bez prikolice i moped;\r\nputničko vozilo.",
-      "score": 0.9815135
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 18,
-        "xmax": 522,
-        "ymax": 52
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni\r\nznak?",
-      "score": 0.9462893
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 73,
-        "ymin": 85,
-        "xmax": 544,
-        "ymax": 208
-      },
-      "ocr_text": "obavezno zaustaviti vozilo;\r\npovećati pažnju;\r\n\r\nsmanjiti brzinu kretanja vozila tako da se u slučaju potrebe\r\nmože blagovremeno izvršiti radnja kočenja i zaustavljanja;\r\nnastaviti vožnju bez smanjenja brzine.",
-      "score": 0.99144286
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 20,
-        "xmax": 545,
-        "ymax": 60
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni \r\nznak?",
-      "score": 0.9837392
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 636,
-        "ymin": 40,
-        "xmax": 775,
-        "ymax": 185
-      },
-      "ocr_text": "A",
-      "score": 0.79224354
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 87,
-        "xmax": 538,
-        "ymax": 207
-      },
-      "ocr_text": "obavezno zaustaviti vozilo;\r\n\r\npovećavati pažnju;\r\nsmanjiti brzinu kretanja vozila tako da se u slučaju potrebe\r\nmože blagovremeno izvršiti radnja kočenja i zaustavljanja;\r\nnastaviti kretanje vozilom bez smanjenja brzine kretanja.",
-      "score": 0.9884674
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 68,
-        "ymin": 88,
-        "xmax": 373,
-        "ymax": 155
-      },
-      "ocr_text": "dozvoljeni smjer;\r\nput sa jednosmjernim saobraćajem;\r\nobavezno obilaženje sa desne strane.",
-      "score": 0.9917249
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 14,
-        "ymin": 16,
-        "xmax": 431,
-        "ymax": 41
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9739827
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 25,
-        "xmax": 573,
-        "ymax": 38
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
-      "score": 0.97563076
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 93,
-        "xmax": 612,
-        "ymax": 184
-      },
-      "ocr_text": "obavezno smanjiti brzinu kretanja vozila ispod 30 km/h;\r\nnastaviti kretanje vozilom sa naročitom opreznošću u dužini od 30 km;\r\nnastaviti kretanje vozilom pri čemu je najmanja dopuštena\r\nbrzina kretanja vozila 30 km/h.",
-      "score": 0.98729014
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 88,
-        "xmax": 539,
-        "ymax": 204
-      },
-      "ocr_text": "obavezno izvršiti radnju skretanja udesno;\r\nzaustaviti se po potrebi i propustiti pješake na\r\nobilježenom pješačkom prelazu;\r\nzaustaviti se po potrebi i propustiti vozila koja se kreću na\r\nputu sa prvenstvom prolaza.",
-      "score": 0.9791975
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 22,
-        "xmax": 541,
-        "ymax": 55
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ove oznake na\r\nkolovozu?",
-      "score": 0.8543146
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 21,
-        "xmax": 539,
-        "ymax": 62
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni \r\nznak?",
-      "score": 0.983032
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 632,
-        "ymin": 36,
-        "xmax": 775,
-        "ymax": 184
-      },
-      "ocr_text": "A",
-      "score": 0.8486714
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 88,
-        "xmax": 498,
-        "ymax": 181
-      },
-      "ocr_text": "obavezno zaustaviti vozilo;\r\nnastaviti kretanje vozilom sa naročitom opreznošću;\r\nprilagoditi brzinu kretanja vozila tako da se, u slučaju\r\npotrebe, može blagovremeno zaustaviti vozilo.",
-      "score": 0.99052894
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 84,
-        "xmax": 508,
-        "ymax": 152
-      },
-      "ocr_text": "prestanak ograničenja brzine od 80 km/h;\r\ndio puta gdje prestaje preporučena brzina od 80 km/h;\r\ndio puta gdje je preporučena brzina 80 km/h.",
-      "score": 0.9928959
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 18,
-        "xmax": 433,
-        "ymax": 34
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.97606635
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 18,
-        "xmax": 439,
-        "ymax": 35
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96469015
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 85,
-        "xmax": 521,
-        "ymax": 201
-      },
-      "ocr_text": "mjesto gdje prestaju sve zabrane;\r\nput ili dio puta na kojem vozila imaju prednost prolaza\r\nprema vozilima koja se kreću putevima koji se ukrštaju,\r\nodnosno spajaju sa tim putem ili dijelom puta;\r\nprelazak puta preko željezničke pruge.",
-      "score": 0.97385514
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 21,
-        "xmax": 436,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9681149
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 88,
-        "xmax": 491,
-        "ymax": 182
-      },
-      "ocr_text": "dozvoljeni smjer;\r\n\r\nprvenstvo prolaza u odnosu na vozila koja dolaze iz\r\nsuprotnog smjera;\r\nput sa jednosmjernim saobraćajem.",
-      "score": 0.9761823
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 13,
-        "ymin": 17,
-        "xmax": 379,
-        "ymax": 41
-      },
-      "ocr_text": "Tačan naziv saobraćajnog znaka je?",
-      "score": 0.97866505
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 68,
-        "ymin": 87,
-        "xmax": 376,
-        "ymax": 158
-      },
-      "ocr_text": "prestanak najmanje dopuštene brzine;\r\nprestanak preporučene brzine.\r\nprestanak ograničenja brzine.",
-      "score": 0.9828162
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 113,
-        "xmax": 538,
-        "ymax": 181
-      },
-      "ocr_text": "odustati od eventualne namjere zaustavljanja i parkiranja;\r\npo potrebi se zaustaviti, ali ne i parkirati;\r\nobavezno se zaustaviti.",
-      "score": 0.967796
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 19,
-        "xmax": 541,
-        "ymax": 52
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ove oznake na\r\nkolovozu?",
-      "score": 0.83558226
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 85,
-        "xmax": 477,
-        "ymax": 175
-      },
-      "ocr_text": "zabrana kretanja za bicikliste i pješake;\r\nrazdvojena staza za pješake i bicikliste, kojom je\r\nzabranjeno kretanje drugih učesnika u saobraćaju,\r\nstaza za kretanje pješaka, bicikla i motocikla.",
-      "score": 0.9471047
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 63,
-        "ymin": 15,
-        "xmax": 432,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.975872
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 30,
-        "xmax": 545,
-        "ymax": 71
-      },
-      "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni \r\n\r\nznak?",
-      "score": 0.9785162
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 125,
-        "xmax": 544,
-        "ymax": 191
-      },
-      "ocr_text": "povećati brzinu kretanja vozila;\r\nprilagoditi brzinu kretanja vozila uslovima i stanju na putu jer\r\npostoji povećana opasnost od iskliznuća ili prevrtanja vozila.",
-      "score": 0.9921977
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 24,
-        "xmax": 439,
-        "ymax": 41
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.97179055
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 92,
-        "xmax": 531,
-        "ymax": 179
-      },
-      "ocr_text": "mjesto na putu gdje je postavljeno preventivno ulegnuće\r\nkao objekat koji se koristi za smirivanje saobraćaja.\r\n\r\nmjesto na putu gdje je postavljena preventivna izbočina\r\nkao objekat koji se koristi za smirivanje saobraćaja.",
-      "score": 0.8423172
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 18,
-        "xmax": 577,
-        "ymax": 42
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.75585485
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 55,
-        "xmax": 585,
-        "ymax": 174
-      },
-      "ocr_text": "blizina mjesta na kojem se izvode radovi ili na kojem je prepreka na \r\nputu; \r\npribližavanje mjestu na kojem je saobraćaj regulisan svjetlosnim \r\nsaobraćajnim znacima; \r\n\r\nsmjer i način preusmjeravanja saobraćaja.",
-      "score": 0.86382705
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 23,
-        "xmax": 433,
-        "ymax": 40
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9684889
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 73,
-        "xmax": 492,
-        "ymax": 160
-      },
-      "ocr_text": "blizina dijela puta na kojem se često događaju\r\nsaobraćajne nezgode;\r\nblizina dijela puta na kojem se dogodila saobraćajna\r\nnezgoda.",
-      "score": 0.944016
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 25,
-        "xmax": 378,
-        "ymax": 44
-      },
-      "ocr_text": "Šta označava ovaj sobraćajni znak?",
-      "score": 0.96814626
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 69,
-        "ymin": 95,
-        "xmax": 474,
-        "ymax": 189
-      },
-      "ocr_text": "mjesto od kog počinje autoput;\r\nmjesto od kog počinje put rezervisan za saobraćaj\r\nmotornih vozila;\r\nmjesto od kog počinje brzi put.",
-      "score": 0.98820466
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 32,
-        "xmax": 433,
-        "ymax": 49
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9720615
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 70,
-        "ymin": 128,
-        "xmax": 412,
-        "ymax": 198
-      },
-      "ocr_text": "položaj puta sa pravom prvenstva prolaza;\r\nobavezno skretanje ulijevo;\r\nprvenstvo prolaza u svim smjerovima.",
-      "score": 0.97832435
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 28,
-        "xmax": 561,
-        "ymax": 54
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.8009078
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 86,
-        "xmax": 544,
-        "ymax": 211
-      },
-      "ocr_text": "mjesto u naselju na kojem se ulazi u područje u kojem se ne \r\nsmije upravljati vozilom brže od brzine hoda pješaka budući \r\n\r\nda je dječija igra dopuštena; \r\nmjesto u naselju na kojem se ulazi u područje u kojem je \r\ndozvoljeno upravljati vozilom brže od brzine hoda pješaka.",
-      "score": 0.982801
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 29,
-        "xmax": 631,
-        "ymax": 66
-      },
-      "ocr_text": "Kako treba postupiti prilikom nailaska vozilom na ovlašteno lice\r\nkoje u vašem smjeru kretanja daje znak kao na slici?",
-      "score": 0.96253276
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 95,
-        "xmax": 322,
-        "ymax": 164
-      },
-      "ocr_text": "povećati brzinu kretanja vozila;\r\nsmanjiti brzinu kretanja vozila;\r\n\r\nzaustaviti vozilo.",
-      "score": 0.98944473
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 75,
-        "xmax": 526,
-        "ymax": 214
-      },
-      "ocr_text": "nastaviti kretanje vozilom jer imam prednost u odnosu na \r\nvozila iz suprotnog smjera; \r\nnastaviti kretanje vozilom sa naročitom opreznošću u \r\nodnosu na vozila iz suprotnog smjera; \r\nne nastaviti kretanje vozilom, jer je zabranjen saobraćaj \r\nvoilima iz smjera prema kome je okrenut znak.",
-      "score": 0.9785469
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 78,
-        "ymin": 25,
-        "xmax": 544,
-        "ymax": 65
-      },
-      "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni \r\nznak?",
-      "score": 0.8257743
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 77,
-        "xmax": 519,
-        "ymax": 190
-      },
-      "ocr_text": "na blizinu tramvajske pruge;\r\nna blizinu prelaza puta preko željezničke pruge u nivou\r\nkoja je obezbijeđena branicima ili polubranicima;\r\nna blizinu prelaza puta preko željezničke pruge u nivou\r\nkoja nije obezbijeđena branicima ili polubranicima",
-      "score": 0.9637542
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 22,
-        "xmax": 529,
-        "ymax": 34
-      },
-      "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
-      "score": 0.9702523
-    },
-    {
-      "name": "kategorije",
-      "bndbox": {
-        "xmin": 632,
-        "ymin": 40,
-        "xmax": 775,
-        "ymax": 188
-      },
-      "ocr_text": "A",
-      "score": 0.79987025
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 14,
-        "xmax": 521,
-        "ymax": 27
-      },
-      "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
-      "score": 0.9615093
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 64,
-        "xmax": 514,
-        "ymax": 173
-      },
-      "ocr_text": "na blizinu dijela puta na kojem su česte duže kolone\r\nvozila u kretanju;\r\nna blizinu dijela puta na kojem je u određenim uslovima\r\nsaobraćaja ili drugim okolnostima postoji opasnost\r\n\r\nod kolone zaustavljenih vozila",
-      "score": 0.93692476
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 74,
-        "ymin": 18,
-        "xmax": 587,
-        "ymax": 75
-      },
-      "ocr_text": "Dva crvena trepćuća svjetla koja se naizmjenično pale na\r\nsaobraćajnom znaku postavljenom prije prelaza puta preko\r\nželjezničke pruge u nivou, kao na slici, upozoravaju na:",
-      "score": 0.93866473
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 121,
-        "xmax": 375,
-        "ymax": 191
-      },
-      "ocr_text": "približavanje voza;\r\nspuštanje branika ili polubranika;\r\nmjesto na putu gdje se izvode radovi.",
-      "score": 0.9856539
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 22,
-        "xmax": 435,
-        "ymax": 39
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9659873
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 117,
-        "xmax": 469,
-        "ymax": 161
-      },
-      "ocr_text": "blizina i položaj puta koji nema izlaza (slijepi put);\r\nzabrana skretanja ulijevo.",
-      "score": 0.96179926
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 79,
-        "ymin": 20,
-        "xmax": 399,
-        "ymax": 43
-      },
-      "ocr_text": "Šta zabranjuje ovaj saobraćajni znak?",
-      "score": 0.97960794
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 117,
-        "xmax": 327,
-        "ymax": 189
-      },
-      "ocr_text": "parkiranje vozila;\r\nsamo zaustavljanje vozila;\r\nzaustavljanje i parkiranje vozila.",
-      "score": 0.99454504
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 17,
-        "xmax": 624,
-        "ymax": 54
-      },
-      "ocr_text": "Kako ćete postupiti prilikom nailaska vozilom na ovlašteno lice\r\nkoje u vašem smjeru kretanja daje znak kao na slici?",
-      "score": 0.9703274
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 112,
-        "xmax": 315,
-        "ymax": 182
-      },
-      "ocr_text": "povećati brzinu kretanja vozila;\r\nzaustaviti vozilo;\r\n\r\nsmanjiti brzinu kretanja vozila.",
-      "score": 0.98964494
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 26,
-        "xmax": 439,
-        "ymax": 43
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9742096
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 77,
-        "ymin": 93,
-        "xmax": 534,
-        "ymax": 165
-      },
-      "ocr_text": "mjesto na kojem se nalazi obilježeni pješački prelaz;\r\nblizina mjesta na kojem se nalazi obilježeni pješački prelaz;\r\nposebno izgrađena pješačka staza.",
-      "score": 0.97839874
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 76,
-        "ymin": 120,
-        "xmax": 401,
-        "ymax": 164
-      },
-      "ocr_text": "kvar u sistemu za punjenje akumulatora;\r\nkvar u sistemu za osvjetljenje puta.",
-      "score": 0.98574626
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 75,
-        "ymin": 20,
-        "xmax": 592,
-        "ymax": 63
-      },
-      "ocr_text": "Sta označava crvena kontrolna lampica ako vam se upali\r\nza vrijeme kretanja vozilom, kao na slici?",
-      "score": 0.88648003
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 23,
-        "xmax": 429,
-        "ymax": 40
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9677971
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 66,
-        "ymin": 118,
-        "xmax": 506,
-        "ymax": 162
-      },
-      "ocr_text": "ukrštanje puteva iste važnosti;\r\n\r\nukrštanje puta sa sporednim putem pod pravim uglom.",
-      "score": 0.9890525
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 87,
-        "ymin": 22,
-        "xmax": 449,
-        "ymax": 39
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9662426
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 118,
-        "xmax": 178,
-        "ymax": 163
-      },
-      "ocr_text": "prevoj puta;\r\nsuženje puta.",
-      "score": 0.96220255
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 89,
-        "ymin": 28,
-        "xmax": 451,
-        "ymax": 45
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9599095
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 124,
-        "xmax": 508,
-        "ymax": 169
-      },
-      "ocr_text": "blizina raskrsnice na kojoj se saobraćaj odvija kružno;\r\nkružni tok saobraćaja.",
-      "score": 0.981815
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 68,
-        "xmax": 461,
-        "ymax": 193
-      },
-      "ocr_text": "vremensko ograničenje parkiranja; \r\nzona u kojoj je ograničeno trajanje parkiranja; \r\nparkiralište.",
-      "score": 0.8249605
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 87,
-        "ymin": 27,
-        "xmax": 449,
-        "ymax": 44
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9693728
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 62,
-        "ymin": 100,
-        "xmax": 583,
-        "ymax": 175
-      },
-      "ocr_text": "propustiću vozila koja se nalaze na putu sa prvenstvom prolaza;\r\nobavezno ću se zaustaviti;\r\npropustiću samo vozila sa desne strane.",
-      "score": 0.9920247
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 24,
-        "xmax": 593,
-        "ymax": 84
-      },
-      "ocr_text": "Kako ćete postupiti prilikom nailaska na saobraćajni znak\r\nsa dopunskom tablom, ukoliko nastavljate kretanje\r\nvozilom pravo?",
-      "score": 0.80913097
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 80,
-        "ymin": 21,
-        "xmax": 442,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96961176
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 65,
-        "ymin": 117,
-        "xmax": 446,
-        "ymax": 187
-      },
-      "ocr_text": "da upravljamo vozilom po jednosmjernom putu;\r\nda ne smijemo skrenuti udesno ili ulijevo;\r\nda je zabranjen saobraćaj iz suprotnog smjera.",
-      "score": 0.97710514
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 63,
-        "ymin": 21,
-        "xmax": 530,
-        "ymax": 73
-      },
-      "ocr_text": "Kako postupate za vrijeme upravljanja vozilom \r\n\r\nnailaskom na ovaj saobraćajni znak?",
-      "score": 0.8233946
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 63,
-        "ymin": 103,
-        "xmax": 337,
-        "ymax": 203
-      },
-      "ocr_text": "smanjujete brzinu kretanja vozila jer nailazite na oštru \r\nkrivinu udesno; \r\nizbjegavate kočenje u krivini; \r\npovećavate brzinu kretanja vozila.",
-      "score": 0.99249506
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 71,
-        "ymin": 129,
-        "xmax": 396,
-        "ymax": 169
-      },
-      "ocr_text": "višak ulja u motoru;\r\nkvar u sistemu za podmazivanje motora.",
-      "score": 0.99142194
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 85,
-        "ymin": 24,
-        "xmax": 568,
-        "ymax": 82
-      },
-      "ocr_text": "Na šta vas upozorava crvena kontrolna lampica na\r\ninstrument-tabli, ako vam se upali za vrijeme kretanja\r\nvozilom, kao na slici?",
-      "score": 0.868536
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 87,
-        "ymin": 22,
-        "xmax": 450,
-        "ymax": 38
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.96862197
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 117,
-        "xmax": 352,
-        "ymax": 161
-      },
-      "ocr_text": "zabrana prelaza za bicikl;\r\nobilježeni prelaz biciklističke staze.",
-      "score": 0.9802292
-    }
-  ],
-  [
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 67,
-        "ymin": 127,
-        "xmax": 321,
-        "ymax": 199
-      },
-      "ocr_text": "izvršiti radnju skretanja udesno;\r\nizvršiti radnju skretanja ulijevo;\r\nobavezno se zaustaviti.",
-      "score": 0.982151
-    },
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 88,
-        "ymin": 25,
-        "xmax": 585,
-        "ymax": 80
-      },
-      "ocr_text": "Kako treba postupiti prilikom nailaska vozilom na\r\novlašteno lice koje u vašem smjeru kretanja daje znak\r\nkao na slici?",
-      "score": 0.92353
-    }
-  ],
-  [
-    {
-      "name": "tekst_pitanja",
-      "bndbox": {
-        "xmin": 87,
-        "ymin": 20,
-        "xmax": 450,
-        "ymax": 37
-      },
-      "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
-      "score": 0.9771055
-    },
-    {
-      "name": "odgovori",
-      "bndbox": {
-        "xmin": 72,
-        "ymin": 115,
-        "xmax": 383,
-        "ymax": 185
-      },
-      "ocr_text": "mjesto gdje se nailazi na oštru krivinu;\r\nmjesto gdje se nailazi na blagu krivinu;\r\nmjesto gdje se izvode radovi na putu.",
-      "score": 0.970262
-    }
-  ]
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 86,
+  "ymin": 13,
+  "xmax": 583,
+  "ymax": 35
+  },
+  "ocr_text": "Šta treba izbjegavati nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9641256
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 111,
+  "xmax": 512,
+  "ymax": 181
+  },
+  "ocr_text": "vožnju prilagođenu uslovima koji vladaju na kolovozu;nagle pokrete točkom upravljača;naglo kočenje i zaustavljanje.",
+  "score": 0.9857116
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 21,
+  "xmax": 579,
+  "ymax": 34
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9748463
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 89,
+  "xmax": 587,
+  "ymax": 183
+  },
+  "ocr_text": "pripremiti se za savladavanje više uzastopnih krivina od kojih je prva udesno;učesnike u saobraćaju iza sebe upozoriti desnim pokazivačem pravca;",
+  "score": 0.8882434
+ }
+ ],
+ [
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 636,
+  "ymin": 36,
+  "xmax": 775,
+  "ymax": 184
+  },
+  "ocr_text": "A",
+  "score": 0.8368472
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 114,
+  "xmax": 566,
+  "ymax": 154
+  },
+  "ocr_text": "na blizinu dijela puta gdje je uz kolovoz neutvrđena bankina;na blizinu dijela puta gdje je zaleđen kolovoz.",
+  "score": 0.9760426
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 19,
+  "xmax": 538,
+  "ymax": 32
+  },
+  "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
+  "score": 0.9509376
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 20,
+  "xmax": 572,
+  "ymax": 33
+  },
+  "ocr_text": "Kako ćete postupiti nailaskom na ovoj saobraćajni znak?",
+  "score": 0.9816607
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 116,
+  "xmax": 547,
+  "ymax": 186
+  },
+  "ocr_text": "nastaviti kretanje vozilom jer imam prvenstvo prolaza;smanjiti brzinu kretanja vozila i po potrebi zaustaviti vozilo;propustiti vozila iz suprotnog smjera.",
+  "score": 0.9869793
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 18,
+  "xmax": 389,
+  "ymax": 35
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.9585618
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 85,
+  "xmax": 582,
+  "ymax": 173
+  },
+  "ocr_text": "zabrana saobraćaja za sva motorna vozila koja vuku priključno vozilo;zabrana saobraćaja za sva motorna vozila koja vuku laku prikolicu.",
+  "score": 0.69756645
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 117,
+  "xmax": 409,
+  "ymax": 158
+  },
+  "ocr_text": "elektronska naplata putarine;zabrana korištenja radio-aparata u vozilu.",
+  "score": 0.9826342
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 22,
+  "xmax": 384,
+  "ymax": 39
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.92974126
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 68,
+  "ymin": 115,
+  "xmax": 622,
+  "ymax": 163
+  },
+  "ocr_text": "niša za zaustavljanje vozila u slučaju opasnosti;prostor rezervisan za zaustavljanje vozila javnog gradskog prevoza.",
+  "score": 0.984247
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 23,
+  "xmax": 382,
+  "ymax": 40
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9052015
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 21,
+  "xmax": 378,
+  "ymax": 38
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9179766
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 116,
+  "xmax": 480,
+  "ymax": 162
+  },
+  "ocr_text": "radionica za popravku guma;mjesto gdje možete kontrolisati pritisak u gumama.",
+  "score": 0.9916334
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 17,
+  "xmax": 574,
+  "ymax": 30
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.96339005
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 112,
+  "xmax": 482,
+  "ymax": 183
+  },
+  "ocr_text": "povećati pažnju;pružiti pomoć povrjeđenim u saobraćajnoj nezgodi;povećavati brzinu kretanja vozila.",
+  "score": 0.99200773
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 22,
+  "xmax": 535,
+  "ymax": 63
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.7564855
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 106,
+  "xmax": 574,
+  "ymax": 180
+  },
+  "ocr_text": "ulazak u područje u kojem postoji povećana opasnost od izbijanja nekontrolisanog požara;ulazite u područje gdje je dozvoljeno izletnicima paljenje vatre.",
+  "score": 0.96646106
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 21,
+  "xmax": 577,
+  "ymax": 33
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9632532
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 628,
+  "ymin": 32,
+  "xmax": 771,
+  "ymax": 187
+  },
+  "ocr_text": "A",
+  "score": 0.84187955
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 116,
+  "xmax": 530,
+  "ymax": 186
+  },
+  "ocr_text": "smanjiti brzinu kretanja vozila i povećavati pažnju;predvidjeti mogućnost nailaska na poledicu na kolovozu;povećavati brzinu kretanja vozila.",
+  "score": 0.98666173
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 19,
+  "xmax": 607,
+  "ymax": 57
+  },
+  "ocr_text": "Kojim vozilima je zabranjeno kretanje putem označenim ovim saobraćajnim znakom?",
+  "score": 0.9768162
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 113,
+  "xmax": 320,
+  "ymax": 154
+  },
+  "ocr_text": "biciklima;autobusima i teretnim vozilima.",
+  "score": 0.97738945
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 116,
+  "xmax": 401,
+  "ymax": 158
+  },
+  "ocr_text": "biciklima, mopedima i lakim motociklima;motociklima.",
+  "score": 0.98924506
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 21,
+  "xmax": 612,
+  "ymax": 60
+  },
+  "ocr_text": "Kojim vozilima je dozvoljeno kretanje putem označenim ovim saobraćajnim znakom?",
+  "score": 0.9754182
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 19,
+  "xmax": 433,
+  "ymax": 37
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.97041905
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 86,
+  "xmax": 570,
+  "ymax": 174
+  },
+  "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije iznad određene količine;zabrana saobraćaja za vozila koja prevoze eksploziv ili neke lako zapaljive materije.",
+  "score": 0.85651755
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 17,
+  "xmax": 385,
+  "ymax": 34
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.95979935
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 113,
+  "xmax": 392,
+  "ymax": 158
+  },
+  "ocr_text": "teren uređen za kampovanje u vozilima;zabranjeno kampovanje u vozilima.",
+  "score": 0.9759175
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 22,
+  "xmax": 392,
+  "ymax": 39
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.9635297
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 117,
+  "xmax": 459,
+  "ymax": 158
+  },
+  "ocr_text": "blizina mjesta na kojem se nalazi autopraonica;blizina mjesta gdje je zabranjeno pranje vozila.",
+  "score": 0.96530616
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 82,
+  "ymin": 22,
+  "xmax": 618,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima znak koji daje ovlašteno lice na raskrsnici?",
+  "score": 0.9547012
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 81,
+  "ymin": 117,
+  "xmax": 614,
+  "ymax": 181
+  },
+  "ocr_text": "dozvoljen prolaz vozilima koja dolaze sa bočnih strana ovlaštenog lica;obavezno zaustavljanje za sva vozila ispred raskrsnice;",
+  "score": 0.93121374
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 17,
+  "xmax": 495,
+  "ymax": 57
+  },
+  "ocr_text": "Dvostruka isprekidana linija služi za obilježavanje:",
+  "score": 0.80881876
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 49,
+  "ymin": 82,
+  "xmax": 491,
+  "ymax": 196
+  },
+  "ocr_text": "saobraćajnih traka sa izmjenljivim smjerom kretanja na kojima je saobraćaj regulisan uređajima za davanje svjetlosnih saobraćajnih znakova;saobraćajne trake koju mogu koristiti samo vozila s pravom prvenstva prolaza.",
+  "score": 0.9619562
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 28,
+  "xmax": 600,
+  "ymax": 65
+  },
+  "ocr_text": "Kada će vozač koji upravlja vozilom koje prevozi opasne materije koristiti ovaj znak?",
+  "score": 0.974298
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 122,
+  "xmax": 546,
+  "ymax": 167
+  },
+  "ocr_text": "kad vrši prevoz na temperaturi ispod o C;kad vrši prevoz opasnih materija na povišenoj temperaturi.",
+  "score": 0.9920889
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 20,
+  "xmax": 573,
+  "ymax": 32
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.95856464
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 115,
+  "xmax": 344,
+  "ymax": 159
+  },
+  "ocr_text": "obavezno voziti ulijevo;nastaviti kretanje vozilom pravom.",
+  "score": 0.96369386
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 20,
+  "xmax": 383,
+  "ymax": 37
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.9528811
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 116,
+  "xmax": 437,
+  "ymax": 160
+  },
+  "ocr_text": "ukrštanje puteva istog značaja;ukrštanje sporednih puteva pod oštrim uglom.",
+  "score": 0.9845512
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 115,
+  "xmax": 183,
+  "ymax": 157
+  },
+  "ocr_text": "pokretni most;blizina obale.",
+  "score": 0.99386764
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 20,
+  "xmax": 385,
+  "ymax": 37
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.9645616
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 81,
+  "ymin": 121,
+  "xmax": 442,
+  "ymax": 191
+  },
+  "ocr_text": "zabrana saobraćaja u oba smjera;zabrana saobraćaja u smjeru kretanja vozila;da se saobraćaj odvija iz suprotnog smjera.",
+  "score": 0.96594936
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 27,
+  "ymin": 24,
+  "xmax": 443,
+  "ymax": 46
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96430427
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 18,
+  "xmax": 438,
+  "ymax": 35
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96422744
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 113,
+  "xmax": 492,
+  "ymax": 159
+  },
+  "ocr_text": "produžetak puta sa prvenstvom prolaza;završetak puta ili dijela puta sa prvenstvom prolaza.",
+  "score": 0.94801986
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 23,
+  "xmax": 571,
+  "ymax": 35
+  },
+  "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.97766054
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 85,
+  "xmax": 579,
+  "ymax": 180
+  },
+  "ocr_text": "uz povećanu pažnju nastaviti kretanje vozilom, jer imam pravo prvenstva prolaza u odnosu na vozila koja dolaze iz suprotnog smjera;zaustaviti vozilo i propustiti vozila iz suprotnog smjera.",
+  "score": 0.9091315
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 22,
+  "xmax": 551,
+  "ymax": 67
+  },
+  "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9827566
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 118,
+  "xmax": 515,
+  "ymax": 165
+  },
+  "ocr_text": "smanjiti brzinu kretanja vozila do brzine hoda pješaka;povećati brzinu kretanja vozila.",
+  "score": 0.98795086
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 26,
+  "xmax": 645,
+  "ymax": 64
+  },
+  "ocr_text": "Kojim vozilima je dozvoljeno kretanje putem označenim ovim saobraćajnim znakom?",
+  "score": 0.9788595
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 121,
+  "xmax": 434,
+  "ymax": 189
+  },
+  "ocr_text": "biciklu;putničkom vozilu, teretnom vozilu, autobusu;motociklu.",
+  "score": 0.996291
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 24,
+  "xmax": 489,
+  "ymax": 41
+  },
+  "ocr_text": "Koja vozila se obilježavaju znakom kao na slici?",
+  "score": 0.9702847
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 118,
+  "xmax": 367,
+  "ymax": 164
+  },
+  "ocr_text": "vozila koja prevoze opasne materije;spora vozila",
+  "score": 0.9920318
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 115,
+  "xmax": 451,
+  "ymax": 159
+  },
+  "ocr_text": "opasnost za koju nije predviđen poseban znak;opasnost kad se krećemo klizavim kolovozom.",
+  "score": 0.98366606
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 19,
+  "xmax": 436,
+  "ymax": 36
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9671993
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 120,
+  "xmax": 515,
+  "ymax": 180
+  },
+  "ocr_text": "pravovremeno prebaciti u niži stepen prenosa;prebaciti u viši stepen prenosa i što više kočiti nožnom kočnicom.",
+  "score": 0.96572685
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 22,
+  "xmax": 578,
+  "ymax": 34
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.96749955
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 25,
+  "xmax": 580,
+  "ymax": 37
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9698514
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 118,
+  "xmax": 387,
+  "ymax": 190
+  },
+  "ocr_text": "smanjiti brzinu kretanja vozila;povećavati pažnju i očekivati bicikliste;povećati brzinu kretanja vozila.",
+  "score": 0.98835945
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 26,
+  "xmax": 615,
+  "ymax": 70
+  },
+  "ocr_text": "Kojim vozilima nije dozvoljeno kretanje putem označenim ovim saobraćajnim znakom?",
+  "score": 0.922832
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 88,
+  "xmax": 534,
+  "ymax": 177
+  },
+  "ocr_text": "vozila čije je osovinsko opterećenje veće od određenog na znaku;vozila čije je osovinsko opterećenje manje od određenog na znaku.",
+  "score": 0.98482937
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 18,
+  "xmax": 383,
+  "ymax": 36
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.95022845
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 86,
+  "xmax": 583,
+  "ymax": 174
+  },
+  "ocr_text": "zabrana saobraćaja za sva motorna vozila, osim motocikla bez prikolice i mopeda;zabrana saobraćaja za sva motorna vozila, osim motocikla bez prikolice.",
+  "score": 0.9200204
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 22,
+  "xmax": 389,
+  "ymax": 39
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.96879256
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 118,
+  "xmax": 399,
+  "ymax": 162
+  },
+  "ocr_text": "zabrana saobraćaja za bicikla;zabrana saobraćaja za bicikla i mopede.",
+  "score": 0.9738673
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 82,
+  "ymin": 117,
+  "xmax": 369,
+  "ymax": 161
+  },
+  "ocr_text": "obavezno obilaženje s lijeve strane;obavezan smjer.",
+  "score": 0.9919205
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 82,
+  "ymin": 21,
+  "xmax": 445,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9660153
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 82,
+  "ymin": 14,
+  "xmax": 404,
+  "ymax": 36
+  },
+  "ocr_text": "Šta zabranjuje ovaj saobraćajni znak?",
+  "score": 0.9779523
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 113,
+  "xmax": 236,
+  "ymax": 158
+  },
+  "ocr_text": "zaustavljanje vozila;parkiranje vozila.",
+  "score": 0.99546194
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 23,
+  "xmax": 464,
+  "ymax": 57
+  },
+  "ocr_text": "Koja vozila se obilježavaju oznakama kao na slici?",
+  "score": 0.96681607
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 117,
+  "xmax": 234,
+  "ymax": 158
+  },
+  "ocr_text": "teška vozila;vozila šira od 2,5 m.",
+  "score": 0.9961879
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 115,
+  "xmax": 469,
+  "ymax": 185
+  },
+  "ocr_text": "prvenstvo prolaza za vozila iz suprotnog smjera;dozvoljeni smjer;saobraćaj u oba smjera.",
+  "score": 0.99314624
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 19,
+  "xmax": 388,
+  "ymax": 36
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9400397
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 113,
+  "xmax": 453,
+  "ymax": 157
+  },
+  "ocr_text": "moguće neravnine i izbočine na putu;opasnost od kamenja koje se odronjava na put.",
+  "score": 0.9850373
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 15,
+  "ymin": 15,
+  "xmax": 433,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96607435
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 17,
+  "xmax": 570,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.82273185
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 76,
+  "xmax": 555,
+  "ymax": 196
+  },
+  "ocr_text": "blizina prelaza puta preko željezničke pruge u nivou koja nije obezbijeđena branicima ili polubranicima;blizina prelaza puta preko željezničke pruge u nivou koja je obezbijeđena branicima ili polubranicima;nailazak na drveni most.",
+  "score": 0.9260491
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 23,
+  "xmax": 382,
+  "ymax": 40
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.92527187
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 119,
+  "xmax": 558,
+  "ymax": 185
+  },
+  "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije;zabrana saobraćaja za teretna vozila koja prevoze opasne materije",
+  "score": 0.90218526
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 20,
+  "xmax": 532,
+  "ymax": 48
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.8954185
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 77,
+  "xmax": 574,
+  "ymax": 171
+  },
+  "ocr_text": "zabrana saobraćaja za vozila koja prekoračuju određeno dvoosovinsko opterećenje;zabrana saobraćaja za vozila čije opterećenje po jednostrukoj osovini prelazi opterećenje označeno na znaku.",
+  "score": 0.97719496
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 24,
+  "xmax": 382,
+  "ymax": 41
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.93409467
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 119,
+  "xmax": 291,
+  "ymax": 164
+  },
+  "ocr_text": "pješačka staza;zona smirenog saobraćaja.",
+  "score": 0.99220014
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 20,
+  "xmax": 383,
+  "ymax": 37
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.8946336
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 116,
+  "xmax": 362,
+  "ymax": 160
+  },
+  "ocr_text": "put sa jednosmjernim saobraćajem;obavezan smjer.",
+  "score": 0.99292505
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 115,
+  "xmax": 316,
+  "ymax": 160
+  },
+  "ocr_text": "duga vozila;vozila čija širina prelazi 2,5 m.",
+  "score": 0.9891823
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 21,
+  "xmax": 501,
+  "ymax": 39
+  },
+  "ocr_text": "Koja vozila se obilježavaju oznakom kao na slici?",
+  "score": 0.9754951
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 22,
+  "xmax": 559,
+  "ymax": 41
+  },
+  "ocr_text": "Šta može imati za posljedicu nepoštovanje ovog znaka?",
+  "score": 0.8505153
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 620,
+  "ymin": 40,
+  "xmax": 795,
+  "ymax": 203
+  },
+  "ocr_text": "A",
+  "score": 0.82802916
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 121,
+  "xmax": 473,
+  "ymax": 191
+  },
+  "ocr_text": "moguće zanošenje i izlijetanje vozila sa kolovoza;veću kontrolu prilikom upravljanja vozilom;moguće oštećenje ili lomljenje dijelova na vozilu.",
+  "score": 0.993944
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 18,
+  "xmax": 386,
+  "ymax": 35
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.96642506
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 113,
+  "xmax": 184,
+  "ymax": 154
+  },
+  "ocr_text": "pokretni most;blizina obale.",
+  "score": 0.99481
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 17,
+  "xmax": 387,
+  "ymax": 34
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.97060007
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 625,
+  "ymin": 25,
+  "xmax": 814,
+  "ymax": 208
+  },
+  "ocr_text": "A",
+  "score": 0.83246297
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 112,
+  "xmax": 208,
+  "ymax": 158
+  },
+  "ocr_text": "životinje na putu;divljač na putu.",
+  "score": 0.9668572
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 19,
+  "xmax": 380,
+  "ymax": 36
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.97058
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 115,
+  "xmax": 556,
+  "ymax": 181
+  },
+  "ocr_text": "zabrana preticanja svih motornih vozila, osim motocikla bez prikolice i mopeda;zabrana preticanja svih motornih vozila, osim mopeda..",
+  "score": 0.8207474
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 20,
+  "xmax": 612,
+  "ymax": 54
+  },
+  "ocr_text": "Kojim vozilima nije dozvoljeno kretanje putem označenim ovim saobraćajnim znakom?",
+  "score": 0.971105
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 116,
+  "xmax": 597,
+  "ymax": 184
+  },
+  "ocr_text": "vozilima čija ukupna visina premašuje visinu označenu na znaku;vozilima čija ukupna visina ne premašuje visinu označenu na znaku.",
+  "score": 0.97624576
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 63,
+  "ymin": 22,
+  "xmax": 425,
+  "ymax": 39
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9674404
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 117,
+  "xmax": 227,
+  "ymax": 162
+  },
+  "ocr_text": "obavezni smjerovi;dozvoljeni smjerovi.",
+  "score": 0.9929899
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 19,
+  "xmax": 433,
+  "ymax": 36
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9705349
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 115,
+  "xmax": 500,
+  "ymax": 185
+  },
+  "ocr_text": "najmanja dozvoljena brzina;najveća dozvoljena brzina;brzina koja se preporučuje na određenom dijelu puta.",
+  "score": 0.9943714
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 17,
+  "xmax": 432,
+  "ymax": 34
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9716105
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 112,
+  "xmax": 524,
+  "ymax": 183
+  },
+  "ocr_text": "početak autoputa;početak brzog puta;početak puta rezervisanog za saobraćaj motornih vozila.",
+  "score": 0.97583437
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 116,
+  "xmax": 563,
+  "ymax": 184
+  },
+  "ocr_text": "povećati brzinu kretanja vozila;smanjiti brzinu kretanja vozila;računati na mogućnost udara bočnog vjetra sa desne strane.",
+  "score": 0.9932828
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 20,
+  "xmax": 570,
+  "ymax": 58
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.98111457
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 115,
+  "xmax": 541,
+  "ymax": 207
+  },
+  "ocr_text": "obavezno zaustaviti vozilo;nailazak na raskrsnicu regulisanu svjetlosnom saobraćajnom signalizacijom;nastaviti kretanje vozilom bez smanjenja brzine kretanja.",
+  "score": 0.98914313
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 19,
+  "xmax": 441,
+  "ymax": 36
+  },
+  "ocr_text": "Koje značenje imaj ovaj saobraćajni znak?",
+  "score": 0.98141956
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 636,
+  "ymin": 36,
+  "xmax": 767,
+  "ymax": 180
+  },
+  "ocr_text": "A",
+  "score": 0.79462475
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 110,
+  "xmax": 320,
+  "ymax": 181
+  },
+  "ocr_text": "povećati pažnju;povećati brzinu kretanja vozila;smanjiti brzinu kretanja vozila.",
+  "score": 0.9891739
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 15,
+  "xmax": 574,
+  "ymax": 28
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.97085154
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 628,
+  "ymin": 30,
+  "xmax": 781,
+  "ymax": 192
+  },
+  "ocr_text": "A",
+  "score": 0.8259872
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 64,
+  "ymin": 21,
+  "xmax": 372,
+  "ymax": 40
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.93826425
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 116,
+  "xmax": 329,
+  "ymax": 164
+  },
+  "ocr_text": "zabrana polukružnog okretanja;obavezno polukružno okretanje.",
+  "score": 0.9933529
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 19,
+  "xmax": 375,
+  "ymax": 36
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9166498
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 115,
+  "xmax": 559,
+  "ymax": 155
+  },
+  "ocr_text": "zabrana saobraćaja za vozila koja prevoze opasne materije;zabrana saobraćaja za vozila cisterne.",
+  "score": 0.988142
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 24,
+  "xmax": 385,
+  "ymax": 41
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9211935
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 120,
+  "xmax": 596,
+  "ymax": 182
+  },
+  "ocr_text": "zabrana saobraćaja za sva motorna vozila koja vuku priključno vozilo;zabrana saobraćaja za teretno vozilo koje vuče priključno vozilo.",
+  "score": 0.968243
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 81,
+  "ymin": 25,
+  "xmax": 443,
+  "ymax": 42
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96492505
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 121,
+  "xmax": 337,
+  "ymax": 166
+  },
+  "ocr_text": "obavezan smjer;obavezno polukružno okretanje.",
+  "score": 0.9957818
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 21,
+  "xmax": 442,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96961546
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 112,
+  "xmax": 377,
+  "ymax": 185
+  },
+  "ocr_text": "staza kojom se moraju kretati bicikli;biciklistička staza;zabrana kretanja za bicikle.",
+  "score": 0.98328644
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 81,
+  "ymin": 27,
+  "xmax": 390,
+  "ymax": 44
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9329717
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 632,
+  "ymin": 44,
+  "xmax": 775,
+  "ymax": 194
+  },
+  "ocr_text": "A",
+  "score": 0.7879705
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 82,
+  "ymin": 123,
+  "xmax": 456,
+  "ymax": 167
+  },
+  "ocr_text": "zabrana održavanja sportskih priredbi na putu;prevrtanje ili iskliznuće vozila sa kolovoza.",
+  "score": 0.98250496
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 19,
+  "xmax": 384,
+  "ymax": 37
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.9439637
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 114,
+  "xmax": 381,
+  "ymax": 159
+  },
+  "ocr_text": "obavezno zaustavljanje;nailazak na put s prvenstvom prolaza.",
+  "score": 0.978665
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 18,
+  "xmax": 383,
+  "ymax": 35
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.91734
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 114,
+  "xmax": 357,
+  "ymax": 159
+  },
+  "ocr_text": "najveće odstojanje između vozila;najmanje odstojanje između vozila.",
+  "score": 0.9934802
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 120,
+  "xmax": 543,
+  "ymax": 164
+  },
+  "ocr_text": "zabrana saobraćaja za sva motorna vozila;zabrana saobraćaja za sva motorna vozila, osim mopeda.",
+  "score": 0.99405736
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 24,
+  "xmax": 384,
+  "ymax": 41
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je:",
+  "score": 0.92848194
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 113,
+  "xmax": 420,
+  "ymax": 185
+  },
+  "ocr_text": "brzina koja je preporučena;najmanja dopuštena brzina kretanja vozila;ograničenje brzine.",
+  "score": 0.99449587
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 18,
+  "xmax": 438,
+  "ymax": 35
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.97260326
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 19,
+  "xmax": 432,
+  "ymax": 36
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.97096294
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 115,
+  "xmax": 569,
+  "ymax": 200
+  },
+  "ocr_text": "zabranu saobraćaja za vozila koja na točkovima koriste lance;označava početak dijela puta na kome motorna vozila, osim motocikla moraju imati propisanu zimsku opremu u zimskim uslovima.",
+  "score": 0.9658199
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 20,
+  "xmax": 435,
+  "ymax": 37
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9699941
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 116,
+  "xmax": 480,
+  "ymax": 160
+  },
+  "ocr_text": "obavezno se prestrojiti u desnu saobraćajnu traku;najava završetka preticanja.",
+  "score": 0.97069895
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 18,
+  "xmax": 598,
+  "ymax": 51
+  },
+  "ocr_text": "Koja motorna vozila je dozvoljeno preticati na putu označenim ovim saobraćajnim znakom?",
+  "score": 0.9797857
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 112,
+  "xmax": 320,
+  "ymax": 157
+  },
+  "ocr_text": "motocikl bez prikolice i moped;putničko vozilo.",
+  "score": 0.9815135
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 18,
+  "xmax": 522,
+  "ymax": 52
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9462893
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 73,
+  "ymin": 85,
+  "xmax": 544,
+  "ymax": 208
+  },
+  "ocr_text": "obavezno zaustaviti vozilo;povećati pažnju;smanjiti brzinu kretanja vozila tako da se u slučaju potrebe može blagovremeno izvršiti radnja kočenja i zaustavljanja;nastaviti vožnju bez smanjenja brzine.",
+  "score": 0.99144286
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 20,
+  "xmax": 545,
+  "ymax": 60
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.9837392
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 636,
+  "ymin": 40,
+  "xmax": 775,
+  "ymax": 185
+  },
+  "ocr_text": "A",
+  "score": 0.79224354
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 87,
+  "xmax": 538,
+  "ymax": 207
+  },
+  "ocr_text": "obavezno zaustaviti vozilo;povećavati pažnju;smanjiti brzinu kretanja vozila tako da se u slučaju potrebe može blagovremeno izvršiti radnja kočenja i zaustavljanja;nastaviti kretanje vozilom bez smanjenja brzine kretanja.",
+  "score": 0.9884674
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 68,
+  "ymin": 88,
+  "xmax": 373,
+  "ymax": 155
+  },
+  "ocr_text": "dozvoljeni smjer;put sa jednosmjernim saobraćajem;obavezno obilaženje sa desne strane.",
+  "score": 0.9917249
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 14,
+  "ymin": 16,
+  "xmax": 431,
+  "ymax": 41
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9739827
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 25,
+  "xmax": 573,
+  "ymax": 38
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.97563076
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 93,
+  "xmax": 612,
+  "ymax": 184
+  },
+  "ocr_text": "obavezno smanjiti brzinu kretanja vozila ispod 30 km/h;nastaviti kretanje vozilom sa naročitom opreznošću u dužini od 30 km;nastaviti kretanje vozilom pri čemu je najmanja dopuštena brzina kretanja vozila 30 km/h.",
+  "score": 0.98729014
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 88,
+  "xmax": 539,
+  "ymax": 204
+  },
+  "ocr_text": "obavezno izvršiti radnju skretanja udesno;zaustaviti se po potrebi i propustiti pješake na obilježenom pješačkom prelazu;zaustaviti se po potrebi i propustiti vozila koja se kreću na putu sa prvenstvom prolaza.",
+  "score": 0.9791975
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 22,
+  "xmax": 541,
+  "ymax": 55
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ove oznake na kolovozu?",
+  "score": 0.8543146
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 21,
+  "xmax": 539,
+  "ymax": 62
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.983032
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 632,
+  "ymin": 36,
+  "xmax": 775,
+  "ymax": 184
+  },
+  "ocr_text": "A",
+  "score": 0.8486714
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 88,
+  "xmax": 498,
+  "ymax": 181
+  },
+  "ocr_text": "obavezno zaustaviti vozilo;nastaviti kretanje vozilom sa naročitom opreznošću;prilagoditi brzinu kretanja vozila tako da se, u slučaju potrebe, može blagovremeno zaustaviti vozilo.",
+  "score": 0.99052894
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 84,
+  "xmax": 508,
+  "ymax": 152
+  },
+  "ocr_text": "prestanak ograničenja brzine od 80 km/h;dio puta gdje prestaje preporučena brzina od 80 km/h;dio puta gdje je preporučena brzina 80 km/h.",
+  "score": 0.9928959
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 18,
+  "xmax": 433,
+  "ymax": 34
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.97606635
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 18,
+  "xmax": 439,
+  "ymax": 35
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96469015
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 85,
+  "xmax": 521,
+  "ymax": 201
+  },
+  "ocr_text": "mjesto gdje prestaju sve zabrane;put ili dio puta na kojem vozila imaju prednost prolaza prema vozilima koja se kreću putevima koji se ukrštaju, odnosno spajaju sa tim putem ili dijelom puta;prelazak puta preko željezničke pruge.",
+  "score": 0.97385514
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 21,
+  "xmax": 436,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9681149
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 88,
+  "xmax": 491,
+  "ymax": 182
+  },
+  "ocr_text": "dozvoljeni smjer;prvenstvo prolaza u odnosu na vozila koja dolaze iz suprotnog smjera;put sa jednosmjernim saobraćajem.",
+  "score": 0.9761823
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 13,
+  "ymin": 17,
+  "xmax": 379,
+  "ymax": 41
+  },
+  "ocr_text": "Tačan naziv saobraćajnog znaka je?",
+  "score": 0.97866505
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 68,
+  "ymin": 87,
+  "xmax": 376,
+  "ymax": 158
+  },
+  "ocr_text": "prestanak najmanje dopuštene brzine;prestanak preporučene brzine. prestanak ograničenja brzine.",
+  "score": 0.9828162
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 113,
+  "xmax": 538,
+  "ymax": 181
+  },
+  "ocr_text": "odustati od eventualne namjere zaustavljanja i parkiranja;po potrebi se zaustaviti, ali ne i parkirati;obavezno se zaustaviti.",
+  "score": 0.967796
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 19,
+  "xmax": 541,
+  "ymax": 52
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ove oznake na kolovozu?",
+  "score": 0.83558226
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 85,
+  "xmax": 477,
+  "ymax": 175
+  },
+  "ocr_text": "zabrana kretanja za bicikliste i pješake;razdvojena staza za pješake i bicikliste, kojom je zabranjeno kretanje drugih učesnika u saobraćaju, staza za kretanje pješaka, bicikla i motocikla.",
+  "score": 0.9471047
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 63,
+  "ymin": 15,
+  "xmax": 432,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.975872
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 30,
+  "xmax": 545,
+  "ymax": 71
+  },
+  "ocr_text": "Kako treba postupiti nailaskom na ovaj saobraćajni  znak?",
+  "score": 0.9785162
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 125,
+  "xmax": 544,
+  "ymax": 191
+  },
+  "ocr_text": "povećati brzinu kretanja vozila;prilagoditi brzinu kretanja vozila uslovima i stanju na putu jer postoji povećana opasnost od iskliznuća ili prevrtanja vozila.",
+  "score": 0.9921977
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 24,
+  "xmax": 439,
+  "ymax": 41
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.97179055
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 92,
+  "xmax": 531,
+  "ymax": 179
+  },
+  "ocr_text": "mjesto na putu gdje je postavljeno preventivno ulegnuće kao objekat koji se koristi za smirivanje saobraćaja. mjesto na putu gdje je postavljena preventivna izbočina kao objekat koji se koristi za smirivanje saobraćaja.",
+  "score": 0.8423172
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 18,
+  "xmax": 577,
+  "ymax": 42
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.75585485
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 55,
+  "xmax": 585,
+  "ymax": 174
+  },
+  "ocr_text": "blizina mjesta na kojem se izvode radovi ili na kojem je prepreka na putu;približavanje mjestu na kojem je saobraćaj regulisan svjetlosnim saobraćajnim znacima;smjer i način preusmjeravanja saobraćaja.",
+  "score": 0.86382705
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 23,
+  "xmax": 433,
+  "ymax": 40
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9684889
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 73,
+  "xmax": 492,
+  "ymax": 160
+  },
+  "ocr_text": "blizina dijela puta na kojem se često događaju saobraćajne nezgode;blizina dijela puta na kojem se dogodila saobraćajna nezgoda.",
+  "score": 0.944016
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 25,
+  "xmax": 378,
+  "ymax": 44
+  },
+  "ocr_text": "Šta označava ovaj sobraćajni znak?",
+  "score": 0.96814626
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 69,
+  "ymin": 95,
+  "xmax": 474,
+  "ymax": 189
+  },
+  "ocr_text": "mjesto od kog počinje autoput;mjesto od kog počinje put rezervisan za saobraćaj motornih vozila;mjesto od kog počinje brzi put.",
+  "score": 0.98820466
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 32,
+  "xmax": 433,
+  "ymax": 49
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9720615
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 70,
+  "ymin": 128,
+  "xmax": 412,
+  "ymax": 198
+  },
+  "ocr_text": "položaj puta sa pravom prvenstva prolaza;obavezno skretanje ulijevo;prvenstvo prolaza u svim smjerovima.",
+  "score": 0.97832435
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 28,
+  "xmax": 561,
+  "ymax": 54
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.8009078
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 86,
+  "xmax": 544,
+  "ymax": 211
+  },
+  "ocr_text": "mjesto u naselju na kojem se ulazi u područje u kojem se ne smije upravljati vozilom brže od brzine hoda pješaka budući  da je dječija igra dopuštena;mjesto u naselju na kojem se ulazi u područje u kojem je dozvoljeno upravljati vozilom brže od brzine hoda pješaka.",
+  "score": 0.982801
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 29,
+  "xmax": 631,
+  "ymax": 66
+  },
+  "ocr_text": "Kako treba postupiti prilikom nailaska vozilom na ovlašteno lice koje u vašem smjeru kretanja daje znak kao na slici?",
+  "score": 0.96253276
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 95,
+  "xmax": 322,
+  "ymax": 164
+  },
+  "ocr_text": "povećati brzinu kretanja vozila;smanjiti brzinu kretanja vozila;zaustaviti vozilo.",
+  "score": 0.98944473
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 75,
+  "xmax": 526,
+  "ymax": 214
+  },
+  "ocr_text": "nastaviti kretanje vozilom jer imam prednost u odnosu na vozila iz suprotnog smjera;nastaviti kretanje vozilom sa naročitom opreznošću u odnosu na vozila iz suprotnog smjera;ne nastaviti kretanje vozilom, jer je zabranjen saobraćaj voilima iz smjera prema kome je okrenut znak.",
+  "score": 0.9785469
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 78,
+  "ymin": 25,
+  "xmax": 544,
+  "ymax": 65
+  },
+  "ocr_text": "Kako ćete postupiti nailaskom na ovaj saobraćajni znak?",
+  "score": 0.8257743
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 77,
+  "xmax": 519,
+  "ymax": 190
+  },
+  "ocr_text": "na blizinu tramvajske pruge;na blizinu prelaza puta preko željezničke pruge u nivou koja je obezbijeđena branicima ili polubranicima;na blizinu prelaza puta preko željezničke pruge u nivou koja nije obezbijeđena branicima ili polubranicima",
+  "score": 0.9637542
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 22,
+  "xmax": 529,
+  "ymax": 34
+  },
+  "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
+  "score": 0.9702523
+ },
+ {
+  "name": "kategorije",
+  "bndbox": {
+  "xmin": 632,
+  "ymin": 40,
+  "xmax": 775,
+  "ymax": 188
+  },
+  "ocr_text": "A",
+  "score": 0.79987025
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 14,
+  "xmax": 521,
+  "ymax": 27
+  },
+  "ocr_text": "Na koju opasnost upozorava ovaj saobraćajni znak?",
+  "score": 0.9615093
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 64,
+  "xmax": 514,
+  "ymax": 173
+  },
+  "ocr_text": "na blizinu dijela puta na kojem su česte duže kolone vozila u kretanju;na blizinu dijela puta na kojem je u određenim uslovima saobraćaja ili drugim okolnostima postoji opasnost od kolone zaustavljenih vozila",
+  "score": 0.93692476
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 74,
+  "ymin": 18,
+  "xmax": 587,
+  "ymax": 75
+  },
+  "ocr_text": "Dva crvena trepćuća svjetla koja se naizmjenično pale na saobraćajnom znaku postavljenom prije prelaza puta preko željezničke pruge u nivou, kao na slici, upozoravaju na:",
+  "score": 0.93866473
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 121,
+  "xmax": 375,
+  "ymax": 191
+  },
+  "ocr_text": "približavanje voza;spuštanje branika ili polubranika;mjesto na putu gdje se izvode radovi.",
+  "score": 0.9856539
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 22,
+  "xmax": 435,
+  "ymax": 39
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9659873
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 117,
+  "xmax": 469,
+  "ymax": 161
+  },
+  "ocr_text": "blizina i položaj puta koji nema izlaza (slijepi put);zabrana skretanja ulijevo.",
+  "score": 0.96179926
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 79,
+  "ymin": 20,
+  "xmax": 399,
+  "ymax": 43
+  },
+  "ocr_text": "Šta zabranjuje ovaj saobraćajni znak?",
+  "score": 0.97960794
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 117,
+  "xmax": 327,
+  "ymax": 189
+  },
+  "ocr_text": "parkiranje vozila;samo zaustavljanje vozila;zaustavljanje i parkiranje vozila.",
+  "score": 0.99454504
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 17,
+  "xmax": 624,
+  "ymax": 54
+  },
+  "ocr_text": "Kako ćete postupiti prilikom nailaska vozilom na ovlašteno lice koje u vašem smjeru kretanja daje znak kao na slici?",
+  "score": 0.9703274
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 112,
+  "xmax": 315,
+  "ymax": 182
+  },
+  "ocr_text": "povećati brzinu kretanja vozila;zaustaviti vozilo;smanjiti brzinu kretanja vozila.",
+  "score": 0.98964494
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 26,
+  "xmax": 439,
+  "ymax": 43
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9742096
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 77,
+  "ymin": 93,
+  "xmax": 534,
+  "ymax": 165
+  },
+  "ocr_text": "mjesto na kojem se nalazi obilježeni pješački prelaz;blizina mjesta na kojem se nalazi obilježeni pješački prelaz;posebno izgrađena pješačka staza.",
+  "score": 0.97839874
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 76,
+  "ymin": 120,
+  "xmax": 401,
+  "ymax": 164
+  },
+  "ocr_text": "kvar u sistemu za punjenje akumulatora;kvar u sistemu za osvjetljenje puta.",
+  "score": 0.98574626
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 75,
+  "ymin": 20,
+  "xmax": 592,
+  "ymax": 63
+  },
+  "ocr_text": "Sta označava crvena kontrolna lampica ako vam se upali za vrijeme kretanja vozilom, kao na slici?",
+  "score": 0.88648003
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 23,
+  "xmax": 429,
+  "ymax": 40
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9677971
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 66,
+  "ymin": 118,
+  "xmax": 506,
+  "ymax": 162
+  },
+  "ocr_text": "ukrštanje puteva iste važnosti;ukrštanje puta sa sporednim putem pod pravim uglom.",
+  "score": 0.9890525
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 87,
+  "ymin": 22,
+  "xmax": 449,
+  "ymax": 39
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9662426
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 118,
+  "xmax": 178,
+  "ymax": 163
+  },
+  "ocr_text": "prevoj puta;suženje puta.",
+  "score": 0.96220255
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 89,
+  "ymin": 28,
+  "xmax": 451,
+  "ymax": 45
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9599095
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 124,
+  "xmax": 508,
+  "ymax": 169
+  },
+  "ocr_text": "blizina raskrsnice na kojoj se saobraćaj odvija kružno;kružni tok saobraćaja.",
+  "score": 0.981815
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 68,
+  "xmax": 461,
+  "ymax": 193
+  },
+  "ocr_text": "vremensko ograničenje parkiranja;zona u kojoj je ograničeno trajanje parkiranja;parkiralište.",
+  "score": 0.8249605
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 87,
+  "ymin": 27,
+  "xmax": 449,
+  "ymax": 44
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9693728
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 62,
+  "ymin": 100,
+  "xmax": 583,
+  "ymax": 175
+  },
+  "ocr_text": "propustiću vozila koja se nalaze na putu sa prvenstvom prolaza;obavezno ću se zaustaviti;propustiću samo vozila sa desne strane.",
+  "score": 0.9920247
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 24,
+  "xmax": 593,
+  "ymax": 84
+  },
+  "ocr_text": "Kako ćete postupiti prilikom nailaska na saobraćajni znak sa dopunskom tablom, ukoliko nastavljate kretanje vozilom pravo?",
+  "score": 0.80913097
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 80,
+  "ymin": 21,
+  "xmax": 442,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96961176
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 65,
+  "ymin": 117,
+  "xmax": 446,
+  "ymax": 187
+  },
+  "ocr_text": "da upravljamo vozilom po jednosmjernom putu;da ne smijemo skrenuti udesno ili ulijevo;da je zabranjen saobraćaj iz suprotnog smjera.",
+  "score": 0.97710514
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 63,
+  "ymin": 21,
+  "xmax": 530,
+  "ymax": 73
+  },
+  "ocr_text": "Kako postupate za vrijeme upravljanja vozilom  nailaskom na ovaj saobraćajni znak?",
+  "score": 0.8233946
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 63,
+  "ymin": 103,
+  "xmax": 337,
+  "ymax": 203
+  },
+  "ocr_text": "smanjujete brzinu kretanja vozila jer nailazite na oštru krivinu udesno;izbjegavate kočenje u krivini;povećavate brzinu kretanja vozila.",
+  "score": 0.99249506
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 71,
+  "ymin": 129,
+  "xmax": 396,
+  "ymax": 169
+  },
+  "ocr_text": "višak ulja u motoru;kvar u sistemu za podmazivanje motora.",
+  "score": 0.99142194
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 85,
+  "ymin": 24,
+  "xmax": 568,
+  "ymax": 82
+  },
+  "ocr_text": "Na šta vas upozorava crvena kontrolna lampica na instrument-tabli, ako vam se upali za vrijeme kretanja vozilom, kao na slici?",
+  "score": 0.868536
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 87,
+  "ymin": 22,
+  "xmax": 450,
+  "ymax": 38
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.96862197
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 117,
+  "xmax": 352,
+  "ymax": 161
+  },
+  "ocr_text": "zabrana prelaza za bicikl;obilježeni prelaz biciklističke staze.",
+  "score": 0.9802292
+ }
+ ],
+ [
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 67,
+  "ymin": 127,
+  "xmax": 321,
+  "ymax": 199
+  },
+  "ocr_text": "izvršiti radnju skretanja udesno;izvršiti radnju skretanja ulijevo;obavezno se zaustaviti.",
+  "score": 0.982151
+ },
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 88,
+  "ymin": 25,
+  "xmax": 585,
+  "ymax": 80
+  },
+  "ocr_text": "Kako treba postupiti prilikom nailaska vozilom na ovlašteno lice koje u vašem smjeru kretanja daje znak kao na slici?",
+  "score": 0.92353
+ }
+ ],
+ [
+ {
+  "name": "tekst_pitanja",
+  "bndbox": {
+  "xmin": 87,
+  "ymin": 20,
+  "xmax": 450,
+  "ymax": 37
+  },
+  "ocr_text": "Koje značenje ima ovaj saobraćajni znak?",
+  "score": 0.9771055
+ },
+ {
+  "name": "odgovori",
+  "bndbox": {
+  "xmin": 72,
+  "ymin": 115,
+  "xmax": 383,
+  "ymax": 185
+  },
+  "ocr_text": "mjesto gdje se nailazi na oštru krivinu;mjesto gdje se nailazi na blagu krivinu;mjesto gdje se izvode radovi na putu.",
+  "score": 0.970262
+ }
+ ]
 ]
