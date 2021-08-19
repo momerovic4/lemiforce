@@ -1,6 +1,7 @@
 package com.example.lemiforce
 
 import android.annotation.SuppressLint
+import android.graphics.BitmapFactory
 import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -20,9 +21,10 @@ class UcenjeTest : AppCompatActivity() {
     private lateinit var btnSimulacija : Button
     private val viewmodel = ViewModel()
     private var brojPitanja: Int = 0
-    private lateinit var pitanja: List<Pitanje>
+    private lateinit var pitanja: MutableList<Pitanje>
     private lateinit var txtPitanje: TextView
     private lateinit var txtBrojPitanja: TextView
+    private lateinit var imgSlika: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +34,10 @@ class UcenjeTest : AppCompatActivity() {
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         btnSimulacija = findViewById(R.id.btnNazad)
         recyclerView = findViewById(R.id.rwOdgovori)
-        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA"))
+        imgSlika = findViewById(R.id.imgSlika)
+        pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
+        pitanja.addAll(viewmodel.getPitanjaZnakove(10))
+        pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
         findViewById<Button>(R.id.btnProslo).isEnabled = false
 
         setUpPitanje()
@@ -76,12 +81,27 @@ class UcenjeTest : AppCompatActivity() {
 
         var odgovori = pitanja.get(brojPitanja).ponudjeniOdgovori
 
+        if(pitanja.get(brojPitanja).kategorija.equals("R") || pitanja.get(brojPitanja).kategorija.equals("Z")){
+            val PACKAGE_NAME = applicationContext.packageName
+            val imgId = resources.getIdentifier("$PACKAGE_NAME:drawable/${pitanja.get(brojPitanja).slika}", null, null)
+            imgSlika.setImageBitmap(BitmapFactory.decodeResource(resources, imgId))
+        }
+
         var manager = GridLayoutManager(this,1)
         manager.reverseLayout = true
         recyclerView.layoutManager = manager
 
         odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja.get(brojPitanja).odgovoreni,pitanja[brojPitanja].tacniOdgovori,this)
         recyclerView.adapter = odgovorAdapter
+    }
+
+    fun getResourceId(pVariableName: String?, pResourcename: String?, pPackageName: String?): Int {
+        return try {
+            resources.getIdentifier(pVariableName, pResourcename, pPackageName)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            -1
+        }
     }
 
     fun iducePitanje(view: View) {
@@ -99,6 +119,11 @@ class UcenjeTest : AppCompatActivity() {
             }
             findViewById<Button>(R.id.btnProslo).isEnabled = true
         }
+    }
+
+    @Override
+    override fun onBackPressed() {
+        finish();
     }
 
     fun prosloPitanje(view: View){

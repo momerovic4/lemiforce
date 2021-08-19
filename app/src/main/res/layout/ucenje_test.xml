@@ -91,19 +91,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgSlika"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:visibility="invisible"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/rwOdgovori"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPolozili"
-        app:srcCompat="@drawable/znaktest" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPolozili" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

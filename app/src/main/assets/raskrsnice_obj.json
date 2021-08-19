@@ -1,0 +1,2642 @@
+[
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 108,
+        "xmax": 182,
+        "ymax": 150
+      },
+      "ocr_text": "putanjom broj 2;\r\nputanjom broj 1.",
+      "score": 0.9639472
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 17,
+        "xmax": 471,
+        "ymax": 56
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici kojom putanjom\r\nvozač motocikla mora izvršiti radnju skretanja ulijevo?",
+      "score": 0.94201016
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 22,
+        "xmax": 470,
+        "ymax": 60
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.8903417
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 111,
+        "xmax": 127,
+        "ymax": 184
+      },
+      "ocr_text": "2-3-%3; \r\n2-1-3; \r\n1-3- 2.",
+      "score": 0.92193276
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 22,
+        "xmax": 446,
+        "ymax": 58
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slicl?",
+      "score": 0.82101876
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 62,
+        "ymin": 108,
+        "xmax": 98,
+        "ymax": 153
+      },
+      "ocr_text": "1-2; \r\n\r\n2-1.",
+      "score": 0.8197343
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 24,
+        "xmax": 474,
+        "ymax": 58
+      },
+      "ocr_text": "Kako u saobraćajnoj situaciji kao na slici mora\r\npostupiti vozač vozila broj 1:",
+      "score": 0.9757012
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 111,
+        "xmax": 452,
+        "ymax": 173
+      },
+      "ocr_text": "propustiti vozilo broj 3, a zatim proći prije vozila broj 2;\r\npropustiti vozilo broj 3, zatim propustiti vozilo\r\nbroj 2 i zadnji proći kroz raskrsnicu.",
+      "score": 0.99462634
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 17,
+        "xmax": 453,
+        "ymax": 53
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.84835935
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 105,
+        "xmax": 154,
+        "ymax": 171
+      },
+      "ocr_text": "2-3-4- 1;\r\n2-3-1-4;\r\n1-2-3-4.",
+      "score": 0.84577894
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 22,
+        "xmax": 467,
+        "ymax": 55
+      },
+      "ocr_text": "Kako u saobraćajnoj situaciji kao na slici mora postupiti\r\nvozač vozila broj 1?",
+      "score": 0.9773503
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 104,
+        "xmax": 463,
+        "ymax": 189
+      },
+      "ocr_text": "proći kroz raskrsnicu prije vozila broj 2, a propustiti vozilo\r\nbroj 3;\r\npropustiti vozilo broj 2, a zatim proći kroz raskrsnicu prije\r\nvozila broj 3.",
+      "score": 0.9798454
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 19,
+        "xmax": 450,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\n\r\nsituaciji kao na slici?",
+      "score": 0.87554604
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 106,
+        "xmax": 153,
+        "ymax": 179
+      },
+      "ocr_text": "3-1-2-4; \r\n4-2-1-3; \r\n3-4-2-1.",
+      "score": 0.85191536
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 17,
+        "xmax": 466,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9161212
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 106,
+        "xmax": 123,
+        "ymax": 175
+      },
+      "ocr_text": "2-3- 1; \r\n\r\n2-1-3; \r\n3-1-2.",
+      "score": 0.86513793
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 58,
+        "ymin": 117,
+        "xmax": 78,
+        "ymax": 157
+      },
+      "ocr_text": "da;\r\nne.",
+      "score": 0.99903536
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 15,
+        "xmax": 461,
+        "ymax": 69
+      },
+      "ocr_text": "Da li je u saobraćajnoj situaciji kao na slici\r\ndozvoljeno izvršiti radnju polukružnog okretanja\r\nvozilom?",
+      "score": 0.92279917
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 13,
+        "xmax": 466,
+        "ymax": 71
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici, koji učesnik u\r\nsaobraćaju mora sačekati i propustiti drugog\r\nučesnika?",
+      "score": 0.9641175
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 120,
+        "xmax": 105,
+        "ymax": 162
+      },
+      "ocr_text": "broj 2;\r\nbroj 1.",
+      "score": 0.9003315
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 18,
+        "xmax": 464,
+        "ymax": 54
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.918059
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 61,
+        "ymin": 105,
+        "xmax": 171,
+        "ymax": 144
+      },
+      "ocr_text": "5-4-3-2-1;\r\n1-2-3-4-5.",
+      "score": 0.74413174
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 19,
+        "xmax": 471,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9260193
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 107,
+        "xmax": 128,
+        "ymax": 176
+      },
+      "ocr_text": "2-3-1; \r\n1-2- 3; \r\n3-1-2.",
+      "score": 0.8752682
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 62,
+        "ymin": 110,
+        "xmax": 204,
+        "ymax": 150
+      },
+      "ocr_text": "vozilo broj 1 i broj 3;\r\nvozilo broj 4 i broj 2.",
+      "score": 0.99007004
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 24,
+        "xmax": 466,
+        "ymax": 59
+      },
+      "ocr_text": "Kojim vozilima u saobraćajnoj situaciji kao na slici nije\r\n\r\ndozvoljen prolaz na raskrsnici?",
+      "score": 0.9835962
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 19,
+        "xmax": 467,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9348495
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 53,
+        "ymin": 103,
+        "xmax": 156,
+        "ymax": 182
+      },
+      "ocr_text": "4- 3-1-2; \r\n3-4-1- 2; \r\n4-3 - 1- 2.",
+      "score": 0.83260477
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 21,
+        "xmax": 467,
+        "ymax": 58
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.92747283
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 109,
+        "xmax": 126,
+        "ymax": 181
+      },
+      "ocr_text": "1-2- 3; \r\n2 -3- 1; \r\n3 -1-2.",
+      "score": 0.8476217
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 23,
+        "xmax": 412,
+        "ymax": 58
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.96011865
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 110,
+        "xmax": 126,
+        "ymax": 179
+      },
+      "ocr_text": "2 -3- 1; \r\n3-1-2; \r\n1-3-2.",
+      "score": 0.8706757
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 21,
+        "xmax": 413,
+        "ymax": 56
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\n\r\nsituaciji kao na slici?",
+      "score": 0.9571506
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 107,
+        "xmax": 127,
+        "ymax": 181
+      },
+      "ocr_text": "1-2-3; \r\n3-2- 1; \r\n2-1-3.",
+      "score": 0.86186016
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 26,
+        "xmax": 469,
+        "ymax": 62
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9232259
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 90,
+        "xmax": 127,
+        "ymax": 160
+      },
+      "ocr_text": "1-3- 2; \r\n2-3- 1; \r\n2 -1-3.",
+      "score": 0.8806174
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 26,
+        "xmax": 473,
+        "ymax": 62
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9296812
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 57,
+        "ymin": 86,
+        "xmax": 160,
+        "ymax": 182
+      },
+      "ocr_text": "1-3-2-4;\r\n\r\n3- 2-1-4;\r\n3-1-2-4;\r\n1-4 -2-3.",
+      "score": 0.8351425
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 75,
+        "ymin": 20,
+        "xmax": 474,
+        "ymax": 52
+      },
+      "ocr_text": "Kako u saobraćajnoj situaciji kao na slici mora postupiti\r\nvozač vozila broj 2?",
+      "score": 0.9700037
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 97,
+        "xmax": 328,
+        "ymax": 137
+      },
+      "ocr_text": "zaustaviti se i propustiti vozilo broj 1;\r\nproći prije vozila broj 1.",
+      "score": 0.97594994
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 19,
+        "xmax": 454,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.88021135
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 106,
+        "xmax": 131,
+        "ymax": 176
+      },
+      "ocr_text": "2-1-3; \r\n3-1-2; \r\n1-2-3.",
+      "score": 0.879274
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 74,
+        "ymin": 22,
+        "xmax": 419,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.95458937
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 108,
+        "xmax": 133,
+        "ymax": 179
+      },
+      "ocr_text": "1-2-3; \r\n1-3- 2; \r\n3-1-2.",
+      "score": 0.88901114
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 27,
+        "xmax": 413,
+        "ymax": 63
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9552099
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 114,
+        "xmax": 127,
+        "ymax": 185
+      },
+      "ocr_text": "2-1-3; \r\n1-3-2; \r\n3 - 2 - 1.",
+      "score": 0.9040907
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 19,
+        "xmax": 468,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.92476326
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 111,
+        "xmax": 126,
+        "ymax": 184
+      },
+      "ocr_text": "3-2- 1; \r\n1-2- 3; \r\n1-3- 2.",
+      "score": 0.85771644
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 108,
+        "xmax": 128,
+        "ymax": 180
+      },
+      "ocr_text": "1-2-3; \r\n2 -1-3; \r\n3-1-2.",
+      "score": 0.87975526
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 17,
+        "xmax": 470,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\n\r\nsituaciji kao na slici?",
+      "score": 0.9268161
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 21,
+        "xmax": 469,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93685406
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 108,
+        "xmax": 128,
+        "ymax": 184
+      },
+      "ocr_text": "2-1-3; \r\n3-2-1; \r\n1-3- 2.",
+      "score": 0.8431189
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 18,
+        "xmax": 469,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9308013
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 106,
+        "xmax": 127,
+        "ymax": 178
+      },
+      "ocr_text": "1-2- 3; \r\n2-1-3; \r\n3 -1-2.",
+      "score": 0.89110506
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 17,
+        "xmax": 455,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.8904455
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 108,
+        "xmax": 132,
+        "ymax": 177
+      },
+      "ocr_text": "3-2-1; \r\n2-1-3; \r\n1-3 - 2.",
+      "score": 0.84044576
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 19,
+        "xmax": 469,
+        "ymax": 51
+      },
+      "ocr_text": "Kako u saobraćajnoj situaciji kao na slici mora postupiti\r\nvozač vozila broj 2?",
+      "score": 0.97251123
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 107,
+        "xmax": 226,
+        "ymax": 147
+      },
+      "ocr_text": "propustiti vozilo broj 1;\r\nproći prije vozila broj 1.",
+      "score": 0.9814657
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 24,
+        "xmax": 470,
+        "ymax": 56
+      },
+      "ocr_text": "Kako u saobraćajnoj situaciji kao na slici mora postupiti\r\nvozač vozila broj 2?",
+      "score": 0.9686048
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 107,
+        "xmax": 227,
+        "ymax": 152
+      },
+      "ocr_text": "proći prije vozila broj 1;\r\npropustiti vozilo broj 1.",
+      "score": 0.98655856
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 19,
+        "xmax": 469,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9368237
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 106,
+        "xmax": 127,
+        "ymax": 180
+      },
+      "ocr_text": "2-1-3; \r\n3-1-2; \r\n3-2-1.",
+      "score": 0.8658321
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 17,
+        "xmax": 445,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?:",
+      "score": 0.9020771
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 56,
+        "ymin": 106,
+        "xmax": 152,
+        "ymax": 184
+      },
+      "ocr_text": "1-2-3- 4; \r\n4 -1-2-3; \r\n2 -3 -4 - 1.",
+      "score": 0.90868354
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 86,
+        "ymin": 23,
+        "xmax": 475,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed\r\nsituaciji kao na slici?\r\n\r\nprolaska vozila na raskrsnici u",
+      "score": 0.9396676
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 82,
+        "ymin": 112,
+        "xmax": 145,
+        "ymax": 185
+      },
+      "ocr_text": "3-1-2; \r\n2 -1-3; \r\n1-2- 3.",
+      "score": 0.85693324
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 85,
+        "ymin": 18,
+        "xmax": 475,
+        "ymax": 58
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93825555
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 82,
+        "ymin": 109,
+        "xmax": 145,
+        "ymax": 182
+      },
+      "ocr_text": "3-2-1; \r\n\r\n1-2-3; \r\n2 -1-3.",
+      "score": 0.85413396
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 81,
+        "ymin": 23,
+        "xmax": 481,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nsituaciji kao na slici?\r\nraskrsnici u",
+      "score": 0.93891054
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 78,
+        "ymin": 111,
+        "xmax": 140,
+        "ymax": 180
+      },
+      "ocr_text": "1-3- 2; \r\n2 - 3 - 1; \r\n\r\n3-2 - 1.",
+      "score": 0.8794065
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 22,
+        "xmax": 469,
+        "ymax": 58
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.8641033
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 110,
+        "xmax": 128,
+        "ymax": 183
+      },
+      "ocr_text": "2 -3 - 1; \r\n3-2- 1; \r\n3-1-2.",
+      "score": 0.8466724
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 108,
+        "xmax": 130,
+        "ymax": 177
+      },
+      "ocr_text": "3-2-1; \r\n1-2- 3; \r\n2-1-3.",
+      "score": 0.8383242
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 17,
+        "xmax": 471,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9383257
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 23,
+        "xmax": 471,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nraskrsnici u situaciji kao na slici?",
+      "score": 0.93556064
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 112,
+        "xmax": 129,
+        "ymax": 182
+      },
+      "ocr_text": "3-2- 1; \r\n2 -3- 1; \r\n1-2-3.",
+      "score": 0.8402194
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 18,
+        "xmax": 470,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9398774
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 108,
+        "xmax": 129,
+        "ymax": 180
+      },
+      "ocr_text": "2-3-1; \r\n1-3- 2; \r\n1-2- 3.",
+      "score": 0.82124174
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 21,
+        "xmax": 469,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9244487
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 46,
+        "ymin": 110,
+        "xmax": 128,
+        "ymax": 179
+      },
+      "ocr_text": "3-2-1; \r\n2-1-3; \r\n1-2-3.",
+      "score": 0.8825616
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 26,
+        "xmax": 470,
+        "ymax": 63
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93187106
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 115,
+        "xmax": 129,
+        "ymax": 184
+      },
+      "ocr_text": "2-3- 1; \r\n\r\n1-3 - 2; \r\n2-1-3.",
+      "score": 0.88185155
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 21,
+        "xmax": 469,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93554306
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 109,
+        "xmax": 127,
+        "ymax": 180
+      },
+      "ocr_text": "3-2-1; \r\n3-1-2; \r\n1-2-3.",
+      "score": 0.81202316
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 17,
+        "xmax": 468,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9351348
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 108,
+        "xmax": 126,
+        "ymax": 181
+      },
+      "ocr_text": "1-2- 3; \r\n3-1-2; \r\n2-1-3.",
+      "score": 0.8512684
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 22,
+        "xmax": 452,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nraskrsnici u situaciji kao na slici?",
+      "score": 0.8890956
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 57,
+        "ymin": 106,
+        "xmax": 130,
+        "ymax": 180
+      },
+      "ocr_text": "3- 2- 1; \r\n2-1-3; \r\n1-2-3.",
+      "score": 0.8439183
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 21,
+        "xmax": 465,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nsituaciji kao na slici?\r\nraskrsnici u",
+      "score": 0.93758494
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 110,
+        "xmax": 126,
+        "ymax": 183
+      },
+      "ocr_text": "3-2-1; \r\n2-1-3; \r\n1-3 - 2.",
+      "score": 0.8359594
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 21,
+        "xmax": 449,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\n\r\nsituaciji kao na slici?\r\nraskrsnici",
+      "score": 0.8985621
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 111,
+        "xmax": 128,
+        "ymax": 181
+      },
+      "ocr_text": "3-1-2; \r\n2-1-3; \r\n1-3- 2.",
+      "score": 0.8565645
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 22,
+        "xmax": 451,
+        "ymax": 60
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nsituaciji kao na slici?\r\n\r\nraskrsnici",
+      "score": 0.885777
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 112,
+        "xmax": 128,
+        "ymax": 179
+      },
+      "ocr_text": "2 -1-3; \r\n3-2-1; \r\n1-3- 2.",
+      "score": 0.83716273
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 22,
+        "xmax": 415,
+        "ymax": 56
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.96419275
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 109,
+        "xmax": 129,
+        "ymax": 176
+      },
+      "ocr_text": "1-2- 3; \r\n\r\n2 - 3 - 1; \r\n3 - 2 - 1.",
+      "score": 0.86823344
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 118,
+        "xmax": 160,
+        "ymax": 183
+      },
+      "ocr_text": "2-1-3-4;\r\n1-2-3- 4;\r\n1-2-4-3.",
+      "score": 0.81817365
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 26,
+        "xmax": 471,
+        "ymax": 66
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93102545
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 20,
+        "xmax": 471,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9186446
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 107,
+        "xmax": 131,
+        "ymax": 177
+      },
+      "ocr_text": "1-3- 2; \r\n3-2-1; \r\n2 -3 -1.",
+      "score": 0.850168
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 20,
+        "xmax": 467,
+        "ymax": 60
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93368727
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 112,
+        "xmax": 125,
+        "ymax": 182
+      },
+      "ocr_text": "2-3-1; \r\n2-1-3; \r\n3-1-2.",
+      "score": 0.86483383
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 14,
+        "xmax": 468,
+        "ymax": 52
+      },
+      "ocr_text": "Koji je redoslijed prolaska učesnika u saobraćaju na\r\n\r\nraskrsnici u situaciji kao na slici?",
+      "score": 0.96232986
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 107,
+        "xmax": 232,
+        "ymax": 173
+      },
+      "ocr_text": "1-3-2;\r\n3, pa 2 i 1 istovremeno;\r\n2 i 1 istovremeno, pa 3.",
+      "score": 0.9200988
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 21,
+        "xmax": 472,
+        "ymax": 78
+      },
+      "ocr_text": "Da li je u saobraćajnoj situaciji kao na slici dozvoljeno\r\nizvršiti radnju polukružnog okretanja vozilom kojim\r\nupravljate?",
+      "score": 0.9356107
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 124,
+        "xmax": 87,
+        "ymax": 162
+      },
+      "ocr_text": "da;\r\nne.",
+      "score": 0.9990582
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 18,
+        "xmax": 473,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.93665516
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 78,
+        "xmax": 131,
+        "ymax": 155
+      },
+      "ocr_text": "1-3- 2; \r\n1-2-3; \r\n3-1-2.",
+      "score": 0.88704133
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 78,
+        "ymin": 22,
+        "xmax": 423,
+        "ymax": 57
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.96750045
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 75,
+        "ymin": 108,
+        "xmax": 138,
+        "ymax": 180
+      },
+      "ocr_text": "1-3- 2; \r\n3-1-2; \r\n2-3 -1.",
+      "score": 0.88992727
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 23,
+        "xmax": 473,
+        "ymax": 59
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na\r\nsituaciji kao na slici?\r\nraskrsnici u",
+      "score": 0.9397707
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 68,
+        "ymin": 84,
+        "xmax": 157,
+        "ymax": 148
+      },
+      "ocr_text": "4-1-2-3;\r\n2 -3-4-1;\r\n2-3-1-4.",
+      "score": 0.7572098
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 20,
+        "xmax": 417,
+        "ymax": 55
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u\r\nsituaciji kao na slici?",
+      "score": 0.9692658
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 107,
+        "xmax": 133,
+        "ymax": 177
+      },
+      "ocr_text": "3-2-1; \r\n3-1-2; \r\n2-3-1.",
+      "score": 0.83941126
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 57,
+        "ymin": 94,
+        "xmax": 457,
+        "ymax": 194
+      },
+      "ocr_text": "obavezno zaustaviti vozilo jer se uključujem sa sporednog puta;\r\nobavezno zaustaviti vozilo zbog znaka „STOP“;\r\n\r\nnastaviti kretanje vozilom.",
+      "score": 0.98763585
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 77,
+        "ymin": 19,
+        "xmax": 477,
+        "ymax": 73
+      },
+      "ocr_text": "Kako ćete postupiti na raskrsnici na kojoj je saobraćaj\r\nregulisan svjetlosnom saobraćajnom signalizacijom kao\r\nna slici?",
+      "score": 0.98426867
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 31,
+        "ymin": 18,
+        "xmax": 482,
+        "ymax": 54
+      },
+      "ocr_text": "Kako ćete postupiti na raskrsnici u saobraćajnoj situaciji\r\nkao na slici?",
+      "score": 0.9840857
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 28,
+        "ymin": 78,
+        "xmax": 457,
+        "ymax": 150
+      },
+      "ocr_text": "nastaviti kretanje vozilom jer nema niko sa desne strane;\r\n\r\nproći drugi jer sam žutom vozilu sa desne strane;\r\nzaustaviti se i propustiti oba vozila;",
+      "score": 0.976878
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 82,
+        "ymin": 23,
+        "xmax": 481,
+        "ymax": 58
+      },
+      "ocr_text": "Kako ćete postupiti na raskrsnici u saobraćajnoj situaciji\r\nkao na slici? (više tačnih odgovora)",
+      "score": 0.9826367
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 29,
+        "ymin": 80,
+        "xmax": 330,
+        "ymax": 181
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu;\r\npropustiti crveno vozilo;\r\nzaustaviti se i propustiti oba vozila;\r\n\r\nproći kroz raskrsnicu prije žutog vozila.",
+      "score": 0.9792421
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 26,
+        "xmax": 468,
+        "ymax": 59
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nako upravljate plavim automobilom?",
+      "score": 0.98564965
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 82,
+        "xmax": 314,
+        "ymax": 149
+      },
+      "ocr_text": "proći prvi jer sam sa desne strane;\r\nproći prvi jer skrećem udesno;\r\nzaustaviti se i propustiti crveno vozilo.",
+      "score": 0.97237843
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 25,
+        "xmax": 470,
+        "ymax": 57
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nako imate namjeru proći raskrsnicu?",
+      "score": 0.9817904
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 70,
+        "xmax": 426,
+        "ymax": 207
+      },
+      "ocr_text": "obavezno se zaustaviti, bez obzira ima li vozila\r\nsa lijeve strane u raskrsnici;\r\nnastaviti kretanje bez zaustavljanja jer me vozači\r\nvozila u raskrsnici moraju propustiti;\r\nzaustaviti se po potrebi, radi propuštanja vozila\r\nkoja su već u raskrsnici, a potom proći kroz raskrsnicu.",
+      "score": 0.9174607
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 26,
+        "xmax": 471,
+        "ymax": 61
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nprilikom dolaska na raskrsnicu? (više tačnih odgovora)",
+      "score": 0.9721682
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 21,
+        "ymin": 70,
+        "xmax": 438,
+        "ymax": 143
+      },
+      "ocr_text": "nastaviti kretanje jer ne mijenjam smjer kretanja vozila;\r\npropustiti motocikl;\r\nproći priie vozila koie dolazi iz suprotnog smiera.",
+      "score": 0.97884655
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 61,
+        "ymin": 21,
+        "xmax": 466,
+        "ymax": 57
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\nslici prilikom dolaska na raskrsnicu?",
+      "score": 0.9566572
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 14,
+        "ymin": 77,
+        "xmax": 466,
+        "ymax": 149
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu;\r\nproći drugi kroz raskrsnicu, nakon propuštanja bijelog vozila;\r\nproći posljednji kroz raskrsnicu.",
+      "score": 0.9820883
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 23,
+        "xmax": 472,
+        "ymax": 60
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\n\r\nslici prilikom dolaska na raskrsnicu?",
+      "score": 0.9534887
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 78,
+        "xmax": 472,
+        "ymax": 189
+      },
+      "ocr_text": "zaustaviti se i propustiti oba vozila;\r\nproći prvi kroz raskrsnicu jer sam cvenom vozilu sa desne\r\nstrane;\r\npropustiti crveno vozilo, a zatim proći kroz raskrsnicu\r\nistovremeno sa autobusom.",
+      "score": 0.9787401
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 21,
+        "xmax": 472,
+        "ymax": 57
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\n\r\nslici? (više tačnih odgovora)",
+      "score": 0.9868884
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 71,
+        "xmax": 472,
+        "ymax": 221
+      },
+      "ocr_text": "obavezno se zaustaviti;\r\nnastaviti kretanje vozilom ulijevo, nakon propuštanja vozila\r\nkoja dolaze sa desne strane;\r\nnakon što se na semaforu upali zeleno svjetlo,\r\nnastaviti kretanje vozilom ulijevo;\r\nnakon što se na semaforu upali zeleno svjetlo,\r\nnastaviti kretanje udesno.",
+      "score": 0.9858113
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 21,
+        "xmax": 472,
+        "ymax": 57
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.95905113
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 20,
+        "ymin": 78,
+        "xmax": 472,
+        "ymax": 190
+      },
+      "ocr_text": "povećati pažnju zbog nailaska na ukrštanje odnosno\r\nspajanje puta sa prednošću prolaska sa sporednim putem;\r\nobavezno nastaviti kretanje vozilom pravo;\r\nskrenuti udesno na sporedni put ili nastaviti\r\nkretanje vozilom pravo.",
+      "score": 0.9837755
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 75,
+        "ymin": 14,
+        "xmax": 468,
+        "ymax": 25
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?",
+      "score": 0.9869804
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 55,
+        "ymin": 61,
+        "xmax": 475,
+        "ymax": 190
+      },
+      "ocr_text": "obratiti pažnju na moguću djecu na putu ili u blizini puta, a\r\nbrzinu kretanja vozila prolagoditi trenutnim uslovima\r\nsaobraćaja, s tim da brzina ne smije biti veća od brzine\r\nodređene saobraćajnim znakom;\r\nobratiti pažnju samo ako se djeca nalaze na putu, a brzinu\r\nprilagoditi trenutnim uslovima saobraćaja.",
+      "score": 0.8772485
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 71,
+        "ymin": 13,
+        "xmax": 472,
+        "ymax": 70
+      },
+      "ocr_text": "Kako treba postupiti vozač motocikla u saobraćajnoj\r\nsituaciji kao na slici, ako je na vozilu javnog gradskog\r\nprevoza putnika uključen lijevi pokazivač smjera?",
+      "score": 0.94479114
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 86,
+        "xmax": 440,
+        "ymax": 185
+      },
+      "ocr_text": "nije dužan omogućiti autobusu uključivanje u saobraćaj;\r\ndužan je omogućiti autobusu uključivanje u saobraćaj;\r\n nije dužan omogućiti autobusu uključivanje u saobraćaj\r\njer se autobus nalazi na sporednom putu.",
+      "score": 0.95735335
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 20,
+        "xmax": 473,
+        "ymax": 56
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici vozač putničkog\r\nautomobila:",
+      "score": 0.9280915
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 53,
+        "ymin": 71,
+        "xmax": 473,
+        "ymax": 155
+      },
+      "ocr_text": "ne smije da izvrši radnju kretanja vozilom unazad, jer čini\r\nprekršaj;\r\nsmije izvršiti radnju kretanja vozilom unazad, jer se nalazi\r\nneposredno uz mjesto za zaustavljanje vozila.",
+      "score": 0.9499738
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 13,
+        "xmax": 469,
+        "ymax": 71
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici, vozač kamiona\r\nprilikom vršenja radnje kretanja vozilom unazad mora da\r\nse kreće:",
+      "score": 0.9069348
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 14,
+        "ymin": 88,
+        "xmax": 205,
+        "ymax": 166
+      },
+      "ocr_text": "linijama broj 1 i broj 2; \r\nlinijom broj 2; \r\nlinijom broj 1.",
+      "score": 0.98890054
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 76,
+        "xmax": 358,
+        "ymax": 175
+      },
+      "ocr_text": "autobus, kamion, motocikl;\r\n\r\nmotocikl, autobus, kamion;\r\nmotocikl i kamion istovremeno, pa autobus;\r\nmotocikl, kamion, autobus.",
+      "score": 0.98868215
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 18,
+        "xmax": 469,
+        "ymax": 53
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u situaciji\r\nkao na slici?",
+      "score": 0.97233
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 19,
+        "ymin": 25,
+        "xmax": 470,
+        "ymax": 60
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u situaciji\r\nkao na slici?",
+      "score": 0.97087973
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 83,
+        "xmax": 397,
+        "ymax": 205
+      },
+      "ocr_text": "tramvaj, motocikl, putnički automobil;\r\ntramvaj, a zatim istovremeno putnički automobil i\r\nmotocikl;\r\nmotocikl, putnički automobil, tramvaj;\r\nmotocikl, tramvaj, putnički automobil.",
+      "score": 0.98909986
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 21,
+        "xmax": 468,
+        "ymax": 57
+      },
+      "ocr_text": "Koje vozilo će u saobraćajnoj situaciji kao na slici\r\nposljednje proći kroz raskrsnicu?",
+      "score": 0.9787003
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 13,
+        "ymin": 66,
+        "xmax": 416,
+        "ymax": 180
+      },
+      "ocr_text": "motocikl;\r\npolicijsko vozilo koje drugom policijskom vozilu\r\ndolazi sa desne strane;\r\npolicijsko vozilo koje se nalazi na putu sa prvenstvom\r\nprolaza.",
+      "score": 0.96916693
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 61,
+        "ymin": 20,
+        "xmax": 467,
+        "ymax": 55
+      },
+      "ocr_text": "Kojoj vrsti saobraćajnih znakova pripada postavljeni\r\nsaobraćajni znak na slici?",
+      "score": 0.93710274
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 49,
+        "ymin": 76,
+        "xmax": 238,
+        "ymax": 145
+      },
+      "ocr_text": "znakovima opasnosti;\r\nznakovima obavještenja;\r\nznakovima izričitih naredbi.",
+      "score": 0.9959174
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 58,
+        "ymin": 13,
+        "xmax": 470,
+        "ymax": 40
+      },
+      "ocr_text": "Kako treba postupiti u saobraćajnoj situaciji kao na slici?",
+      "score": 0.9063553
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 45,
+        "ymin": 54,
+        "xmax": 491,
+        "ymax": 207
+      },
+      "ocr_text": "obavezno se zaustaviti pa nastaviti kretanje vozilom ulijevo ili udesno; \r\nnastaviti kretanje vozilom nakon propuštanja vozila koja \r\ndolaze samo sa desne strane; \r\n\r\nnastaviti kretanje vozilom ulijevo ili udesno nakon \r\npropuštanja svih vozila koja se kreću putem na koji se \r\nuključujem.",
+      "score": 0.9767304
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 54,
+        "ymin": 21,
+        "xmax": 515,
+        "ymax": 59
+      },
+      "ocr_text": "Kako treba postupiti u saobraćajnoj situaciji kao na slici ako \r\nvozilom prolazite pored dva postavljena saobraćajna znaka?",
+      "score": 0.82698506
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 20,
+        "ymin": 76,
+        "xmax": 478,
+        "ymax": 192
+      },
+      "ocr_text": "prilagoditi brzinu kretanja vozila tako da ona ne prelazi \r\n50 km/h; \r\n\r\nobratiti pažnju na pješake, jer saobraćajni znak ukazuje na \r\nblizinu pješačkog prelaza; \r\nnastaviti kretanje vozilom uz prethodno propuštanje pješaka.",
+      "score": 0.9918184
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 21,
+        "ymin": 8,
+        "xmax": 474,
+        "ymax": 108
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nako kretanje vozilom nastavljate pravo, na raskrsnici\r\nputeva iste važnosti na kojoj uređaji za davanje\r\nsvjetlosnih saobraćajnih znakova nisu u funkciji? (više\r\n\r\ntačnih odgovora)",
+      "score": 0.93389225
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 21,
+        "ymin": 120,
+        "xmax": 439,
+        "ymax": 234
+      },
+      "ocr_text": "pažljivo proći vozilom kroz raskrsnicu;\r\npropustiti vozila koja dolaze i sa lijeve i sa desne strane;\r\npropustiti vozila koja dolaze sa desne strane;\r\npropustiti vozila iz suprotnog smjera koja namjeravaju\r\nskrenuti ulijevo.",
+      "score": 0.9864896
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 19,
+        "ymin": 12,
+        "xmax": 473,
+        "ymax": 56
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici učesnici u saobraćaju\r\n\r\nće proći kroz raskrsnicu sljedećim redoslijedom:",
+      "score": 0.98183167
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 52,
+        "ymin": 77,
+        "xmax": 380,
+        "ymax": 180
+      },
+      "ocr_text": "oba bicikla, crveni automobil, zeleni automobil;\r\nzeleni automobil, crveni automobil, pa bicikli;\r\noba bicikla, zeleni automobil, crveni automobil.",
+      "score": 0.99496096
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 50,
+        "ymin": 11,
+        "xmax": 470,
+        "ymax": 54
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici vozač vozila koje se \r\nnalazi u srednjoj saobraćajnoj traci: (više tačnih odgovora)",
+      "score": 0.7609228
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 50,
+        "ymin": 58,
+        "xmax": 470,
+        "ymax": 173
+      },
+      "ocr_text": "mora nastaviti kretanje vozilom pravo, jer nije \r\n\r\npravovremeno izvršio radnju prestrojavanja; \r\nne smije izvršiti radnju skretanja ulijevo, jer čini prekršaj; \r\nsačekaće sva vozila da skrenu ulijevo, a potom izvršiti radnju \r\nskretanja ulijevo.",
+      "score": 0.98017806
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 67,
+        "ymin": 13,
+        "xmax": 468,
+        "ymax": 50
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici, plavi putnički\r\nautomobil:",
+      "score": 0.91538084
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 13,
+        "ymin": 59,
+        "xmax": 394,
+        "ymax": 135
+      },
+      "ocr_text": "ne čini prekrša jer je prelaz preko pruge regulisan\r\n\r\nsvjetlosnim saobraćajnim znakovima;\r\nčini prekršaj.",
+      "score": 0.8922009
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 18,
+        "xmax": 470,
+        "ymax": 53
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nukoliko automobilom skrećete udesno?",
+      "score": 0.9742584
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 79,
+        "xmax": 467,
+        "ymax": 123
+      },
+      "ocr_text": "propustiću biciklistu, a zatim vršim radnju skretanja udesno;\r\nvozim istovremeno sa biciklistom.",
+      "score": 0.98766017
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 21,
+        "xmax": 469,
+        "ymax": 60
+      },
+      "ocr_text": "Kako treba postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.97208655
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 78,
+        "xmax": 469,
+        "ymax": 194
+      },
+      "ocr_text": "povećati brzinu kretanja vozila;\r\nobratiti pažnju na postupke vozača vozila iz suprotnog\r\nsmjera;\r\npovećati pažnju i prije vozila iz suprotnog smjera proći\r\ndionicu na kojoj je suženje puta.",
+      "score": 0.98529017
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 20,
+        "xmax": 470,
+        "ymax": 56
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.967455
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 14,
+        "ymin": 80,
+        "xmax": 375,
+        "ymax": 152
+      },
+      "ocr_text": "propustiti crveni automobil;\r\nproći kroz raskrsnicu prije crnog automobila;\r\nproći kroz raskrsnicu prije crvenog automobila.",
+      "score": 0.9946861
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 19,
+        "ymin": 20,
+        "xmax": 471,
+        "ymax": 58
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.97089577
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 18,
+        "ymin": 78,
+        "xmax": 302,
+        "ymax": 149
+      },
+      "ocr_text": "propustiti autobus;\r\npropustiti motocikl;\r\nproći kroz raskrsnicu prije autobusa.",
+      "score": 0.9924261
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 19,
+        "ymin": 21,
+        "xmax": 465,
+        "ymax": 59
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.97463894
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 9,
+        "ymin": 81,
+        "xmax": 386,
+        "ymax": 176
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu;\r\nproći zadnji kroz raskrsnicu;\r\nproći prije crvenog vozila kroz raskrsnicu;\r\npropustiti vozilo koje dolazi iz suprotnog smjera.",
+      "score": 0.9804838
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 65,
+        "ymin": 23,
+        "xmax": 471,
+        "ymax": 54
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u situaciji\r\nkao na slici?",
+      "score": 0.96324176
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 53,
+        "ymin": 87,
+        "xmax": 115,
+        "ymax": 161
+      },
+      "ocr_text": "1-2-3; \r\n\r\n2-3-1; \r\n3-1-2.",
+      "score": 0.88562036
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 62,
+        "ymin": 32,
+        "xmax": 459,
+        "ymax": 43
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?",
+      "score": 0.98921496
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 17,
+        "ymin": 77,
+        "xmax": 398,
+        "ymax": 170
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu jer imate prednost;\r\npropustiti oba vozila i zadnji proći kroz raskrsnicu;\r\npropustiti vozilo hitne pomoći koje daje svjetlosne\r\nznakove, a zatim proći kroz raskrsnicu.",
+      "score": 0.89473206
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 20,
+        "ymin": 11,
+        "xmax": 472,
+        "ymax": 70
+      },
+      "ocr_text": "Kako treba postupiti vozač putničkog automobila u\r\nsaobraćajnoj situaciji kao na slici ako ako se vozač\r\nautobusa uključuje u saobračaj sa stajališta?",
+      "score": 0.9493785
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 51,
+        "ymin": 77,
+        "xmax": 472,
+        "ymax": 188
+      },
+      "ocr_text": "smanjuje brzinu kretanja i omogućuje uključivanje autobusa\r\nu saobraćaj;\r\nzvučnim znakom upozorava vozača autobusa da ga propusti\r\njer ima prvenstvo prolaza;\r\n\r\nprolazi pored autobusa jer ima prednost.",
+      "score": 0.88744414
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 19,
+        "ymin": 21,
+        "xmax": 465,
+        "ymax": 62
+      },
+      "ocr_text": "Kako treba postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.9745262
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 27,
+        "ymin": 78,
+        "xmax": 471,
+        "ymax": 199
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu;\r\npropustiti autobus;\r\nproći kroz raskrsnicu prije vozila sa lijeve strane;\r\nproći kroz raskrsnicu prije autobusa, jer vrši radnju skretanja\r\n\r\nulijevo.",
+      "score": 0.98617154
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 54,
+        "ymin": 13,
+        "xmax": 469,
+        "ymax": 73
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici \r\nako na raskrsnici skrećete ulijevo dok je na semaforu \r\nupaljeno zeleno svjetlo?",
+      "score": 0.9677065
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 23,
+        "ymin": 89,
+        "xmax": 392,
+        "ymax": 161
+      },
+      "ocr_text": "zaustaviti se prije raskrsnice;\r\npropustiti tramvaj koji dolazi iz suprotnog smjera.",
+      "score": 0.9626678
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 50,
+        "ymin": 105,
+        "xmax": 115,
+        "ymax": 178
+      },
+      "ocr_text": "1-2-3; \r\n3-1-2; \r\n2-1-3.",
+      "score": 0.8841417
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 23,
+        "ymin": 17,
+        "xmax": 470,
+        "ymax": 54
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u situaciji\r\nkao na slici?",
+      "score": 0.9690845
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 16,
+        "ymin": 18,
+        "xmax": 468,
+        "ymax": 54
+      },
+      "ocr_text": "U saobraćajnoj situaciji kao na slici pravilno skretanje\r\nudesno vrši:",
+      "score": 0.9554908
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 15,
+        "ymin": 77,
+        "xmax": 174,
+        "ymax": 175
+      },
+      "ocr_text": "samo žuto vozilo;\r\nsamo plavo vozilo;\r\nnijedno vozilo;\r\noba vozila.",
+      "score": 0.998233
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 14,
+        "ymin": 17,
+        "xmax": 463,
+        "ymax": 52
+      },
+      "ocr_text": "Koji je redoslijed prolaska vozila na raskrsnici u situaciji\r\n\r\nkao na slici?",
+      "score": 0.97244513
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 14,
+        "ymin": 75,
+        "xmax": 309,
+        "ymax": 148
+      },
+      "ocr_text": "tramvaj, autobus, putnički automobil;\r\nautobus, tramvaj, putnički automobil;\r\nautobus, putnički automobil, tramvaj.",
+      "score": 0.97868305
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 79,
+        "ymin": 18,
+        "xmax": 480,
+        "ymax": 71
+      },
+      "ocr_text": "Kako ćete postupiti ako se za vrijeme upravljanja\r\nvozilom nađete u saobraćajnoj situaciji kao na slici? (više\r\ntačnih odgovora)",
+      "score": 0.9472165
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 89,
+        "xmax": 467,
+        "ymax": 158
+      },
+      "ocr_text": "zaustaviti vozilo;\r\nzvučnim znakom upozoriti pješake na opasnost;\r\nnastaviću kretanje jer nema obilježenog pješačkog prelaza.",
+      "score": 0.9920272
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 94,
+        "xmax": 471,
+        "ymax": 184
+      },
+      "ocr_text": "smanjiti brzinu kretanja vozila;\r\npovećati brzinu kretanja vozila i proći prije autobusa;\r\npo potrebi zaustaviti vozilo i omogućiti vozaču autobusa\r\nda se bezbjedno uključi u saobraćaj;",
+      "score": 0.9895515
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 77,
+        "ymin": 19,
+        "xmax": 472,
+        "ymax": 75
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nako se vozač autobusa uključuje sa autobuskog\r\nstajalista u saobraćaj. (više tačnih odgovora)",
+      "score": 0.97198826
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 74,
+        "ymin": 18,
+        "xmax": 469,
+        "ymax": 74
+      },
+      "ocr_text": "Kako ćete postupiti, ako je autobus, označen kao na\r\nslici, zaustavljen na kolovozu zbog ulaska i izlaska\r\ndjece? (više tačnih odgovora)",
+      "score": 0.8007528
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 62,
+        "ymin": 93,
+        "xmax": 469,
+        "ymax": 229
+      },
+      "ocr_text": "ako se krećem vozilom iza autobusa, zaustaviti se;\r\n\r\nako se krećem vozilom iza autobusa, nastaviti kretanje\r\nvozilom;\r\nako se krećem vozilom u susret autobusu, nastaviti\r\nkretanje vozilom;\r\nako se krećem vozilom u susret autobusu, zaustaviti se.",
+      "score": 0.9771524
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 15,
+        "ymin": 81,
+        "xmax": 469,
+        "ymax": 200
+      },
+      "ocr_text": "propustiti vozilo koje dolazi iz suprotnog smjera kretanja, i\r\nima namjeru izvršiti radnju skretanja udesno;\r\n\r\nproći prvi kroz raskrsnicu;\r\nproći drugi kroz raskrsnicu;\r\npropustiti vozilo koje dolazi sa desne strane.",
+      "score": 0.9803913
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 63,
+        "ymin": 21,
+        "xmax": 469,
+        "ymax": 57
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\nslici prilikom približavanja raskrsnici? (više tačnih odgovora)",
+      "score": 0.9809265
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 23,
+        "xmax": 442,
+        "ymax": 58
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\nslici? (više tačnih odgovora)",
+      "score": 0.9853177
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 47,
+        "ymin": 79,
+        "xmax": 473,
+        "ymax": 198
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu jer nemate nikoga sa desne \r\nstrane; \r\npropustiti vozilo koje dolazi sa lijeve strane; \r\npropustiti vozilo koje dolazi iz suprotnog smjera kretanja;\r\nproći drugi kroz raskrsnicu.",
+      "score": 0.9827005
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 77,
+        "ymin": 22,
+        "xmax": 453,
+        "ymax": 60
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na \r\nslici?",
+      "score": 0.9738622
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 60,
+        "ymin": 69,
+        "xmax": 439,
+        "ymax": 152
+      },
+      "ocr_text": "propustiti crveno vozilo;\r\nproći kroz raskrsnicu prije crvenog vozila;\r\nproći istovremeno sa crvenim vozilom kroz raskrsnicu.",
+      "score": 0.99124306
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 82,
+        "ymin": 28,
+        "xmax": 459,
+        "ymax": 63
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na\r\nslici? (više tačnih odgovora)",
+      "score": 0.9835878
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 87,
+        "xmax": 477,
+        "ymax": 198
+      },
+      "ocr_text": "povećati brzinu kretanja vozila;\r\nobratiti pažnju na postupke vozača vozila iz suprotnog\r\n\r\nsmjera;\r\npropustiti vozilo iz suprotnog smjera, a zatim proći dionicu\r\nna kojoj je suženje puta.",
+      "score": 0.9901969
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 81,
+        "ymin": 21,
+        "xmax": 457,
+        "ymax": 59
+      },
+      "ocr_text": "Kako trebate postupiti u saobraćajnoj situaciji kao na \r\nslici?",
+      "score": 0.9850249
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 64,
+        "ymin": 76,
+        "xmax": 474,
+        "ymax": 196
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu jer nastavljate kretanje vozilom\r\npravo;\r\n\r\npropustiti oba vozila;\r\nproći drugi kroz raskrsnicu;\r\npropustiti samo crveni automobil.",
+      "score": 0.97253305
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 85,
+        "ymin": 16,
+        "xmax": 479,
+        "ymax": 48
+      },
+      "ocr_text": "Kako ćete postupiti ako se krećete putem na kome se\r\nizvode radovi u saobraćajnoj situaciji kao na slici?",
+      "score": 0.98339874
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 99,
+        "xmax": 479,
+        "ymax": 184
+      },
+      "ocr_text": "zaustaviti se jer se izvode radovi na saobraćajnoj traci\r\nkojom se krećem vozilom;\r\n\r\nnastaviti kretanje vozilom jer je na semaforu upaljeno\r\nzeleno svjetlo.",
+      "score": 0.8649714
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 78,
+        "ymin": 23,
+        "xmax": 465,
+        "ymax": 63
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nukoliko upravljate crnim utomobilom?",
+      "score": 0.984817
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 82,
+        "xmax": 380,
+        "ymax": 148
+      },
+      "ocr_text": "obavezno se zaustaviti;\r\nnastaviti kretanje vozilom uz povećani oprez;\r\nobavezno izvršiti radnju skretanja udesno.",
+      "score": 0.98471427
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 78,
+        "ymin": 18,
+        "xmax": 472,
+        "ymax": 74
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nna prelazu puta preko željezničke pruge u istom nivou\r\nkada se crvena svjetla počinju naizmjenično da pale?",
+      "score": 0.9295296
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 66,
+        "ymin": 111,
+        "xmax": 472,
+        "ymax": 200
+      },
+      "ocr_text": "nastaviti kretanje vozilom dok se polubranik još nije \r\nspustio; \r\nzaustaviti vozilo ispred pružnog prelaza i sačekati prolazak \r\nvoza.",
+      "score": 0.9122623
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 84,
+        "ymin": 40,
+        "xmax": 477,
+        "ymax": 52
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?",
+      "score": 0.9872155
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 89,
+        "xmax": 280,
+        "ymax": 158
+      },
+      "ocr_text": "propustiti oba vozila;\r\npropustiti samo crveno vozilo;\r\nproći prvi kroz raskrsnicu.",
+      "score": 0.9780176
+    }
+  ],
+  [
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 80,
+        "ymin": 26,
+        "xmax": 478,
+        "ymax": 61
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici?\r\n(više tačnih odgovora)",
+      "score": 0.95933163
+    },
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 73,
+        "ymin": 83,
+        "xmax": 416,
+        "ymax": 174
+      },
+      "ocr_text": "propustiti pješake koji prelaze preko pješačkog\r\nprelaza;\r\nproći prije pješaka;\r\npropustiti tramvaj koji dolazi iz suprotnog smjera.",
+      "score": 0.9570494
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 72,
+        "ymin": 81,
+        "xmax": 292,
+        "ymax": 153
+      },
+      "ocr_text": "proći prvi kroz raskrsnicu;\r\n\r\npropustiti oba vozila;\r\npropustiti samo crveno vozilo.",
+      "score": 0.9779032
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 95,
+        "ymin": 26,
+        "xmax": 432,
+        "ymax": 62
+      },
+      "ocr_text": "Kako ćete postupiti na raskrsnici u saobraćajnoj\r\nsituaciji kao na slici?",
+      "score": 0.9902646
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 70,
+        "ymin": 76,
+        "xmax": 320,
+        "ymax": 133
+      },
+      "ocr_text": "propustiti autobus;\r\nproći kroz raskrsnicu prije autobusa.",
+      "score": 0.9881235
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 81,
+        "ymin": 23,
+        "xmax": 418,
+        "ymax": 58
+      },
+      "ocr_text": "Kako ćete postupiti na raskrsnici u saobraćajnoj\r\n\r\nsituaciji kao na slici?",
+      "score": 0.98884153
+    }
+  ],
+  [
+    {
+      "name": "odgovori",
+      "bndbox": {
+        "xmin": 69,
+        "ymin": 92,
+        "xmax": 446,
+        "ymax": 180
+      },
+      "ocr_text": "propustiti crveno vozilo koje dolazi sa lijeve\r\nstrane;\r\nproći kroz raskrsnicu prije crvenog vozila;\r\nizvršiću radnju skretanja udesno nakon crvenog vozila.",
+      "score": 0.9671192
+    },
+    {
+      "name": "tekst_pitanja",
+      "bndbox": {
+        "xmin": 80,
+        "ymin": 17,
+        "xmax": 476,
+        "ymax": 73
+      },
+      "ocr_text": "Kako ćete postupiti u saobraćajnoj situaciji kao na slici\r\nako je na semaforu upaljeno crveno svjetlo i dopunska\r\n\r\nstrelica za skretanje udesno? (više tačnih odgovora)",
+      "score": 0.9342548
+    }
+  ]
+]
