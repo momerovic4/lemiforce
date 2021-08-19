@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "Z",slika = ("z__"+(i+1)+"_")))
+            pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "Z",slika = ("z"+(i+1))))
         }
         //-----------------------------------------------------------------------------------------
         //Pitanja Raskrsnice
