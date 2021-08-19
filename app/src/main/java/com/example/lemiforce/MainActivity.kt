@@ -4,12 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import com.example.lemiforce.data.staticdata.PitanjaRepo
 import com.example.lemiforce.model.Pitanje
 import org.json.JSONArray
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         loadPitanja()
@@ -29,12 +31,6 @@ class MainActivity : AppCompatActivity() {
         var tacniOdg = this.assets.open("pitanja_odg.txt").bufferedReader().use { it.readText() }.split('\n')
         var jsonString = this.assets.open("pitanja_obj.json").bufferedReader().use { it.readText() }
         var jsonObjekti = JSONArray(jsonString)
-        for (i in 0 until jsonObjekti.length()) {
-            val objekat = jsonObjekti.getJSONArray(i)
-            for(j in 0 until objekat.length()) {
-                if(!objekat.getJSONObject(j).has("ocr_text")) println(objekat)
-            }
-        }
         for (i in 0 until jsonObjekti.length()){
             var listobject = jsonObjekti.getJSONArray(i)
             var textPitanja = ""

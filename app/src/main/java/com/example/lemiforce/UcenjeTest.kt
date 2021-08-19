@@ -38,8 +38,7 @@ class UcenjeTest : AppCompatActivity() {
         if(intent.getStringExtra("KATEGORIJA").equals("a")){
             pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
         }else{
-            //pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
-            pitanja = mutableListOf()
+            pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
             pitanja.addAll(viewmodel.getPitanjaZnakove(10))
             pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
         }
