@@ -32,6 +32,7 @@ class UcenjeTest : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         viewmodel.refreshPitanja()
+        finish()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
