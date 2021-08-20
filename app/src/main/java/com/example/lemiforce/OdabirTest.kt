@@ -48,7 +48,7 @@ class OdabirTest : AppCompatActivity() {
         }
     }
 
-    var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+    private var intentLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == Activity.RESULT_CANCELED) {
             finish()
         }

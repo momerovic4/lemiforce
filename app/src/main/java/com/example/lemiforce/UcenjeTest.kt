@@ -26,6 +26,11 @@ class UcenjeTest : AppCompatActivity() {
     private lateinit var txtBrojPitanja: TextView
     private lateinit var imgSlika: ImageView
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        viewmodel.refreshPitanja()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.ucenje_test)

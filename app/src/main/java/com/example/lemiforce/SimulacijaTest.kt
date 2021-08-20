@@ -29,7 +29,12 @@ class SimulacijaTest : AppCompatActivity() {
     private lateinit var txtPitanje: TextView
     private lateinit var txtBrojPitanja: TextView
     private lateinit var imgSlika: ImageView
-    private var brTacnih = 0
+
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        viewmodel.refreshPitanja()
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

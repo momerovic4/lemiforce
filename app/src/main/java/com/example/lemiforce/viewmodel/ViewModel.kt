@@ -19,4 +19,10 @@ class ViewModel {
     fun getPitanjaRaskrsnice(broj: Int): List<Pitanje> {
         return PitanjaRepo.pitanja.filter { p -> p.kategorija.contains("R") }.shuffled().take(broj)
     }
+
+    fun refreshPitanja() {
+        for (pitanje in PitanjaRepo.pitanja) {
+            pitanje.odgovoreni = null
+        }
+    }
 }
