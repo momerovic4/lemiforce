@@ -95,9 +95,14 @@ class SimulacijaTest : AppCompatActivity() {
         var odgovori = pitanja.get(brojPitanja).ponudjeniOdgovori
 
         if(pitanja.get(brojPitanja).kategorija.equals("R") || pitanja.get(brojPitanja).kategorija.equals("Z")){
+            imgSlika.isEnabled = true
+            imgSlika.visibility = View.VISIBLE
             val PACKAGE_NAME = applicationContext.packageName
             val imgId = resources.getIdentifier("$PACKAGE_NAME:drawable/${pitanja.get(brojPitanja).slika}", null, null)
             imgSlika.setImageBitmap(BitmapFactory.decodeResource(resources, imgId))
+        }else{
+            imgSlika.isEnabled = false;
+            imgSlika.visibility = View.INVISIBLE
         }
 
         var manager = GridLayoutManager(this,1)

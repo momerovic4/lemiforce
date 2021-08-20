@@ -1520,7 +1520,7 @@
     "xmax": 577,
     "ymax": 142
    },
-   "ocr_text": "uzdužni dio kolovoza namijenjen za saobraćaj obilježeni ili neobilježeni uzdužni dio kolovoza čija je širina dovoljna za nesmetan saobraćaj jednog reda vozila.",
+   "ocr_text": "uzdužni dio kolovoza namijenjen za saobraćaj motornih vozila;obilježeni ili neobilježeni uzdužni dio kolovoza čija je širina dovoljna za nesmetan saobraćaj jednog reda vozila.",
    "score": 0.88697284
   },
   {
@@ -2390,7 +2390,7 @@
     "xmax": 500,
     "ymax": 128
    },
-   "ocr_text": "priključno vozilo čija najveća dozvoljena masa nije veća od 750 kg: priključno vozilo čija najveća dozvoljena masa nije veća od 1.250 kg.",
+   "ocr_text": "priključno vozilo čija najveća dozvoljena masa nije veća od 750 kg; priključno vozilo čija najveća dozvoljena masa nije veća od 1.250 kg.",
    "score": 1
   },
   {
@@ -3016,7 +3016,7 @@
     "xmax": 94,
     "ymax": 152
    },
-   "ocr_text": "ne,  da.",
+   "ocr_text": "ne;da.",
    "score": 1
   },
   {
@@ -3864,7 +3864,7 @@
     "xmax": 492,
     "ymax": 138
    },
-   "ocr_text": "uz desnu ivicu kolovoza u smjeru kretanja  uz lijevu ivicu kolovoza u smjeru kretanja.",
+   "ocr_text": "uz desnu ivicu kolovoza u smjeru kretanja;uz lijevu ivicu kolovoza u smjeru kretanja.",
    "score": 0.6735252
   }
  ],
@@ -14606,7 +14606,7 @@
     "xmax": 375,
     "ymax": 190
    },
-   "ocr_text": "A, E, J, K, M, T i arapskim brojevima;A, E, B, C, T, Ji arapskim brojevima  A, E, P, N, S, J i arapskim brojevima",
+   "ocr_text": "A, E, J, K, M, T i arapskim brojevima;A, E, B, C, T, J i arapskim brojevima  A, E, P, N, S, J i arapskim brojevima",
    "score": 0.89386296
   },
   {
@@ -15024,7 +15024,7 @@
     "xmax": 799,
     "ymax": 162
    },
-   "ocr_text": "nije dužan da se kreće desnom biciklističkom stazom u odnosu na smjer kretanja saobraćaja. mora da se kreće desnom biciklističkom stazom u odnosu na smjer kretanja saobraćaja.",
+   "ocr_text": "nije dužan da se kreće desnom biciklističkom stazom u odnosu na smjer kretanja saobraćaja; mora da se kreće desnom biciklističkom stazom u odnosu na smjer kretanja saobraćaja.",
    "score": 0.97661954
   },
   {

@@ -18,7 +18,7 @@ class PrikazRezultata: AppCompatActivity() {
 
         if (procenat >= potrebanProcenat) findViewById<TextView>(R.id.txtPolozili).text = "Položili ste"
         findViewById<TextView>(R.id.txtBrPitanja).text = "Broj pitanja: $brojPitanja"
-        findViewById<TextView>(R.id.txtPostotak).text = "Vaš postotak: " + procenat.toString() + "%"
+        findViewById<TextView>(R.id.txtPostotak).text = "Vaš postotak: " + (Math.round(procenat * 100.0) / 100.0).toString() + "%"
         findViewById<TextView>(R.id.txtPotrebno).text = "Potrebno za položiti: " + potrebanProcenat.toString() + "%"
     }
 
