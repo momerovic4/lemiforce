@@ -11,12 +11,13 @@ import androidx.appcompat.app.AppCompatActivity
 
 class OdabirTest : AppCompatActivity() {
     private var kategorija : String? = null
+    private lateinit var txtKategorije: View
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.odabir_testa)
 
         kategorija = intent.getStringExtra("KATEGORIJA")
-        var txtKategorije: View = findViewById(R.id.txtPolozili)
+        txtKategorije = findViewById(R.id.txtPolozili)
         var imgKategorije: View = findViewById(R.id.imgKategorija)
 
         when (kategorija) {
@@ -55,13 +56,25 @@ class OdabirTest : AppCompatActivity() {
 
     fun openTest(view: View) {
         var intent = Intent(this,UcenjeTest::class.java)
-        intent.putExtra("KATEGORIJA", kategorija!!.takeLast(1))
+        var kat: String = ""
+        if((txtKategorije as TextView).text.contains("Prva")) {
+            kat = "P"
+        }else{
+            kat = (txtKategorije as TextView).text.takeLast(1).toString()
+        }
+        intent.putExtra("KATEGORIJA", kat)
         intentLauncher.launch(intent)
     }
 
     fun openSimulation(view: View) {
         var intent = Intent(this,SimulacijaTest::class.java)
-        intent.putExtra("KATEGORIJA", kategorija!!.takeLast(1))
+        var kat: String = ""
+        if((txtKategorije as TextView).text.contains("Prva")) {
+            kat = "P"
+        }else{
+            kat = (txtKategorije as TextView).text.takeLast(1).toString()
+        }
+        intent.putExtra("KATEGORIJA", kat)
         intentLauncher.launch(intent)
     }
 }

@@ -34,6 +34,7 @@ class SimulacijaTest : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         viewmodel.refreshPitanja()
+        finish()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +44,7 @@ class SimulacijaTest : AppCompatActivity() {
         txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         imgSlika = findViewById(R.id.imgSlika)
-        if(intent.getStringExtra("KATEGORIJA").equals("a")){
+        if(intent.getStringExtra("KATEGORIJA").equals("P")){
             pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
         }else{
             pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>

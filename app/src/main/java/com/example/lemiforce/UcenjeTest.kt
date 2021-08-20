@@ -1,9 +1,11 @@
 package com.example.lemiforce
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.graphics.BitmapFactory
 import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.util.AttributeSet
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -32,6 +34,7 @@ class UcenjeTest : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         viewmodel.refreshPitanja()
+        finish()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +46,7 @@ class UcenjeTest : AppCompatActivity() {
         btnSimulacija = findViewById(R.id.btnNazad)
         recyclerView = findViewById(R.id.rwOdgovori)
         imgSlika = findViewById(R.id.imgSlika)
-        if(intent.getStringExtra("KATEGORIJA").equals("a")){
+        if(intent.getStringExtra("KATEGORIJA").equals("P")){
             pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
         }else{
             pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
@@ -112,15 +115,6 @@ class UcenjeTest : AppCompatActivity() {
         recyclerView.adapter = odgovorAdapter
     }
 
-    fun getResourceId(pVariableName: String?, pResourcename: String?, pPackageName: String?): Int {
-        return try {
-            resources.getIdentifier(pVariableName, pResourcename, pPackageName)
-        } catch (e: Exception) {
-            e.printStackTrace()
-            -1
-        }
-    }
-
     fun iducePitanje(view: View) {
         if(pitanja[brojPitanja].odgovoreni == null){
             Toast.makeText(applicationContext,"Prvo provjerite odgovor",Toast.LENGTH_SHORT).show()
@@ -138,8 +132,8 @@ class UcenjeTest : AppCompatActivity() {
         }
     }
 
-    fun prosloPitanje(view: View){
-        if(brojPitanja!=0){
+    fun prosloPitanje(view: View) {
+        if (brojPitanja != 0) {
             findViewById<Button>(R.id.btnProslo).isEnabled = brojPitanja != 1
             findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja--
