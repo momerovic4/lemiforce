@@ -41,11 +41,6 @@ class PitanjeAdapter (
         }
         holder.cbOdgovor.text = odgovori[position].toString()
     }
-
-    fun updateOdgovore(odgovori: MutableList<String>) {
-       this.odgovori = odgovori
-       notifyDataSetChanged()
-    }
     inner class PitanjeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val cbOdgovor: CheckBox = itemView.findViewById(R.id.cb)
         val cbCl : ConstraintLayout = itemView.findViewById(R.id.cbcl)

@@ -49,7 +49,6 @@ class MainActivity : AppCompatActivity() {
             }
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = kategorija))
         }
-        //-----------------------------------------------------------------------------------------
         //Pitanja znakovi
         tacniOdg = this.assets.open("znakovi_odg.txt").bufferedReader().use { it.readText() }.split('\n')
         jsonString = this.assets.open("znakovi_obj.json").bufferedReader().use { it.readText() }
@@ -73,7 +72,6 @@ class MainActivity : AppCompatActivity() {
             }
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "Z",slika = ("z"+(i+1))))
         }
-        //-----------------------------------------------------------------------------------------
         //Pitanja Raskrsnice
         tacniOdg = this.assets.open("raskrsnice_odgovori.txt").bufferedReader().use { it.readText() }.split('\n')
         jsonString = this.assets.open("raskrsnice_obj.json").bufferedReader().use { it.readText() }
@@ -97,7 +95,6 @@ class MainActivity : AppCompatActivity() {
             }
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "R",slika = ("r"+(i+1))))
         }
-        //-----------------------------------------------------------------------------------------
         //Pitanja Prva pomoc
         tacniOdg = this.assets.open("prvapom_odg.txt").bufferedReader().use { it.readText() }.split('\n')
         jsonString = this.assets.open("prvapomoc_obj.json").bufferedReader().use { it.readText() }

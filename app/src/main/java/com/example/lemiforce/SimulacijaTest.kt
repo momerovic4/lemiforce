@@ -34,6 +34,7 @@ class SimulacijaTest : AppCompatActivity() {
     override fun onBackPressed() {
         super.onBackPressed()
         viewmodel.refreshPitanja()
+        finish()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,7 +44,7 @@ class SimulacijaTest : AppCompatActivity() {
         txtPitanje = findViewById(R.id.txtPolozili)
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         imgSlika = findViewById(R.id.imgSlika)
-        if(intent.getStringExtra("KATEGORIJA").equals("a")){
+        if(intent.getStringExtra("KATEGORIJA").equals("P")){
             pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
         }else{
             pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
@@ -64,28 +65,15 @@ class SimulacijaTest : AppCompatActivity() {
             if (odgovorAdapter.PitanjeViewHolder(child).isChecked()){
                 val index = recyclerView.getChildAdapterPosition(child)
                 odgovoreni.add(index)
-//                child.background = Drawable.createFromXml(resources, resources.getXml(R.drawable.red))
             }
         }
-//        for(tacno in pitanja[brojPitanja].tacaniOdgovri) {
-//            recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
-//        }
         pitanja[brojPitanja].odgovoreni = odgovoreni
-//        disableClickableAndEnabled()
-    }
-
-    fun disableClickableAndEnabled() {
-        for (child in recyclerView.children) {
-            odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = false
-        }
-        //findViewById<Button>(R.id.btnSimulacija).isEnabled = false
     }
 
     fun enableClicableAndEnabled() {
         for (child in recyclerView.children) {
             odgovorAdapter.PitanjeViewHolder(child).cbOdgovor.isClickable = true
         }
-        //findViewById<Button>(R.id.btnSimulacija).isEnabled = true
     }
 
     fun setUpPitanje() {
@@ -113,15 +101,6 @@ class SimulacijaTest : AppCompatActivity() {
         recyclerView.adapter = odgovorAdapter
     }
 
-    fun getResourceId(pVariableName: String?, pResourcename: String?, pPackageName: String?): Int {
-        return try {
-            resources.getIdentifier(pVariableName, pResourcename,packageName)
-        } catch (e: Exception) {
-            e.printStackTrace()
-            -1
-        }
-    }
-
     fun iducePitanje(view: View) {
         pokupiOdgovore()
         if(brojPitanja != pitanja.size-1){
@@ -143,7 +122,6 @@ class SimulacijaTest : AppCompatActivity() {
             findViewById<Button>(R.id.btnIduce).text = "iduce"
             brojPitanja--
             setUpPitanje()
-            //disableClickableAndEnabled()
         }
     }
 
