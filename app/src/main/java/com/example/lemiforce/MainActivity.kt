@@ -20,9 +20,7 @@ class MainActivity : AppCompatActivity() {
     private fun parseOdgovore(odgovori: String) : List<String> {
         odgovori.replace("\n"," ")
         var parsed = odgovori.split(';').filter { s -> s.isNotBlank() && s.isNotEmpty() }
-        for(i in 0 until parsed.size-1) {
-            parsed[i].trim()
-        }
+        for(i in 0 until parsed.size-1) parsed[i].trim()
         return parsed
     }
 
@@ -35,8 +33,7 @@ class MainActivity : AppCompatActivity() {
             var listobject = jsonObjekti.getJSONArray(i)
             var textPitanja = ""
             var odgovori = listOf<String>()
-            var splitani = listOf<Int>()
-            splitani = tacniOdg[i].split(',').map { it.trim().toInt() }
+            var splitani = tacniOdg[i].split(',').map { it.trim().toInt() }
             var tacni = mutableListOf<Int>()
             splitani.forEach { broj -> tacni.add(broj-1) }
             var kategorija = ""
@@ -50,7 +47,6 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
-            if(tacni.size>odgovori.size)println("PITANJE: ${i+1} : Tacnih odgovora: ${tacni.size} Odgovori su: $odgovori a text: $textPitanja" )
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = kategorija))
         }
         //-----------------------------------------------------------------------------------------

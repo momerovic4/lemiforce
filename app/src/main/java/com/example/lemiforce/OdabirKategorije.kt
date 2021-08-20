@@ -1,15 +1,20 @@
 package com.example.lemiforce
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import com.example.lemiforce.views.AboutUsDialogFragment
 
 class OdabirKategorije : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.odabir_kategorije)
 
+        val tridot = findViewById<ImageView>(R.id.moreImg)
+        tridot.setOnClickListener { showAboutUs(it) }
         var slike = mutableListOf<View>()
         var textovi  = mutableListOf<View>()
 
@@ -41,9 +46,13 @@ class OdabirKategorije : AppCompatActivity() {
 
     fun izaberiKategoriju(kategorija: String) {
         var kat = kategorija.takeLast(4)
-        println("pritisnuo na $kat")
         var intent = Intent(this,OdabirTest::class.java)
         intent.putExtra("KATEGORIJA",kat)
         startActivity(intent)
+    }
+
+    fun showAboutUs(view: View) {
+        val dialog = AboutUsDialogFragment()
+        dialog.show(supportFragmentManager, null)
     }
 }

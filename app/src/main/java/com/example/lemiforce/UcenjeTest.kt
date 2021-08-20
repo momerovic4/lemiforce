@@ -125,11 +125,6 @@ class UcenjeTest : AppCompatActivity() {
         }
     }
 
-    @Override
-    override fun onBackPressed() {
-        finish();
-    }
-
     fun prosloPitanje(view: View){
         if(brojPitanja!=0){
             findViewById<Button>(R.id.btnProslo).isEnabled = brojPitanja != 1

@@ -155,9 +155,6 @@ class SimulacijaTest : AppCompatActivity() {
         }
     }
 
-    @Override
-    override fun onBackPressed() {
-    }
 
     fun prikupiIPrikaziRezultat() {
         var tacnih = 0
