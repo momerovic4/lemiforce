@@ -1,9 +1,9 @@
 package com.example.lemiforce
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import com.example.lemiforce.data.staticdata.PitanjaRepo
 import com.example.lemiforce.model.Pitanje
@@ -98,7 +98,6 @@ class MainActivity : AppCompatActivity() {
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "R",slika = ("r"+(i+1))))
         }
         //-----------------------------------------------------------------------------------------
-        //-----------------------------------------------------------------------------------------
         //Pitanja Prva pomoc
         tacniOdg = this.assets.open("prvapom_odg.txt").bufferedReader().use { it.readText() }.split('\n')
         jsonString = this.assets.open("prvapomoc_obj.json").bufferedReader().use { it.readText() }
@@ -122,7 +121,6 @@ class MainActivity : AppCompatActivity() {
             }
             pitanja.add(Pitanje(textPitanja,odgovori,tacni,kategorija = "P"))
         }
-        //-----------------------------------------------------------------------------------------
         PitanjaRepo.pitanja = pitanja
     }
 

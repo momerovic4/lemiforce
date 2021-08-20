@@ -2,13 +2,12 @@ package com.example.lemiforce
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
 
 class OdabirTest : AppCompatActivity() {
     private var kategorija : String? = null
@@ -42,7 +41,7 @@ class OdabirTest : AppCompatActivity() {
                 (imgKategorije as ImageView).setImageResource(R.drawable.kategorija_t)
             }
             "Prva" -> {
-                (txtKategorije as TextView).text = "Prva pomoc"
+                (txtKategorije as TextView).text = "Prva pomoć"
                 (imgKategorije as ImageView).setImageResource(R.drawable.prva_pomoc)
             }
         }
