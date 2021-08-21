@@ -99,6 +99,7 @@ class SimulacijaTest : AppCompatActivity() {
 
         odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja[brojPitanja].odgovoreni,pitanja[brojPitanja].tacniOdgovori,this,!zavrsenPokusaj)
         recyclerView.adapter = odgovorAdapter
+        manager.scrollToPosition(odgovori.size-1)
     }
 
     fun iducePitanje(view: View) {
