@@ -113,6 +113,7 @@ class UcenjeTest : AppCompatActivity() {
 
         odgovorAdapter = PitanjeAdapter(odgovori as MutableList<String>,pitanja.get(brojPitanja).odgovoreni,pitanja[brojPitanja].tacniOdgovori,this)
         recyclerView.adapter = odgovorAdapter
+        manager.scrollToPosition(odgovori.size-1)
     }
 
     fun iducePitanje(view: View) {

@@ -7,33 +7,17 @@
     tools:context=".OdabirTest">
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="0dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:gravity="bottom"
-        android:text="Simulacija:"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
         android:id="@+id/txtBrPitanja"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:gravity="center_horizontal|center_vertical"
         android:text="Broj pitanja: 40"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtPotrebno"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPostotak" />
 
@@ -41,54 +25,37 @@
         android:id="@+id/txtPostotak"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:gravity="center_horizontal|center_vertical"
         android:text="Aktuelna godina: 2021"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtBrPitanja"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgKategorija" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPolozili" />
 
     <TextView
         android:id="@+id/txtPotrebno"
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="42dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:gravity="center_horizontal|center_vertical"
         android:text="Potrebno za položiti: 90%"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtBrPitanja" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:text="Dolazi 20 teoretskih pitanja, 10 znakova i 10 raskrsnica. Rezultati se prikazuju nakon predaje pokušaja"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnNazad"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/header"
         android:layout_width="0dp"
         android:layout_height="75sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/header" />
@@ -98,95 +65,119 @@
         android:layout_width="218dp"
         android:layout_height="38dp"
         app:layout_constraintBottom_toBottomOf="@+id/header"
-        app:layout_constraintEnd_toEndOf="@id/header"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/header"
-        app:layout_constraintVertical_bias="0.432"
         app:srcCompat="@drawable/logo1" />
 
     <ImageView
         android:id="@+id/imgKategorija"
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toStartOf="@+id/txtPolozili"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintTop_toTopOf="@+id/txtPolozili"
         app:srcCompat="@drawable/kategorija_b" />
 
     <TextView
         android:id="@+id/txtPolozili"
         android:layout_width="250dp"
         android:layout_height="75dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="Kategorija XY"
         android:textSize="35sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtPostotak"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imgKategorija"
-        app:layout_constraintTop_toTopOf="@+id/imgKategorija" />
+        app:layout_constraintTop_toBottomOf="@+id/header" />
 
     <Button
         android:id="@+id/btnNoviTest"
         android:layout_width="0dp"
         android:layout_height="58dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:onClick="openTest"
         android:text="ZAPOČNI UČENJE"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/btnNazad"
         android:layout_width="0dp"
         android:layout_height="58dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:onClick="openSimulation"
         android:text="ZAPOČNI SIMULACIJU"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:gravity="center_vertical"
+        android:text="Simulacija:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNoviTest" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:text="Dolazi 20 teoretskih pitanja, 10 znakova i 10 raskrsnica. Rezultati se prikazuju nakon predaje pokušaja"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNazad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:gravity="bottom"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
+        android:gravity="center_vertical"
         android:text="Učenje:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPotrebno" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="16sp"
         android:text="Pitanja nasumično dolaze jedna za drugim sa prikazom tačnosti odmah nakon odgovora"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/btnNoviTest"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
