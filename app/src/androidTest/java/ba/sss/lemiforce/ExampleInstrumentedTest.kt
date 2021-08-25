@@ -1,4 +1,4 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import org.junit.Test
 

@@ -1,10 +1,11 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import android.app.Activity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import ba.sss.lemiforce.R
 
 class PrikazRezultata: AppCompatActivity() {
 

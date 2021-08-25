@@ -1,11 +1,9 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.graphics.BitmapFactory
 import android.graphics.drawable.Drawable
 import android.os.Bundle
-import android.util.AttributeSet
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -16,9 +14,10 @@ import androidx.core.view.children
 import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lemiforce.adapter.PitanjeAdapter
-import com.example.lemiforce.model.Pitanje
-import com.example.lemiforce.viewmodel.ViewModel
+import ba.sss.lemiforce.R
+import ba.sss.lemiforce.adapter.PitanjeAdapter
+import ba.sss.lemiforce.model.Pitanje
+import ba.sss.lemiforce.viewmodel.ViewModel
 
 class UcenjeTest : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
@@ -69,7 +68,9 @@ class UcenjeTest : AppCompatActivity() {
             }
         }
         for(tacno in pitanja[brojPitanja].tacniOdgovori) {
-            recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(R.drawable.green))
+            recyclerView.get(tacno).background = Drawable.createFromXml(resources, resources.getXml(
+                R.drawable.green
+            ))
         }
         pitanja[brojPitanja].odgovoreni = odgovoreni
         disableClickableAndEnabled()

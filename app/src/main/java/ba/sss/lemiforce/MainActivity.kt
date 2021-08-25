@@ -1,12 +1,13 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.lemiforce.data.staticdata.PitanjaRepo
-import com.example.lemiforce.model.Pitanje
+import ba.sss.lemiforce.R
+import ba.sss.lemiforce.data.staticdata.PitanjaRepo
+import ba.sss.lemiforce.model.Pitanje
 import org.json.JSONArray
 
 class MainActivity : AppCompatActivity() {
@@ -122,7 +123,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun odaberiKategoriju(view: View){
-        var intent = Intent(this,OdabirKategorije::class.java)
+        var intent = Intent(this, OdabirKategorije::class.java)
         startActivity(intent)
     }
 }

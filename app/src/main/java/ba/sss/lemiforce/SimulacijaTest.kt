@@ -1,4 +1,4 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -14,9 +14,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lemiforce.adapter.PitanjeAdapter
-import com.example.lemiforce.model.Pitanje
-import com.example.lemiforce.viewmodel.ViewModel
+import ba.sss.lemiforce.R
+import ba.sss.lemiforce.adapter.PitanjeAdapter
+import ba.sss.lemiforce.model.Pitanje
+import ba.sss.lemiforce.viewmodel.ViewModel
 
 
 class SimulacijaTest : AppCompatActivity() {
@@ -150,7 +151,7 @@ class SimulacijaTest : AppCompatActivity() {
         for(pitanje in pitanja){
             if(pitanje.odgovoreni!!.containsAll(pitanje.tacniOdgovori) && pitanje.tacniOdgovori.containsAll(pitanje.odgovoreni!!)) tacnih++
         }
-        var intent = Intent(this,PrikazRezultata::class.java)
+        var intent = Intent(this, PrikazRezultata::class.java)
         intent.putExtra("OSTVARENIBODOVI",(tacnih.toDouble()/pitanja.size.toDouble())*100)
         intent.putExtra("BROJPITANJA",pitanja.size)
         intentLauncher.launch(intent)

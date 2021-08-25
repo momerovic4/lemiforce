@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UcenjeTest">
+    tools:context="ba.sss.lemiforce.UcenjeTest">
 
     <TextView
         android:id="@+id/txtPolozili"
@@ -91,9 +91,10 @@
         android:scrollbarThumbVertical="@color/red"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@+id/btnNazad"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        app:layout_constraintEnd_toEndOf="@+id/btnIduce"
+        app:layout_constraintStart_toStartOf="@+id/btnProslo"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imgSlika"

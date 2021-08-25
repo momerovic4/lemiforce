@@ -1,4 +1,4 @@
-package com.example.lemiforce.adapter
+package ba.sss.lemiforce.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import android.widget.CheckBox
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lemiforce.R
+import ba.sss.lemiforce.R
 
 
 class PitanjeAdapter (

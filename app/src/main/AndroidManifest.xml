@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lemiforce">
+    package="ba.sss.lemiforce">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
@@ -11,13 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LemiForce">
-        <activity android:name=".UcenjeTest" android:screenOrientation="portrait">
+        <activity android:name="ba.sss.lemiforce.UcenjeTest" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".OdabirKategorije" android:screenOrientation="portrait"/>
-        <activity android:name=".OdabirTest" android:screenOrientation="portrait"/>
-        <activity android:name=".SimulacijaTest" android:screenOrientation="portrait"/>
-        <activity android:name=".PrikazRezultata" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity android:name="ba.sss.lemiforce.OdabirKategorije" android:screenOrientation="portrait"/>
+        <activity android:name="ba.sss.lemiforce.OdabirTest" android:screenOrientation="portrait"/>
+        <activity android:name="ba.sss.lemiforce.SimulacijaTest" android:screenOrientation="portrait"/>
+        <activity android:name="ba.sss.lemiforce.PrikazRezultata" android:screenOrientation="portrait"/>
+        <activity android:name="ba.sss.lemiforce.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,7 +1,7 @@
-package com.example.lemiforce.viewmodel
+package ba.sss.lemiforce.viewmodel
 
-import com.example.lemiforce.data.staticdata.PitanjaRepo
-import com.example.lemiforce.model.Pitanje
+import ba.sss.lemiforce.data.staticdata.PitanjaRepo
+import ba.sss.lemiforce.model.Pitanje
 
 class ViewModel {
     fun getPitanjaZaKategoriju(kategorija: String?) : List<Pitanje> {

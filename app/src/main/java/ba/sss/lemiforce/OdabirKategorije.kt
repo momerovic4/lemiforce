@@ -1,11 +1,12 @@
-package com.example.lemiforce
+package ba.sss.lemiforce
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lemiforce.views.AboutUsDialogFragment
+import ba.sss.lemiforce.R
+import ba.sss.lemiforce.views.AboutUsDialogFragment
 
 class OdabirKategorije : AppCompatActivity() {
 
@@ -46,7 +47,7 @@ class OdabirKategorije : AppCompatActivity() {
 
     fun izaberiKategoriju(kategorija: String) {
         var kat = kategorija.takeLast(4)
-        var intent = Intent(this,OdabirTest::class.java)
+        var intent = Intent(this, OdabirTest::class.java)
         intent.putExtra("KATEGORIJA",kat)
         startActivity(intent)
     }

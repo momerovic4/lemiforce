@@ -1,6 +1,6 @@
-package com.example.lemiforce.data.staticdata
+package ba.sss.lemiforce.data.staticdata
 
-import com.example.lemiforce.model.Pitanje
+import ba.sss.lemiforce.model.Pitanje
 
 class PitanjaRepo {
     companion object {
