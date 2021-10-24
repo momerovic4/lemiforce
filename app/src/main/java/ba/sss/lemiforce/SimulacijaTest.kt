@@ -46,11 +46,11 @@ class SimulacijaTest : AppCompatActivity() {
         txtBrojPitanja = findViewById(R.id.txtBrojPitanja)
         imgSlika = findViewById(R.id.imgSlika)
         if(intent.getStringExtra("KATEGORIJA").equals("P")){
-            pitanja = viewmodel.getPrvaPomoc() as MutableList<Pitanje>
+            pitanja = viewmodel.getPrvaPomoc(intent.getIntExtra("TEST",0)) as MutableList<Pitanje>
         }else{
-            pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA")) as MutableList<Pitanje>
-            pitanja.addAll(viewmodel.getPitanjaZnakove(10))
-            pitanja.addAll(viewmodel.getPitanjaRaskrsnice(10))
+            pitanja = viewmodel.getPitanjaZaKategoriju(intent.getStringExtra("KATEGORIJA"),intent.getIntExtra("TEST",0)) as MutableList<Pitanje>
+            pitanja.addAll(viewmodel.getPitanjaZnakove(intent.getIntExtra("TEST",0)))
+            pitanja.addAll(viewmodel.getPitanjaRaskrsnice(intent.getIntExtra("TEST",0)))
         }
         recyclerView = findViewById(R.id.rwOdgovori)
 

@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import ba.sss.lemiforce.R
+import ba.sss.lemiforce.data.staticdata.PitanjaRepo
 import ba.sss.lemiforce.views.AboutUsDialogFragment
 
 class OdabirKategorije : AppCompatActivity() {
@@ -49,6 +50,13 @@ class OdabirKategorije : AppCompatActivity() {
         var kat = kategorija.takeLast(4)
         var intent = Intent(this, OdabirTest::class.java)
         intent.putExtra("KATEGORIJA",kat)
+        var uzorak = kat
+        if(uzorak.contains("Prva")) {
+            uzorak = "P"
+        }else{
+            uzorak = kat.takeLast(1).toString()
+        }
+        intent.putExtra("BRTESTOVA",PitanjaRepo.pitanja.filter { p -> p.kategorija.contains(uzorak) }.chunked(20).size)
         startActivity(intent)
     }
 
